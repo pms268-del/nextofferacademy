@@ -1,0 +1,122 @@
+# -*- coding: utf-8 -*-
+"""Evidence database: official facts, third-party reports, and individual experiences.
+
+jenis_bukti:
+  FAKTA RESMI      - stated by the platform/organisation itself
+  PIHAK KETIGA     - journalism, review sites, aggregators
+  PENGALAMAN       - individual candidate/worker account (forum, Reddit, Glassdoor, Trustpilot)
+pola: SUKSES / GAGAL / PROSES / BAYARAN / RISIKO / ELIGIBILITAS / METODE
+"""
+
+ACCESSED = "2026-10-21"
+FIELDS = ["id", "topik", "klaim", "jenis_bukti", "pola", "kekuatan", "tanggal_sumber",
+          "tanggal_akses", "bab", "sumber"]
+
+E = [
+    # --- Mercor
+    ("Mercor", "Indonesia termasuk negara yang dibayar via Stripe Connect; payout ke rekening bank atas nama sendiri; tidak ke dompet digital", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1,2", "https://talent.docs.mercor.com/policies/supported-countries"),
+    ("Mercor", "Kontraktor per jam dibayar mingguan (Rabu ±12.00 PST); kontrak dalam USD; payout standar Stripe gratis, hingga 5 hari kerja", "FAKTA RESMI", "BAYARAN", "Kuat", "2026", "1,6", "https://talent.docs.mercor.com/how-to/payments"),
+    ("Mercor", "AI interview umumnya ±20 menit; wajah terlihat, kamera/mikrofon diuji, ruang tenang; practice interview gratis; bisa mengulang AI interview hingga 3x sebelum submit; interview yang selesai dipakai ulang untuk lamaran lain", "FAKTA RESMI", "PROSES", "Kuat", "2026", "2,4", "https://talent.docs.mercor.com/how-to/prepare-for-ai-interview"),
+    ("Mercor", "Listing Bahasa Indonesia aktif: Generalist AI Safety US$18–22/jam; Language Expert US$10–14/jam; Audio Evaluator US$50/jam", "FAKTA RESMI", "BAYARAN", "Kuat", "2026", "1", "https://work.mercor.com/jobs/list_AAABoGonExXGGYAsl71Ay4_x"),
+    ("Mercor", "Alur dilaporkan: upload CV → AI interview berbasis CV → formulir", "PIHAK KETIGA", "PROSES", "Sedang", "2026", "2", "https://remotive.com/remote/jobs/artificial-intelligence/concierge-ai-trainer-4499317"),
+    ("Mercor", "AI voice agent berfokus pada isi CV kandidat", "PENGALAMAN", "PROSES", "Lemah", "2025", "2,4", "https://fr.glassdoor.ca/Entretien/Mercor-Entretien-E9031572-RVW100314407.htm"),
+    ("Mercor", "Kandidat ditolak menyarankan: siap menjelaskan proyek secara mendalam", "PENGALAMAN", "GAGAL", "Lemah", "2025", "2", "https://www.tryexponent.com/experiences/mercor-data-scientist-interview-13cdc3"),
+    ("Mercor", "Kandidat SWE: putaran teknis lebih banyak DSA dari perkiraan", "PENGALAMAN", "GAGAL", "Lemah", "2025", "2", "https://www.tryexponent.com/experiences/mercor-software-engineer-interview-d5257b"),
+    ("Mercor", "Selesai AI interview lalu tidak ada kabar (ghosting) dilaporkan berulang", "PENGALAMAN", "GAGAL", "Sedang", "2025", "2", "https://www.teamblind.com/post/has-anyone-here-actually-gotten-hired-through-mercor-ai-sm03kotb"),
+    ("Mercor", "Q&A Indeed: 1–2 minggu dari lamaran ke interview", "PENGALAMAN", "PROSES", "Lemah", "2025-10", "2", "https://www.indeed.com/cmp/Mercor/faq/interviews"),
+    ("Mercor / AI training", "Kontraktor dikeluarkan karena memakai AI/Grammarly/terjemahan AI; tanda: kata berulang, em dash, selesai terlalu cepat; kontrak melarang LLM", "PIHAK KETIGA", "GAGAL", "Kuat", "2025", "2,6", "https://ibtimes.co.uk/openai-contractors-removed-using-ai-1822365"),
+    # --- Outlier
+    ("Outlier", "Onboarding umum 30–90 menit: akun, pilih keahlian, skill screening, verifikasi identitas; onboarding proyek berbeda-beda", "FAKTA RESMI", "PROSES", "Kuat", "2025-08", "2", "https://outlier.ai/blog/your-first-steps-on-outlier-what-to-expect-from-onboarding"),
+    ("Outlier", "Listing Indonesian writer: rata-rata US$7,50/jam (dihapus Jul 2025)", "PIHAK KETIGA", "BAYARAN", "Sedang", "2025", "1", "https://builtin.com/job/remote-ai-training-indonesian-writers/2687946"),
+    ("Outlier", "Voice evaluator Indonesian US$8/jam; Missions menambah ±7,5%", "PIHAK KETIGA", "BAYARAN", "Sedang", "2024-12", "1", "https://remowork.life/jobs/6a43f79741b9af7acf0b9006/voice-conversation-evaluator-indonesian"),
+    ("Outlier", "Empty queue umum terjadi karena proyek dijeda/berakhir, bukan banned", "PIHAK KETIGA", "RISIKO", "Sedang", "2026", "2,6", "https://www.remoteworkunion.com/blog/outlier-ai-not-getting-tasks"),
+    ("Outlier", "Kesalahan umum: menilai jawaban yang disukai, bukan yang mengikuti instruksi prompt", "PIHAK KETIGA", "GAGAL", "Sedang", "2026", "2", "https://remotestack.in/blog/how-to-pass-outlier-ai-assessment-2026"),
+    ("Outlier", "Gunakan rubrik proyek; instruksi assessment bisa berubah, cek forum/webinar proyek; sisihkan waktu cukup", "PENGALAMAN", "SUKSES", "Lemah", "2024-12", "2", "https://www.reddit.com/r/outlier_ai/comments/1hcxq2u/feels_a_littlegatekeepy/"),
+    ("Outlier", "Akun diblokir karena dituduh memakai AI pada assessment (ulasan Trustpilot)", "PENGALAMAN", "GAGAL", "Lemah", "2026", "2", "https://aitrainer.work/guides/outlier-review"),
+    ("Outlier", "Pembayaran via PayPal, AirTM, atau ACH (Hyperwallet), mingguan", "PIHAK KETIGA", "BAYARAN", "Sedang", "2026", "1,6", "https://remowork.life/blog/how-to-actually-get-paid-ai-training-payment-methods-2026"),
+    ("Outlier", "Laporan PayPal dibekukan pada payout pertama", "PIHAK KETIGA", "RISIKO", "Lemah", "2026", "6", "https://breakingeven.online/blog/outlier-paypal-frozen-first-payout"),
+    # --- DataAnnotation
+    ("DataAnnotation", "Eligibilitas dilaporkan terbatas pada AS, UK, Kanada, Australia, Selandia Baru (+Irlandia)", "PIHAK KETIGA", "ELIGIBILITAS", "Sedang", "2026", "1", "https://aitrainer.work/guides/is-dataannotation-legit-review"),
+    ("DataAnnotation", "Starter Assessment ±1 jam, hanya sekali; penolakan sering tanpa pemberitahuan", "PIHAK KETIGA", "PROSES", "Sedang", "2026", "2", "https://www.aitrainingjobsfinder.com/blog/dataannotation-review-2026"),
+    ("DataAnnotation", "FAQ komunitas: baca instruksi dua kali; jeda panjang saat assessment berisiko", "PENGALAMAN", "SUKSES", "Lemah", "2024", "2", "https://www.reddit.com/r/DataAnnotationTech/comments/1agg5is/dataannotation_faq_welcome_thread_part_2_read/"),
+    # --- Alignerr
+    ("Alignerr", "Labelbox memakai AI interviewer 'Zara' yang menyesuaikan percakapan dengan skill kandidat", "FAKTA RESMI", "PROSES", "Kuat", "2026", "2", "https://labelbox.com/services/alignerr-connect/"),
+    ("Alignerr", "Tahapan: CV → verifikasi ID → Zara → assessment domain → kontrak & onboarding", "PIHAK KETIGA", "PROSES", "Sedang", "2026", "2", "https://remowork.life/companies/alignerr"),
+    ("Alignerr", "Membuat akun tidak otomatis masuk antrean berbayar; bisa ada pelatihan/kalibrasi", "PIHAK KETIGA", "RISIKO", "Sedang", "2026", "2", "https://nodemaven.com/blog/alignerr-review/"),
+    ("Alignerr", "Keluhan BBB: dikeluarkan dari proyek tanpa penjelasan", "PENGALAMAN", "RISIKO", "Lemah", "2025", "2,6", "https://www.bbb.org/us/ca/san-francisco/profile/artificial-intelligence/alignerr-1116-975409/complaints"),
+    ("Alignerr", "Rata-rata listing US$91/jam (US$15–250) dari 545 listing; tarif per proyek tidak dijamin", "PIHAK KETIGA", "BAYARAN", "Sedang", "2026", "1", "https://www.aigigjobs.com/blog/alignerr-pay-guide-2026"),
+    ("Alignerr", "Pekerjaan audio dibayar per jam selesai, bukan per jam kerja — tarif efektif bisa jauh lebih rendah", "PENGALAMAN", "BAYARAN", "Lemah", "2026", "6", "https://www.aigigjobs.com/blog/alignerr-pay-guide-2026"),
+    # --- micro1
+    ("micro1", "AI interviewer 'Zara' 30–60 menit, kamera+mikrofon+share screen, tanpa retake", "PIHAK KETIGA", "PROSES", "Sedang", "2026", "2,4", "https://dataford.io/interview-guides/micro1/ai-trainer"),
+    ("micro1", "Zara memberi umpan balik per jawaban; dinilai dari isi & relevansi; jawaban ringkas membantu", "PENGALAMAN", "SUKSES", "Lemah", "2026", "2,4", "https://www.trustpilot.com/review/micro1.ai?page=6"),
+    ("micro1", "AI 'tidak mendengarkan', memotong jawaban; batas waktu ketat; masalah koneksi", "PENGALAMAN", "GAGAL", "Lemah", "2025", "2,4", "https://www.glassdoor.co.uk/Interview/Micro1-Interview-E7558526-RVW105064622.htm"),
+    ("micro1", "Testimoni: AI interview → chat HR → diskusi spesialis → diterima sebagai Expert/Reviewer", "FAKTA RESMI", "SUKSES", "Lemah", "2026", "2", "https://www.micro1.ai/experts/reviews"),
+    # --- Others AI
+    ("RWS TrainAI", "AI Data Specialist – Indonesian US$5/jam; native ID + Inggris B2–C2", "FAKTA RESMI", "BAYARAN", "Kuat", "2025", "1", "https://jobs.lever.co/rws/070531b4-d4ba-4371-af47-048d04042500"),
+    ("RWS TrainAI", "AI Data Annotators – Indonesian (S2 STEM) US$14/jam; wajib lulus tes bahasa & kualifikasi", "FAKTA RESMI", "BAYARAN", "Kuat", "2025", "1", "https://jobs.lever.co/rws/65af587c-729f-4fa4-a477-e22174718378"),
+    ("Welo Data", "Translation Validator Indonesian: freelance 2 minggu US$5/jam", "FAKTA RESMI", "BAYARAN", "Kuat", "2025", "1", "https://jobs.lever.co/weloglobal/1a881068-da67-471a-9ca6-c02a57a5a8ec"),
+    ("Welo Data", "Talent hub bukan lowongan aktif; kandidat dihubungi saat ada proyek", "PIHAK KETIGA", "PROSES", "Sedang", "2026", "1", "https://seoulstart.com/ai-training-jobs/welocalize-shape-the-future-of-ai-indonesian-talent-hub"),
+    ("Appen/CrowdGen", "Social Media Evaluator Indonesia US$2,43/jam, kontraktor independen, harus berlokasi di Indonesia", "PIHAK KETIGA", "BAYARAN", "Sedang", "2025", "1", "https://remotive.com/remote/jobs/marketing/social-media-evaluator-4985979"),
+    ("TELUS Digital", "QA Rater Indonesian: tinggal di Indonesia ≥5 tahun; fasih ID+EN; tes kualifikasi", "PIHAK KETIGA", "ELIGIBILITAS", "Sedang", "2026", "1", "https://remotejobs.org/remote-jobs/quality-assurance-rater-indonesian-id-jobs-for-humanity"),
+    ("OneForma", "Indonesia tercantum di beranda; Payoneer/PayPal/Tipalti", "FAKTA RESMI", "ELIGIBILITAS", "Sedang", "2026", "1", "https://www.oneforma.com/"),
+    ("Clickworker", "Registrasi negara bisa ditutup sementara; tidak semua metode bayar tersedia di tiap negara", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1,6", "https://support-workplace.clickworker.com/support/solutions/articles/80000671469"),
+    ("Prolific", "Peserta hanya dari sebagian besar negara OECD (+ Afrika Selatan); Indonesia tidak tercantum", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1", "https://participant-help.prolific.com/en/article/628d72"),
+    ("Remotasks", "Ditutup di Kenya, Nigeria, Pakistan; pendaftaran baru dihentikan di Thailand, Vietnam, Polandia (2024)", "PIHAK KETIGA", "RISIKO", "Kuat", "2024", "1,6", "https://restofworld.org/2024/scale-ai-remotasks-banned-workers/"),
+    ("Handshake AI", "Program MOVE untuk mahasiswa/lulusan berbasis AS; US$30–125/jam", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1", "https://support.joinhandshake.com/hc/en-us/articles/31620022060055-Introduction-to-the-MOVE-Program"),
+    ("Uber AI Solutions", "Kontraktor direkrut di India, AS, Kanada, Polandia, Nikaragua", "PIHAK KETIGA", "ELIGIBILITAS", "Kuat", "2024-11", "1", "https://techcrunch.com/2024/11/26/uber-is-building-a-fleet-of-gig-workers-to-label-data-for-ai-models"),
+    ("Turing", "Sebagian kontrak khusus AS (US$200–300/jam); lainnya US$25–55/jam bervariasi per negara; AI video interview", "FAKTA RESMI", "ELIGIBILITAS", "Sedang", "2026", "1,2", "https://work.turing.com/r/ozYn3IATJW"),
+    ("Rex.zone", "Minimal S1; ujian masuk 15–20 menit; verifikasi ID Persona", "PIHAK KETIGA", "PROSES", "Lemah", "2026", "2", "https://aitrainer.work/rex/jobs"),
+    ("AI training (umum)", "Pasar gelap menjual akun terverifikasi platform AI training", "PIHAK KETIGA", "RISIKO", "Kuat", "2025", "6", "https://algorithmwatch.org/en/scams-and-shadow-workers-a-black-market/"),
+    ("Penipuan", "Jaringan 'task scam': perekrut + 'mentor' + pelatihan di Telegram", "PIHAK KETIGA", "RISIKO", "Kuat", "2025", "6", "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam"),
+    ("Penipuan", "Modus kerja paruh waktu: like/subscribe → grup chat → diminta deposit; 12 entitas ditemukan Satgas PASTI (Mar 2024)", "FAKTA RESMI", "RISIKO", "Kuat", "2024-03", "6", "https://finansial.bisnis.com/read/20240318/563/1750181/penipuan-modus-loker-satgas-pasti-ojk-blokir-aplikasi-bbh-indonesia"),
+    ("Penipuan", "Booklet OJK: pelaku mengaku perusahaan besar, syarat mudah, gaji tinggi; lowongan sering tidak ada", "FAKTA RESMI", "RISIKO", "Kuat", "2024", "6", "https://www.ojk.go.id/id/berita-dan-kegiatan/info-terkini/Documents/Pages/Booklet-Waspada-Penipuan-Scam-OJK/Booklet%20Waspada%20Penipuan%20Mengintai%20Kita%2c%20Ayo%20Lawan%20dan%20Hindari%21.pdf"),
+    # --- Freelance
+    ("Upwork", "Freelancer Plus US$19,99/bulan dengan 100 Connects", "FAKTA RESMI", "BAYARAN", "Kuat", "2026", "1,2", "https://www.upwork.com/resources/is-upwork-free"),
+    ("Upwork", "Service fee freelancer variabel 0–15%, ditampilkan sebelum proposal; Connect US$0,15", "PIHAK KETIGA", "BAYARAN", "Sedang", "2026", "1", "https://golance.com/blogs/upwork-fees-explained-2026"),
+    ("Upwork", "Spesialisasi & portofolio memudahkan freelancer baru; Boosted Proposal diklaim +24% peluang", "FAKTA RESMI", "SUKSES", "Sedang", "2026", "2", "https://www.upwork.com/resources/new-freelancer-tips"),
+    ("Upwork", "Freelancer menunggu beberapa bulan sebelum klien pertama (kisah Reddit yang dikutip Upwork)", "PENGALAMAN", "PROSES", "Lemah", "2025", "2", "https://www.upwork.com/resources/upwork-success-stories-reddit"),
+    ("Upwork", "Klien hanya membaca 2 kalimat pertama; fokus pada masalah klien, bukan diri sendiri", "PENGALAMAN", "SUKSES", "Sedang", "2023", "2", "https://community.upwork.com/t5/New-to-Upwork/Tips-for-finding-that-first-job/td-p/1339719/page/40"),
+    ("Upwork", "Freelancer baru butuh berbulan-bulan dan puluhan (bahkan ratusan) proposal untuk job pertama", "PENGALAMAN", "PROSES", "Sedang", "2023", "2", "https://community.upwork.com/t5/New-to-Upwork/Tips-for-finding-that-first-job/m-p/1269409"),
+    ("Upwork", "Proposal murah tanpa respons: harga rendah bukan jaminan dilirik", "PENGALAMAN", "GAGAL", "Lemah", "2020", "2", "https://community.upwork.com/t5/New-to-Upwork/No-response-from-client-Submitted-20-proposal-with-lower-cost/td-p/703967"),
+    ("Fiverr", "Fee 20% per order; clearing 14 hari (7 hari untuk Top Rated)", "PIHAK KETIGA", "BAYARAN", "Sedang", "2026", "1", "https://wise.com/us/blog/how-to-get-paid-on-fiverr"),
+    ("Toptal", "<3% pelamar diterima; tahapan bahasa → teknis → live → test project; 3–8 minggu", "FAKTA RESMI", "PROSES", "Kuat", "2026", "1,2", "https://www.toptal.com/top-3-percent"),
+    ("Codeable", "Vetting 6 tahap, ±2% diterima, onboarding 90 hari", "FAKTA RESMI", "PROSES", "Kuat", "2026", "1", "https://help.codeable.io/en/articles/1143592-codeable-expert-vetting-process"),
+    ("Contra", "Freelancer menyimpan 100% pendapatan; klien tidak perlu akun untuk membayar invoice", "FAKTA RESMI", "BAYARAN", "Kuat", "2026", "1", "https://contra.com/commission-free"),
+    ("Adobe Stock", "Payoneer wajib untuk kontributor Indonesia; minimum US$25", "FAKTA RESMI", "BAYARAN", "Kuat", "2026", "1,6", "https://helpx.adobe.com/stock/contributor/payments-earnings/payment-taxes/payment-requirements.html"),
+    ("Shutterstock", "PayPal/Skrill/Payoneer; ambang US$25–2000; wajib formulir pajak", "FAKTA RESMI", "BAYARAN", "Kuat", "2026", "1,6", "https://submit.shutterstock.com/help/en/articles/10617435-how-do-i-get-paid-for-my-work"),
+    # --- Jobs
+    ("Wellfound", "Cek bagian 'Hires Remotely From' untuk kelayakan lokasi", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1,6", "https://help.wellfound.com/article/762-remote-job-search-filters"),
+    ("LinkedIn", "Member dengan bingkai #OpenToWork ±40% lebih mungkin menerima InMail; recruiter dapat memfilter Open to Work", "FAKTA RESMI", "SUKSES", "Sedang", "2020-10", "3,5", "https://blog.linkedin.com/2020/october/29/the-benefits-of-sharing-with-your-community-you-re-open-to-work"),
+    ("Rev", "Freelancer hanya diterima dari AU, CA, IE, MX, NL, NZ, ZA, UK, US", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1", "https://freelancer.rev.com/hc/en-us/articles/22680327086349"),
+    ("User Interviews", "Daftar negara peserta APAC: AU, IN, JP, MY, NZ, SG", "FAKTA RESMI", "ELIGIBILITAS", "Kuat", "2026", "1", "https://www.userinterviews.com/support/participant-countries"),
+    ("Crossover", "Tahapan: chat screening → tes kognitif → tes skill → wawancara HM → tes terproktor", "FAKTA RESMI", "PROSES", "Kuat", "2026", "1,2", "https://www.crossover.com/selection-process"),
+    ("Testlio", "Proyek spesifik negara; beberapa wajib berada fisik di negara & tanpa VPN; dibayar mingguan PayPal/Payoneer", "FAKTA RESMI", "ELIGIBILITAS", "Sedang", "2026", "1", "https://jobs.techstars.com/companies/testlio/jobs/57669440-freelance-software-tester-payment-testing-singapore"),
+    ("Pasar kerja", "Data Deel: perusahaan Singapura merekrut dari Indonesia 6%; peran tersering VA 26%, software engineer 22%", "PIHAK KETIGA", "METODE", "Sedang", "2025", "1", "https://cdotrends.com/story/17185/apac-becoming-remote-talent-magnet"),
+    ("Pasar kerja", "BPS: pekerja bebas 9,58% angkatan kerja (Agu 2025); rata-rata pendapatan bersih Rp1,68 juta/bulan", "FAKTA RESMI", "BAYARAN", "Kuat", "2025-08", "6", "https://databoks.katadata.co.id/en/employment/statistics/694a064bab023/average-freelancer-income-in-indonesia-2025"),
+    # --- Pajak & pembayaran
+    ("Pajak", "Freelancer WP dalam negeri wajib menghitung, membayar, melaporkan pajak sendiri; PPh 21/26 dipotong pemberi kerja pemotong", "FAKTA RESMI", "RISIKO", "Kuat", "2026", "6", "https://www.pajak.go.id/id/artikel/kewajiban-perpajakan-freelancer"),
+    ("Pajak", "Penghasilan dari klien luar negeri atas pekerjaan di Indonesia tetap wajib dilaporkan", "PIHAK KETIGA", "RISIKO", "Sedang", "2026", "6", "https://ortax.org/pajak-freelance-online-atau-remote-working-luar-negeri"),
+    ("PayPal Indonesia", "Biaya penarikan dilaporkan Rp16.000 di bawah Rp1,5 juta; konversi 3%", "PIHAK KETIGA", "BAYARAN", "Lemah", "2026", "6", "https://www.onesafe.io/blog/does-paypal-work-in-indonesia"),
+    # --- Metodologi
+    ("Metodologi", "Informational interview bukan wawancara mencari kerja; tujuannya informasi & jaringan", "FAKTA RESMI", "METODE", "Kuat", "2024", "5", "https://careerservices.fas.harvard.edu/resources/harvard-college-guide-to-making-connections-2/"),
+    ("Metodologi", "Riset dulu → daftar kontak → outreach email", "FAKTA RESMI", "METODE", "Kuat", "2024", "5", "https://cso.gse.harvard.edu/resource/infointerviewingtipsheetpdf"),
+    ("Metodologi", "Career conversation: bangun relasi tulus, pitch ±90 detik, riset profil sebelum bertemu", "FAKTA RESMI", "METODE", "Kuat", "2025", "5", "https://alumni.stanford.edu/career-connections/acing-the-career-conversation-what-to-do-before-during-and-after"),
+    ("Metodologi", "Lulusan MBA HBS menilai networking sebagai aktivitas pencarian kerja terpenting", "PIHAK KETIGA", "METODE", "Sedang", "2023", "5", "https://archive.harbus.org/2023/working-the-hbs-network-844"),
+    ("Metodologi", "Mulai deskripsi dengan kata kerja aksi; hindari 'duties included'; fokus pada pencapaian", "FAKTA RESMI", "METODE", "Kuat", "—", "3", "https://education.scripps.edu/_files/pdfs/postdoctoral/resumes-cover-letters-stanford.pdf"),
+    ("Metodologi", "Daftar kata kerja aksi & urutan reverse-chronological", "FAKTA RESMI", "METODE", "Kuat", "2022", "3", "https://cdn-careerservices.fas.harvard.edu/wp-content/uploads/sites/161/2022/04/undergrad_resumes_and_cover_letters-1.pdf"),
+    ("ATS", "Satu kolom; PDF berbasis teks aman; ikuti format yang diminta; hindari tabel/text box/header", "PIHAK KETIGA", "METODE", "Sedang", "2026", "3", "https://jobshinobi.com/blog/how-to-create-an-ats-friendly-pdf-resume"),
+    ("Alat interview", "Big Interview US$39/1 bulan, US$99/3 bulan, US$299 seumur hidup; EN & ES", "PIHAK KETIGA", "BAYARAN", "Sedang", "2026", "4", "https://www.capterra.com/p/10039230/Big-Interview/"),
+    ("Alat interview", "Yoodli punya paket gratis; Pro US$8–15/bulan (sumber bertentangan); Capterra: hanya bahasa Inggris", "PIHAK KETIGA", "BAYARAN", "Lemah", "2026", "4", "https://www.outdoo.ai/blog/yoodli-review-and-pricing"),
+    ("Alat interview", "Google Interview Warmup gratis, tidak memberi skor, menyorot istilah & poin bicara", "PIHAK KETIGA", "METODE", "Sedang", "2022", "4", "https://9to5google.com/2022/05/17/google-interview-warmup/"),
+    ("Alat interview", "Gemini Live gratis di Android dan mendukung bahasa Indonesia (rollout 2024)", "PIHAK KETIGA", "METODE", "Sedang", "2024", "4", "https://9to5google.com/2024/10/03/gemini-live-languages/"),
+    ("Alat interview", "Mode suara ChatGPT tersedia untuk akun gratis dengan model lebih kecil (Agustus 2026)", "PIHAK KETIGA", "METODE", "Sedang", "2026-08", "4", "https://engadget.com/2234173/chatgpt-free-features-2026"),
+]
+
+
+def rows_as_dicts():
+    out = []
+    for i, (topik, klaim, jenis, pola, kekuatan, tgl, bab, src) in enumerate(E, start=1):
+        out.append({"id": f"EV{i:03d}", "topik": topik, "klaim": klaim, "jenis_bukti": jenis,
+                    "pola": pola, "kekuatan": kekuatan, "tanggal_sumber": tgl,
+                    "tanggal_akses": ACCESSED, "bab": bab, "sumber": src})
+    return out

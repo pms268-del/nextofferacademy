@@ -1,0 +1,137 @@
+/* Remote Work Playbook 2026 — print stylesheet (A4 portrait, navy/white) */
+:root {
+  --navy: #0b2545;
+  --navy-2: #13315c;
+  --blue: #1f4e8c;
+  --sky: #8da9c4;
+  --mist: #eef3f9;
+  --line: #d5deea;
+  --ink: #1b2430;
+  --muted: #5b6b82;
+  --gold: #c9a227;
+}
+@page { size: A4; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body {
+  font-family: "Inter", "DejaVu Sans", sans-serif;
+  font-size: 10pt; line-height: 1.55; color: var(--ink); margin: 0;
+  font-feature-settings: "ss01", "cv11";
+}
+a { color: var(--blue); text-decoration: none; }
+p { margin: 0 0 6pt 0; orphans: 3; widows: 3; }
+strong { color: var(--navy); }
+
+/* ---------- Cover ---------- */
+.cover-body { margin: 0; }
+.cover {
+  width: 210mm; height: 297mm; box-sizing: border-box; padding: 22mm 20mm;
+  background: var(--navy); color: #fff; display: flex; flex-direction: column; justify-content: space-between;
+  background-image: linear-gradient(160deg, #0b2545 0%, #13315c 60%, #1f4e8c 100%);
+}
+.cover-top { font-size: 8pt; letter-spacing: 2px; color: var(--sky); }
+.cover-kicker { font-size: 10pt; letter-spacing: 4px; color: var(--gold); font-weight: 600; margin-bottom: 8mm; }
+.cover-title { font-family: "Inter Display", "Inter", sans-serif; font-size: 52pt; line-height: 1.02;
+  font-weight: 800; margin: 0; color: #fff; letter-spacing: -1px; border: 0; padding: 0; }
+.cover-rule { width: 40mm; height: 3px; background: var(--gold); margin: 9mm 0 7mm; }
+.cover-sub { font-size: 15pt; line-height: 1.35; color: #dfe8f3; max-width: 150mm; font-weight: 400; }
+.cover-facts { list-style: none; padding: 0; margin: 12mm 0 0; display: grid;
+  grid-template-columns: 1fr 1fr; gap: 4mm 10mm; font-size: 10.5pt; color: #dfe8f3; }
+.cover-facts b { font-size: 20pt; color: #fff; display: block; font-weight: 700; }
+.cover-bottom { font-size: 8.5pt; color: var(--sky); border-top: 1px solid rgba(255,255,255,.25); padding-top: 5mm; }
+.cover-url { margin-top: 2mm; color: #fff; font-weight: 600; }
+
+/* ---------- TOC ---------- */
+.toc { page-break-after: always; }
+.toc-title { font-size: 24pt; color: var(--navy); margin: 0 0 3mm; font-weight: 800;
+  border-bottom: 3px solid var(--navy); padding-bottom: 3mm; }
+.toc ul { list-style: none; padding: 0; margin: 0; }
+.toc li a { display: flex; align-items: baseline; color: var(--ink); }
+.toc-l1 { margin-top: 2.2mm; font-weight: 700; font-size: 10pt; }
+.toc-l1 a { color: var(--navy) !important; }
+.toc-l2 { margin: .3mm 0 0 7mm; font-size: 8.4pt; }
+.toc-text { flex: 0 1 auto; }
+.toc-dots { flex: 1 1 auto; border-bottom: 1px dotted var(--sky); margin: 0 2mm; transform: translateY(-2px); }
+.toc-page { flex: 0 0 auto; min-width: 8mm; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* ---------- Headings ---------- */
+.chapter-start { page-break-before: always; }
+.chapter-label { font-size: 9pt; letter-spacing: 4px; color: var(--gold); font-weight: 700; margin-bottom: 1mm; }
+h1 { font-family: "Inter Display", "Inter", sans-serif; font-size: 25pt; line-height: 1.12; color: var(--navy);
+  font-weight: 800; margin: 0 0 6mm; padding-bottom: 3mm; border-bottom: 3px solid var(--navy); letter-spacing: -.3px; }
+h2 { font-size: 14pt; color: var(--navy); margin: 7mm 0 3mm; padding-left: 3mm; border-left: 4px solid var(--gold);
+  page-break-after: avoid; break-after: avoid; font-weight: 750; }
+h3 { font-size: 11pt; color: var(--navy-2); margin: 5mm 0 2mm; page-break-after: avoid; break-after: avoid; }
+h4 { font-size: 10pt; color: var(--navy-2); margin: 4mm 0 1.5mm; page-break-after: avoid; }
+
+/* ---------- Lists ---------- */
+ul, ol { margin: 0 0 6pt 0; padding-left: 5mm; }
+ol { padding-left: 7mm; }
+li { margin-bottom: 1.5pt; }
+ul.task-list { list-style: none; padding-left: 1mm; }
+ul.task-list input { margin: 0 2mm 0 0; transform: translateY(1px); }
+
+/* ---------- Blockquote (chapter summary / callouts) ---------- */
+blockquote { margin: 0 0 5mm; padding: 3.5mm 5mm; background: var(--mist); border-left: 4px solid var(--navy);
+  border-radius: 0 4px 4px 0; color: var(--ink); break-inside: avoid; }
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ---------- Tables ---------- */
+table { width: 100%; border-collapse: collapse; margin: 2mm 0 5mm; font-size: 8.2pt; line-height: 1.38; }
+thead { display: table-header-group; }
+th { background: var(--navy); color: #fff; text-align: left; padding: 1.8mm 2mm; font-weight: 600; }
+td { padding: 1.6mm 2mm; border-bottom: 1px solid var(--line); vertical-align: top; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+tbody tr:nth-child(even) td { background: #f7f9fc; }
+td strong { color: var(--navy); }
+
+/* ---------- Code / prompts ---------- */
+pre, code { font-family: "DejaVu Sans Mono", monospace; }
+code { font-size: 8pt; background: #f1f4f9; padding: 0 1mm; border-radius: 2px; }
+pre { font-size: 7.8pt; line-height: 1.42; background: #f4f6fa; border: 1px solid var(--line);
+  border-left: 4px solid var(--blue); padding: 3mm 4mm; white-space: pre-wrap; word-break: break-word;
+  border-radius: 0 4px 4px 0; margin: 2mm 0 5mm; }
+pre code { background: none; padding: 0; font-size: inherit; }
+
+/* ---------- Custom blocks ---------- */
+.flow ol { list-style: none; counter-reset: step; display: flex; flex-wrap: wrap; gap: 2.5mm 5mm; padding: 0; margin: 2mm 0 4mm; }
+.flow li { counter-increment: step; position: relative; flex: 1 1 30%; min-width: 0; box-sizing: border-box; background: var(--mist);
+  border: 1px solid var(--line); border-top: 3px solid var(--navy); border-radius: 4px; padding: 2.4mm 3mm 2.4mm 9mm;
+  font-size: 8.3pt; line-height: 1.35; break-inside: avoid; }
+.flow li::before { content: counter(step); position: absolute; left: 2.4mm; top: 2.2mm; width: 5mm; height: 5mm;
+  border-radius: 50%; background: var(--navy); color: #fff; font-size: 7.5pt; font-weight: 700; text-align: center; line-height: 5mm; }
+.flow li:not(:last-child)::after { content: "→"; position: absolute; right: -4.4mm; top: 40%; color: var(--gold); font-weight: 700; }
+
+.decision { border: 2px solid var(--navy); border-radius: 6px; padding: 4mm 5mm 2mm; margin: 4mm 0 5mm; break-inside: avoid; }
+.decision ol { margin-top: 2mm; }
+.decision li { margin-bottom: 2mm; }
+
+.five { background: var(--navy); color: #fff; border-radius: 6px; padding: 4mm 5mm; margin: 5mm 0; break-inside: avoid;
+  font-size: 8.8pt; }
+.five p { margin: 0 0 1.6mm; }
+.five strong { color: var(--gold); }
+.five a { color: #cfe0f5; }
+
+.checklist { border: 1px solid var(--line); border-left: 4px solid var(--gold); border-radius: 0 6px 6px 0;
+  padding: 3mm 5mm; margin: 3mm 0 5mm; background: #fffdf5; }
+.checklist p strong { color: var(--navy); }
+
+.sample, .beforeafter, .template, .qa { border: 1px solid var(--line); border-radius: 6px; padding: 3.5mm 5mm;
+  margin: 3mm 0 5mm; background: #fff; }
+.sample { border-top: 3px solid var(--blue); break-inside: avoid; }
+.sample blockquote { background: #f7f9fc; border-left-color: var(--sky); font-size: 8.8pt; }
+.beforeafter { border-top: 3px solid var(--gold); break-inside: avoid; }
+.template blockquote { background: #f7f9fc; border-left-color: var(--gold); font-size: 8.8pt; margin-bottom: 3mm; }
+.qa p { margin-bottom: 2.6mm; break-inside: avoid; }
+
+/* ---------- Directory cards ---------- */
+.card { border: 1px solid var(--line); border-left: 4px solid var(--navy); border-radius: 0 5px 5px 0;
+  padding: 2.4mm 4mm 1.6mm; margin: 0 0 3mm; break-inside: avoid; page-break-inside: avoid; font-size: 7.7pt; line-height: 1.38; }
+.card > p:first-child { font-size: 9.6pt; margin-bottom: 1.4mm; }
+.card ul { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: .4mm 6mm; }
+.card li { margin: 0; }
+.card li:nth-child(n+3) { grid-column: span 1; }
+.card li:nth-child(1), .card li:nth-child(2), .card li:nth-child(3), .card li:nth-child(9),
+.card li:nth-child(10), .card li:nth-child(11), .card li:nth-child(12), .card li:nth-child(13) { grid-column: 1 / -1; }
+
+hr { border: 0; border-top: 1px solid var(--line); margin: 5mm 0; }
+em { color: #334155; }
