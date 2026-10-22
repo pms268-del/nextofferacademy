@@ -9,9 +9,9 @@ Anda sudah punya peta peluang, cara lolos seleksi, workflow lamaran dengan AI, b
 3. Pasang asisten lamaran AI (prompt W1) dengan master CV Anda.
 
 ::: {.cta}
-**Direktori peluang remote — {{WEBSITE}}**
+**Database peluang remote — {{WEBSITE}}**
 
-Next Offer Academy sedang menyiapkan direktori peluang remote dan freelance internasional yang lebih lengkap. Direktori ini akan diperbarui secara berkala dan berisi platform terbaru, lowongan Bahasa Indonesia, serta panduan tambahan.
+Next Offer Academy sedang menyiapkan database peluang di website. Database ini akan berisi detail setiap platform dari direktori di panduan ini (proses seleksi, cara pembayaran, tips melamar), dan akan diperbarui secara berkala dengan platform dan lowongan terbaru.
 
 Kunjungi **[{{WEBSITE}}](https://{{WEBSITE}})** untuk informasi terbaru.
 :::

@@ -163,9 +163,9 @@ Mulailah dari baris yang paling mirip dengan latar belakang Anda.
 | **Sales & marketing** | C (sales SEA) + B (marketing freelance) | LinkedIn, Wellfound; Upwork | Hasil kampanye atau penjualan yang terukur |
 
 ::: {.cta}
-**Direktori lengkap di nextoveracademy.id**
+**Direktori lengkap 102 platform**
 
-Panduan ini hanya memuat platform pilihan. Next Offer Academy sedang menyiapkan direktori peluang yang lebih lengkap dan akan diperbarui secara berkala di **[nextoveracademy.id](https://nextoveracademy.id)**.
+Tabel di bab ini hanya memuat platform pilihan. Daftar lengkap 102 platform beserta tautannya ada di bagian **Direktori Lengkap Platform** di akhir panduan. Detail setiap platform akan tersedia di database **[nextoveracademy.id](https://nextoveracademy.id)**.
 :::
 
 
@@ -1026,6 +1026,137 @@ Proyek AI training dan banyak proyek klien terikat perjanjian kerahasiaan (NDA).
 Penghasilan dari klien atau platform luar negeri tetap wajib dilaporkan di SPT Tahunan Anda di Indonesia. Siapkan NPWP, catat setiap pembayaran yang masuk, dan simpan buktinya. Platform asing kadang meminta formulir pajak seperti W-8BEN. Untuk perhitungan yang tepat, konsultasikan dengan konsultan pajak atau KPP terdekat. Panduan dari DJP: [Kewajiban Perpajakan Freelancer](https://www.pajak.go.id/id/artikel/kewajiban-perpajakan-freelancer).
 
 
+# Direktori Lengkap Platform {#direktori}
+
+Berikut daftar lengkap 102 platform yang dikurasi Next Offer Academy, dibagi ke dalam tiga jalur. Klik nama platform untuk langsung membuka situsnya.
+
+**Arti kolom "Untuk Indonesia":**
+
+- **Ya:** menerima pelamar dari Indonesia atau punya lowongan khusus Indonesia.
+- **Per lowongan:** terbuka global, tetapi tergantung lowongan. Cek lokasi di setiap lowongan.
+- **Cek saat daftar:** pastikan Indonesia tersedia di formulir pendaftaran.
+- **Belum menerima:** saat ini belum menerima pelamar dari Indonesia.
+
+Tarif dan biaya bisa berubah sewaktu-waktu. Selalu cek halaman resmi sebelum mendaftar. Detail setiap platform (proses seleksi, cara pembayaran, tips melamar) akan tersedia di database **[nextoveracademy.id](https://nextoveracademy.id)**.
+
+## A. AI Training & Evaluation
+
+| # | Platform | Jenis pekerjaan | Untuk Indonesia | Bayaran yang pernah diiklankan |
+|--|----------|--------------------|--------|--------------------------|
+| 1 | [Mercor](https://work.mercor.com) | AI training/evaluasi berbasis keahlian (bahasa, STEM, hukum, medis, coding), AI safety | **Ya** | Listing Indonesia: US$10–14/jam (Indonesian Language Expert); US$18–22/jam (Bilingual Indonesian Generalist – AI Safety); US$50/jam (Indonesian Audio Generalist Evaluator) |
+| 2 | [Outlier (Scale AI)](https://outlier.ai) | Menulis/menilai respons AI, evaluasi bahasa, coding, domain expert | **Per lowongan** | Listing Indonesian writer: rata-rata US$7,50/jam (dihapus Jul 2025); Indonesian voice evaluator US$8/jam (Des 2024) |
+| 3 | [DataAnnotation](https://www.dataannotation.tech) | Menulis & menilai respons chatbot, coding evaluation | **Belum menerima** | Umum US$25–50+/jam; coding US$40–150+/jam |
+| 4 | [Alignerr (Labelbox)](https://www.alignerr.com) | Evaluasi AI, domain expert, audio, coding | **Cek saat daftar** | Listing rata-rata US$91/jam (rentang US$15–250) berdasarkan 545 listing |
+| 5 | [micro1](https://www.micro1.ai) | AI trainer, expert reviewer, coding & domain evaluation | **Cek saat daftar** | Listing US$21–70/jam; tipikal US$30–135+/jam |
+| 6 | [Halluminate](https://www.workatastartup.com/jobs/84521) | Lowongan full-time (Strategic Project Lead, Member of Technical Staff) | **Belum menerima** | US$150–275K/tahun (full-time, AS) |
+| 7 | [Mindrift (Toloka)](https://mindrift.ai) | Menulis, coding, evaluasi dan pembuatan data AI per proyek | **Per lowongan** | US$15–100+/jam; tiap tugas menampilkan reward tetap |
+| 8 | [Toloka (crowd tasks)](https://toloka.ai) | Microtask: klasifikasi, moderasi, anotasi sederhana | **Cek saat daftar** | Sebagian besar tugas bernilai sen |
+| 9 | [Appen / CrowdGen](https://www.appen.com) | Social media evaluator, search evaluator, data collection | **Ya** | Listing Social Media Evaluator Indonesia: US$2,43/jam, ±20 jam/minggu |
+| 10 | [TELUS Digital AI Community](https://www.telusdigital.com) | Quality Assurance Rater – Indonesian (menilai hasil pencarian & konten AI) | **Ya** | ±US$5/jam |
+| 11 | [RWS TrainAI](https://jobs.lever.co/rws) | AI Data Specialist/Annotator Indonesian, search engine evaluator, speech evaluation | **Ya** | US$4/jam (search evaluator); US$5/jam (AI Data Specialist); US$14/jam (Annotator STEM S2) |
+| 12 | [OneForma (Centific)](https://www.oneforma.com) | Transkripsi, anotasi, judging, terjemahan, pengumpulan data | **Ya** | Bervariasi per proyek; ulasan: US$9–12/jam diamati (satu peninjau) |
+| 13 | [Clickworker / UHRS](https://www.clickworker.com) | Microtask, penulisan pendek, UHRS rating | **Cek saat daftar** | Per tugas (rendah); Cek di situs |
+| 14 | [DataForce (TransPerfect)](https://www.dataforce.ai) | Anotasi teks/audio/gambar/video, studi pengumpulan data | **Cek saat daftar** | Cek di situs |
+| 15 | [Welo Data (Welocalize)](https://jobs.lever.co/weloglobal) | Ads Quality Rater – Indonesian; Translation Validator; talent hub Indonesia/Jawa/Sunda | **Ya** | Translation Validator Indonesian: US$5/jam (kontrak 2 minggu) |
+| 16 | [Turing](https://work.turing.com) | Membuat/menilai tugas software engineering untuk LLM, agentic trainer | **Per lowongan** | US$25–55/jam (bervariasi per negara) hingga US$200–300/jam (khusus AS) |
+| 17 | [Prolific](https://www.prolific.com) | Studi riset akademik, survei, tugas evaluasi AI | **Belum menerima** | — |
+| 18 | [Remotasks (Scale AI)](https://www.remotasks.com) | Anotasi data, labeling | **Cek saat daftar** | Cek di situs |
+| 19 | [Invisible Technologies (Expert Marketplace)](https://job-boards.eu.greenhouse.io/invisibletech) | AI data trainer: bahasa, STEM, bisnis, coding | **Per lowongan** | US$8–65/jam; kompensasi disesuaikan pasar lokal di luar AS |
+| 20 | [Handshake AI (MOVE / Fellowship)](https://joinhandshake.com) | Melatih & mengevaluasi LLM (STEM, PhD, dll.) | **Belum menerima** | US$30–125/jam |
+| 21 | [Snorkel AI Expert Community](https://snorkel.ai/expert-community/) | Membuat & menilai soal/tugas reasoning (hukum, STEM, kedokteran) | **Per lowongan** | US$10–100 per tugas berkualitas (listing hukum) |
+| 22 | [LXT](https://www.lxt.ai) | Merekam ratusan prompt suara, evaluasi audio | **Cek saat daftar** | Cek di situs |
+| 23 | [xAI (AI Tutor)](https://job-boards.greenhouse.io/xai) | AI Tutor – Indonesian: rekam, transkripsi, anotasi audio | **Per lowongan** | US$35–45/jam untuk kandidat AS; tarif internasional diinformasikan saat rekrutmen |
+| 24 | [Sigma AI](https://sigma.ai) | Terjemahan, kategorisasi, anotasi, transkripsi Bahasa Indonesia | **Per lowongan** | Cek di situs |
+| 25 | [Defined.ai (Neevo)](https://defined.ai) | Tugas menulis, tagging, pengumpulan & klasifikasi data | **Cek saat daftar** | Per tugas; Cek di situs |
+| 26 | [Pareto AI](https://pareto.ai) | Prompt engineering, evaluasi, anotasi ahli (hukum, dll.) | **Cek saat daftar** | Cek di situs |
+| 27 | [Surge AI](https://www.surgehq.ai) | RLHF, evaluasi LLM | **Cek saat daftar** | Cek di situs |
+| 28 | [Uber AI Solutions (Scaled Solutions)](https://www.uber.com) | Anotasi, coding, data collection berbasis tugas | **Belum menerima** | Per tugas, dibayar bulanan |
+| 29 | [iMerit](https://imerit.net) | Video annotator, language expert (Gen AI) | **Cek saat daftar** | Listing bahasa Asia Tenggara mulai US$5/jam |
+| 30 | [Rex.zone (Remo Experts)](https://rex.zone) | AI trainer generalis & spesialis (medis, hukum) | **Cek saat daftar** | US$25–120/jam pada listing (angka antar sumber tidak konsisten) |
+| 31 | [LILT](https://lilt.com) | Penerjemah/linguis Bahasa Indonesia (AI-assisted translation) | **Per lowongan** | Cek di situs |
+| 32 | [Lionbridge (freelance & AI tasks)](https://www.lionbridge.com) | Transkripsi, AI feedback, rekaman suara, moderasi, cek terjemahan | **Cek saat daftar** | Cek di situs |
+
+## B. Project-Based Freelancing
+
+| # | Platform | Jenis pekerjaan | Untuk Indonesia | Biaya & pembayaran |
+|--|----------|--------------------|--------|--------------------------|
+| 1 | [Upwork](https://www.upwork.com) | Software, desain, marketing, analitik, menulis, VA, konsultasi | **Ya** | Service fee freelancer variabel 0–15% (ditampilkan sebelum proposal); 10 Connects gratis/bulan (Basic); Connect tambahan US$0,15; Freelancer Plus US$19,99/bulan |
+| 2 | [Fiverr](https://www.fiverr.com) | Paket jasa: desain, video, menulis, coding, AI services | **Ya** | Fee 20% per order; clearing 14 hari (7 hari Top Rated); tarik dana via Payoneer/PayPal |
+| 3 | [Freelancer.com](https://www.freelancer.com) | Proyek bidding & kontes berbagai bidang | **Ya** | Fee proyek 10% (min US$5), bisa turun dengan membership; bid gratis terbatas |
+| 4 | [Contra](https://contra.com) | Desain, produk, no-code, marketing, AI | **Cek saat daftar** | Freelancer 'commission-free'; terima pembayaran bank, kartu debit, PayPal, USDC; Pro US$29/bulan |
+| 5 | [Toptal](https://www.toptal.com) | Developer, desainer, finance, product, project manager | **Cek saat daftar** | Tanpa biaya pendaftaran |
+| 6 | [Braintrust](https://www.usebraintrust.com) | Engineering, desain, product | **Cek saat daftar** | Klien bayar 10%; fee talenta terkini: cek di situs |
+| 7 | [PeoplePerHour](https://www.peopleperhour.com) | Desain, web, menulis, marketing | **Cek saat daftar** | Fee freelancer bertingkat (20%/7,5%/3,5% berdasar total tagihan per klien) |
+| 8 | [Guru](https://www.guru.com) | Programming, desain, menulis, admin | **Cek saat daftar** | Job fee 5–9% tergantung membership (Basic 9%) |
+| 9 | [Sribu](https://www.sribu.com) | Kontes desain, Jasa Freelancer, JobPost | **Ya** | Pembayaran via transfer bank/VA; komisi: cek di situs |
+| 10 | [Projects.co.id](https://projects.co.id) | Proyek IT, desain, menulis | **Ya** | Fee 12% per transaksi |
+| 11 | [Fastwork Indonesia](https://fastwork.id) | Desain, konten, web, marketing | **Ya** | Fee 10% atau 17% |
+| 12 | [Arc.dev](https://arc.dev) | Software engineering (freelance & full-time) | **Cek saat daftar** | Cek di situs |
+| 13 | [Lemon.io](https://lemon.io) | Software engineering | **Cek saat daftar** | Cek di situs |
+| 14 | [Proxify](https://proxify.io) | Software engineering | **Cek saat daftar** | Cek di situs |
+| 15 | [Codeable](https://www.codeable.io) | Pengembangan WordPress/WooCommerce | **Cek saat daftar** | Cek di situs |
+| 16 | [99designs (Vista)](https://99designs.com) | Logo, branding, desain grafis | **Cek saat daftar** | Fee platform 15%/10%/5% per level + biaya perkenalan US$100 |
+| 17 | [DesignCrowd](https://www.designcrowd.com) | Desain grafis | **Cek saat daftar** | Fee 15% |
+| 18 | [Dribbble](https://dribbble.com) | UI/UX, ilustrasi, branding | **Cek saat daftar** | Fee 3,5% (Pro US$96/tahun = 0%) |
+| 19 | [Behance (Adobe)](https://www.behance.net) | Desain, ilustrasi, motion, fotografi | **Cek saat daftar** | Fee 10%+US$2 (<US$500), 5,5%, 3% bertingkat; 0% bila salah satu pihak Pro |
+| 20 | [Twine](https://www.twine.net) | Video, desain, audio, data AI | **Per lowongan** | Fee klien 10%/5%; Pro freelancer US$7,49/bulan |
+| 21 | [Kolabtree](https://www.kolabtree.com) | Analisis statistik, penulisan medis/ilmiah, R&D | **Cek saat daftar** | Cek di situs |
+| 22 | [ProZ.com](https://www.proz.com) | Terjemahan, interpretasi, lokalisasi | **Ya** | Membership ±US$10–15/bulan; ProZ*Pay: bank, PayPal, Payoneer |
+| 23 | [Smartcat Marketplace](https://www.smartcat.com) | Terjemahan & editing | **Cek saat daftar** | Banyak metode payout sesuai lokasi |
+| 24 | [TranslatorsCafe](https://www.translatorscafe.com) | Terjemahan | **Cek saat daftar** | Cek di situs |
+| 25 | [Hubstaff Talent](https://talent.hubstaff.com) | Freelance remote berbagai bidang | **Cek saat daftar** | Gratis bagi pencari kerja & pemberi kerja |
+| 26 | [GLG (Gerson Lehrman Group)](https://glginsights.com) | Konsultasi 1 jam untuk investor/konsultan tentang industri Anda | **Cek saat daftar** | Cek di situs |
+| 27 | [AlphaSights](https://www.alphasights.com) | Konsultasi ahli industri | **Cek saat daftar** | Cek di situs |
+| 28 | [Guidepoint](https://www.guidepoint.com) | Konsultasi ahli industri | **Cek saat daftar** | Cek di situs |
+| 29 | [Third Bridge](https://www.thirdbridge.com) | Wawancara ahli & konsultasi | **Cek saat daftar** | Cek di situs |
+| 30 | [Adobe Stock Contributor](https://contributor.stock.adobe.com) | Foto, video, vektor, ilustrasi | **Ya** | Payoneer WAJIB untuk kontributor di Indonesia; minimum US$25; dibayar USD; potong pajak 30% bila formulir pajak tidak ada |
+| 31 | [Shutterstock Contributor](https://submit.shutterstock.com) | Foto, video, ilustrasi | **Cek saat daftar** | PayPal, Skrill, Payoneer; ambang payout US$25–2000; dibayar bulanan (tgl 7–15); wajib formulir pajak |
+
+## C. Pekerjaan Remote Lainnya
+
+| # | Platform | Jenis pekerjaan | Untuk Indonesia | Bayaran yang pernah diiklankan |
+|--|----------|--------------------|--------|--------------------------|
+| 1 | [Wellfound (AngelList Talent)](https://wellfound.com/candidates/remote) | Remote employment di startup | **Per lowongan** | Gaji & ekuitas biasanya ditampilkan di listing |
+| 2 | [We Work Remotely](https://weworkremotely.com) | Engineering, desain, support, marketing | **Per lowongan** | Per listing |
+| 3 | [Remote OK](https://remoteok.com) | Tech, desain, marketing, startup | **Per lowongan** | Filter gaji tersedia |
+| 4 | [Remotive](https://remotive.com) | Tech, support, marketing | **Per lowongan** | Per listing |
+| 5 | [Himalayas](https://himalayas.app) | Remote jobs lintas bidang; halaman khusus Indonesia | **Ya** | Sebagian listing mencantumkan gaji (termasuk IDR) |
+| 6 | [LinkedIn Jobs](https://www.linkedin.com/jobs) | Semua bidang | **Ya** | Per listing |
+| 7 | [Glints](https://glints.com/id) | Remote & cross-border jobs SEA | **Ya** | Per listing |
+| 8 | [JobStreet Indonesia](https://id.jobstreet.com) | Semua bidang; filter 'Jarak Jauh' | **Ya** | Per listing |
+| 9 | [Kalibrr](https://www.kalibrr.com) | Tech & non-tech; filter remote | **Ya** | Sebagian listing mencantumkan gaji (IDR) |
+| 10 | [Indeed Indonesia](https://id.indeed.com) | Semua bidang; kata kunci 'remote' | **Ya** | Per listing |
+| 11 | [Jobgether](https://jobgether.com) | Remote jobs, termasuk 'Remote: Anywhere' dan halaman Indonesia | **Ya** | Rata-rata support US$19K–75K |
+| 12 | [Working Nomads](https://www.workingnomads.com) | Developer, marketing, support | **Per lowongan** | Per listing |
+| 13 | [Jobspresso](https://jobspresso.co) | Tech, marketing, support | **Per lowongan** | Per listing |
+| 14 | [JustRemote](https://justremote.co) | HR, dev, marketing, desain; filter negara | **Per lowongan** | Per listing |
+| 15 | [Dynamite Jobs](https://dynamitejobs.com) | Operasional, marketing, VA, support | **Per lowongan** | Per listing |
+| 16 | [Y Combinator – Work at a Startup](https://www.ycombinator.com/jobs/role/all/remote) | Engineering, product, ops, recruiting | **Per lowongan** | Gaji/ekuitas per listing |
+| 17 | [Hacker News – Who is hiring?](https://news.ycombinator.com) | Engineering & startup roles; tag REMOTE | **Per lowongan** | Sering mencantumkan gaji |
+| 18 | [Jobicy](https://jobicy.com) | Remote jobs APAC (UTC+5 s.d. UTC+12) | **Per lowongan** | Per listing |
+| 19 | [NoDesk](https://nodesk.co) | Customer support Asia & lainnya | **Per lowongan** | Per listing |
+| 20 | [Remote.co](https://remote.co) | Beragam | **Per lowongan** | Per listing |
+| 21 | [FlexJobs](https://www.flexjobs.com) | Beragam (banyak khusus AS) | **Per lowongan** | Per listing |
+| 22 | [Tech in Asia Jobs](https://www.techinasia.com/jobs) | Startup & ekonomi digital Asia | **Ya** | Per listing |
+| 23 | [Crossover](https://www.crossover.com/jobs/remote-jobs) | Engineering, manajemen, operasional | **Per lowongan** | Diiklankan hingga US$400K/tahun untuk peran senior |
+| 24 | [GitLab (contoh perusahaan all-remote)](https://about.gitlab.com) | Engineering, support, sales, marketing | **Per lowongan** | Per listing |
+| 25 | [Remote (perusahaan HR) – careers](https://remote.com) | Customer care APAC, dll. | **Per lowongan** | Customer Care Associate APAC: US$15.600–35.150/tahun + ekuitas |
+| 26 | [Preply](https://preply.com) | Mengajar bahasa (termasuk Bahasa Indonesia & Inggris) dan mata pelajaran | **Cek saat daftar** | Tutor menentukan tarif |
+| 27 | [italki](https://www.italki.com) | Mengajar bahasa | **Cek saat daftar** | Tutor menentukan tarif |
+| 28 | [Cambly](https://www.cambly.com) | Percakapan bahasa Inggris | **Cek saat daftar** | ±US$0,17/menit (±US$10,20/jam) untuk dewasa |
+| 29 | [AmazingTalker](https://www.amazingtalker.com) | Mengajar Bahasa Indonesia & bahasa lain | **Cek saat daftar** | Ditentukan tutor |
+| 30 | [UserTesting](https://www.usertesting.com) | Menguji website/aplikasi sambil berbicara | **Cek saat daftar** | Cek di situs |
+| 31 | [Userlytics](https://www.userlytics.com) | UX testing | **Cek saat daftar** | Cek di situs |
+| 32 | [uTest / Applause](https://www.utest.com) | Pengujian fungsional, bug reporting, test case | **Per lowongan** | Contoh proyek 2021 Indonesia: US$5–30 per siklus tes |
+| 33 | [Testlio](https://testlio.com) | Pengujian payment, streaming, lokal | **Per lowongan** | US$18–35/jam (negara tier atas) |
+| 34 | [Respondent](https://www.respondent.io) | Wawancara riset B2B/B2C | **Cek saat daftar** | Cek di situs |
+| 35 | [User Interviews](https://www.userinterviews.com) | Wawancara & tes UX | **Belum menerima** | — |
+| 36 | [Rev](https://www.rev.com/freelancers/transcription) | Transkripsi, caption | **Belum menerima** | — |
+| 37 | [GoTranscript](https://gotranscript.com/indonesian-transcription-job) | Transkripsi Bahasa Indonesia/Jawa, terjemahan | **Ya** | Cek di situs |
+| 38 | [TranscribeMe](https://www.transcribeme.com) | Transkripsi | **Cek saat daftar** | Cek di situs |
+| 39 | [OnlineJobs.ph](https://www.onlinejobs.ph) | Virtual assistant | **Belum menerima** | — |
+
+
 # Langkah Berikutnya {#penutup .unnumbered}
 
 Anda sudah punya peta peluang, cara lolos seleksi, workflow lamaran dengan AI, bank latihan wawancara, template networking, dan rencana aksi. Yang tersisa adalah mulai, lalu konsisten.
@@ -1037,9 +1168,9 @@ Anda sudah punya peta peluang, cara lolos seleksi, workflow lamaran dengan AI, b
 3. Pasang asisten lamaran AI (prompt W1) dengan master CV Anda.
 
 ::: {.cta}
-**Direktori peluang remote — nextoveracademy.id**
+**Database peluang remote — nextoveracademy.id**
 
-Next Offer Academy sedang menyiapkan direktori peluang remote dan freelance internasional yang lebih lengkap. Direktori ini akan diperbarui secara berkala dan berisi platform terbaru, lowongan Bahasa Indonesia, serta panduan tambahan.
+Next Offer Academy sedang menyiapkan database peluang di website. Database ini akan berisi detail setiap platform dari direktori di panduan ini (proses seleksi, cara pembayaran, tips melamar), dan akan diperbarui secara berkala dengan platform dan lowongan terbaru.
 
 Kunjungi **[nextoveracademy.id](https://nextoveracademy.id)** untuk informasi terbaru.
 :::

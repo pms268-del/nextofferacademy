@@ -4,7 +4,8 @@ Internal only. Not distributed to readers.
 
 ## What changed
 - Rebranded to Next Offer Academy; website constant `WEBSITE` in `scripts/build.py` (currently `nextoveracademy.id`, as supplied in the brief).
-- Removed from reader-facing guide: methodology, evidence labels/grading, verification explanations, layoff positioning, pricing formula, directory-reading instructions, full directory tables, directory cards, evidence appendix, glossary.
+- Removed from reader-facing guide: methodology, evidence labels/grading, verification explanations, layoff positioning, pricing formula, directory cards, evidence appendix, glossary.
+- Revision 2b: full 102-platform directory list kept in the guide ("Direktori Lengkap Platform", generated from directory_data.py with research wording stripped). Per-platform detail (selection, payment, sources) goes to the website database via REMOTE_WORK_DIRECTORY.csv.
 - New reading flow: Pendahuluan → Peluang → Cara Diterima → Workflow CV AI → Wawancara → LinkedIn & Networking → Rencana Aksi → Keamanan → CTA website.
 - Prompts consolidated into an end-to-end workflow (W1–W6) plus F1–F2, I1–I3, N1–N2 in `AI_CAREER_PROMPTS.md`.
 - Added publicly reported interview questions (Mercor, Alignerr, micro1, Outlier, remote support), clearly separated from practice questions. Sources: `internal/RESEARCH_LOG.md` (section "REVISION RESEARCH") and `internal/RESEARCH_EVIDENCE.csv` (last 6 rows).

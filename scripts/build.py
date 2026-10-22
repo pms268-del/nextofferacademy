@@ -34,8 +34,9 @@ TITLE = "Remote Work Playbook 2026"
 SUBTITLE = "Panduan Mendapatkan Pekerjaan Remote & Freelance Internasional dari Indonesia"
 GUIDE_CHAPTERS = ["00_pendahuluan.md", "01_peluang.md", "02_diterima.md", "03_workflow_cv.md",
                   "04_wawancara.md", "05_networking.md", "06_rencana.md", "07_keamanan.md",
-                  "08_penutup.md"]
+                  "09_direktori.md", "08_penutup.md"]
 CHAPTER_IDS = {f"bab{i}": i for i in range(1, 8)}
+TOC_SUBSECTIONS = set(CHAPTER_IDS) | {"direktori"}
 NAVY = RGBColor(0x0B, 0x25, 0x45)
 
 
@@ -59,6 +60,35 @@ def load_prompts():
     return prompts
 
 
+ELIG_LABEL = {"Ya": "Ya", "Ya – per listing": "Per lowongan",
+              "Belum terverifikasi": "Cek saat daftar", "Tidak": "Belum menerima"}
+META = re.compile(r"\s*\((?:pihak ketiga[^)]*|klaim[^)]*|dilaporkan|agregator[^)]*|data 2021|data lama|"
+                  r"DailySocial, data lama|sumber bertentangan|dikutip pihak ketiga dari FAQ resmi|"
+                  r"opsional, dilaporkan|Asia, klaim situs)\)")
+
+
+def reader_text(text):
+    """Strip research/verification wording from a directory cell for readers."""
+    text = META.sub("", text).replace("(dilaporkan ", "(").replace(", dilaporkan)", ")")
+    text = re.sub(r"\s*\((?:blog resmi|dok\. resmi|FAQ resmi|data lama|dilaporkan)\)", "", text)
+    text = text.replace("dilaporkan ", "").replace("Dilaporkan ", "")
+    text = re.sub(r"(\w) Belum terverifikasi", r"\1: cek di situs", text)
+    text = text.replace("Belum terverifikasi", "Cek di situs").replace(" (Cek di situs resmi)", "")
+    return text.replace("|", "\\|").replace("\n", " ").strip() or "Cek di situs"
+
+
+def directory_table(prefix):
+    rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
+    key, label = (("biaya_pembayaran", "Biaya & pembayaran") if prefix == "B."
+                  else ("bayaran_diiklankan", "Bayaran yang pernah diiklankan"))
+    out = [f"| # | Platform | Jenis pekerjaan | Untuk Indonesia | {label} |",
+           "|--|----------|--------------------|--------|--------------------------|"]
+    for i, r in enumerate(rows, 1):
+        out.append(f"| {i} | [{r['platform']}]({r['url']}) | {reader_text(r['jenis_pekerjaan'])} | "
+                   f"**{ELIG_LABEL[r['eligible_indonesia']]}** | {reader_text(r[key])} |")
+    return "\n".join(out)
+
+
 def resolve(md):
     prompts = load_prompts()
 
@@ -67,6 +97,9 @@ def resolve(md):
             raise KeyError(f"Prompt {m.group(1)} not found in AI_CAREER_PROMPTS.md")
         return prompts[m.group(1)]
     md = re.sub(r"\{\{PROMPT:([A-Z]\d)\}\}", prompt_sub, md)
+    for cat in "ABC":
+        md = md.replace(f"{{{{DIRECTORY:{cat}}}}}", directory_table(cat + "."))
+    md = md.replace("{{TOTAL}}", str(len(D.rows_as_dicts())))
     md = md.replace("{{WEBSITE}}", WEBSITE)
     left = re.findall(r"\{\{[A-Z]+[:A-Z0-9]*\}\}", md)
     if left:
@@ -111,7 +144,7 @@ def build_toc(soup, levels, pages=None):
             continue
         if h.name == "h2":
             parent = h.find_previous("h1")
-            if not parent or parent.get("id") not in CHAPTER_IDS:
+            if not parent or parent.get("id") not in TOC_SUBSECTIONS:
                 continue
         text = h.get_text(" ", strip=True)
         if hid in CHAPTER_IDS:
@@ -251,7 +284,7 @@ def main():
     open(guide_path, "w", encoding="utf-8").write(guide_md)
     build_pdf(guide_path, "REMOTE_WORK_PLAYBOOK_ID",
               cover_html("PANDUAN KARIER", "Remote Work<br>Playbook 2026", SUBTITLE,
-                         [("3", "jalur peluang kerja"), ("Workflow", "CV & lamaran dengan AI"),
+                         [("102", "platform dalam direktori lengkap"), ("Workflow", "CV & lamaran dengan AI"),
                           ("Bank", "latihan wawancara"), ("7 + 30", "hari rencana aksi")]),
               toc_levels=2, footer=footer)
     build_docx(guide_path, "REMOTE_WORK_PLAYBOOK_ID", toc=True)

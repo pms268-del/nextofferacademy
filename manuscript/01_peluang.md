@@ -119,7 +119,7 @@ Mulailah dari baris yang paling mirip dengan latar belakang Anda.
 | **Sales & marketing** | C (sales SEA) + B (marketing freelance) | LinkedIn, Wellfound; Upwork | Hasil kampanye atau penjualan yang terukur |
 
 ::: {.cta}
-**Direktori lengkap di {{WEBSITE}}**
+**Direktori lengkap {{TOTAL}} platform**
 
-Panduan ini hanya memuat platform pilihan. Next Offer Academy sedang menyiapkan direktori peluang yang lebih lengkap dan akan diperbarui secara berkala di **[{{WEBSITE}}](https://{{WEBSITE}})**.
+Tabel di bab ini hanya memuat platform pilihan. Daftar lengkap {{TOTAL}} platform beserta tautannya ada di bagian **Direktori Lengkap Platform** di akhir panduan. Detail setiap platform akan tersedia di database **[{{WEBSITE}}](https://{{WEBSITE}})**.
 :::
