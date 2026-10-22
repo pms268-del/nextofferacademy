@@ -1,181 +1,174 @@
-# Action Workbook — Remote Work Playbook 2026
-
-Buku kerja pendamping untuk Bab 6. Salin tabel-tabel di sini ke Google Sheets (File → Import, atau tempel langsung), lalu isi setiap hari. Direktori platform yang bisa difilter ada di `REMOTE_WORK_DIRECTORY.csv`. Versi terbaru: `[LIVE DIRECTORY URL]`.
-
+---
+title: "Action Workbook"
+subtitle: "Pendamping Remote Work Playbook 2026"
+author: "Next Offer Academy"
+lang: id
+date: "Edisi Oktober 2026"
 ---
 
-## 1. Profil awal (isi di Hari 1)
+# Cara Memakai Workbook Ini {#cara-pakai .unnumbered}
 
-| Pertanyaan | Jawaban saya |
+Workbook ini adalah pendamping *Remote Work Playbook 2026*. Cetak atau isi versi Word-nya, atau salin tabel-tabelnya ke Google Sheets. Isi setiap hari sedikit demi sedikit. Yang penting konsisten, bukan sempurna.
+
+**Profil saya**
+
+| | |
 |---|---|
-| Latar belakang pendidikan & pengalaman (2 kalimat) | |
-| 2 jalur prioritas (dari Matriks Kecocokan Karier, Bab 1) | 1. ______ 2. ______ |
-| Jam tersedia per hari / per minggu | |
-| Level bahasa Inggris (tes/sertifikat jika ada) | |
-| Bahasa lain (termasuk bahasa daerah) | |
-| Tujuan 30 hari yang terukur (contoh: "15 lamaran berkualitas, 2 assessment, 2 coffee chat") | |
-| Batas minimum tarif bersih saya (Rp/jam) — rumus di Bab 1 | |
+| Jalur utama (A/B/C) | |
+| Jalur kedua (opsional) | |
+| Peran/jasa target | |
+| Jam tersedia per hari | |
+| Target 30 hari (contoh: 40 lamaran berkualitas, 4 wawancara) | |
 
----
+# Roadmap 7 Hari {#roadmap .unnumbered}
 
-## 2. Checklist fondasi (Minggu 1)
+| Hari | Tugas | Hasil yang harus ada | Selesai |
+|---|---|---|---|
+| 1 | Pilih 1–2 jalur. Isi daftar 10 target dan cek kelayakan lokasinya | 10 target terverifikasi | ☐ |
+| 2 | Siapkan rekening + Payoneer/PayPal. Tulis master CV | Jalur pembayaran + master CV | ☐ |
+| 3 | Pasang asisten lamaran AI (W1). Perbarui LinkedIn (N1). Aktifkan Open to Work | Asisten AI + profil LinkedIn baru | ☐ |
+| 4 | Buat 1–3 contoh portofolio. Jalur freelance: profil Upwork/Fiverr (F1) | Portofolio + profil freelance | ☐ |
+| 5 | Kirim 3 lamaran dengan workflow W2–W5. Jalur AI training: daftar di 2 platform | 3 lamaran + 2 akun | ☐ |
+| 6 | Latihan simulator wawancara (I1). Siapkan 3 cerita STAR (I2) | 1 sesi latihan + 3 cerita | ☐ |
+| 7 | Kirim pesan ke recruiter/hiring manager. Kirim 3–5 lamaran/proposal tambahan | 5 pesan + tracker terisi | ☐ |
 
-### Identitas & pembayaran
-- [ ] KTP/paspor valid; nama sama persis dengan nama rekening
-- [ ] Rekening bank atas nama sendiri yang bisa menerima transfer internasional (SWIFT)
-- [ ] Payoneer terverifikasi (diwajibkan oleh sebagian platform, misalnya Adobe Stock untuk Indonesia)
-- [ ] PayPal terverifikasi (opsional; lakukan penarikan uji kecil)
-- [ ] NPWP aktif; folder untuk invoice & bukti pembayaran
-- [ ] Email profesional (nama.lengkap@…); nomor HP aktif untuk 2FA
+# Daftar Target {#target .unnumbered}
 
-### Dokumen
-- [ ] Master CV (semua pengalaman, angka, tools)
-- [ ] CV-A: versi AI training/evaluasi
-- [ ] CV-B: versi remote job/freelance
-- [ ] Kedua PDF lolos "Uji 60 detik" (salin-tempel ke Notepad tanpa berantakan)
-- [ ] 1–3 item portofolio/studi kasus (label jujur bila proyek inisiatif sendiri)
-- [ ] Profil LinkedIn diperbarui (headline, About, Featured, Open to Work)
+| # | Platform/Perusahaan | Jalur | Terbuka untuk Indonesia? (cek di situs resmi) | Metode bayar cocok? | Prioritas |
+|--|----------------------|------|----------------------|--------------|--------|
+| 1 | | | | | |
+| 2 | | | | | |
+| 3 | | | | | |
+| 4 | | | | | |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
+| 9 | | | | | |
+| 10 | | | | | |
 
-### Perangkat
-- [ ] Laptop + webcam + mikrofon/headset diuji
-- [ ] Internet utama + cadangan (hotspot) diuji kecepatannya
-- [ ] Ruang tenang dengan cahaya dari depan untuk AI interview
+# Checklist Persiapan {#checklist .unnumbered}
 
----
+**Dokumen & profil**
 
-## 3. Tracker penyaringan platform (Minggu 1)
+- [ ] Master CV lengkap (semua pengalaman, tools, angka)
+- [ ] CV versi utama dalam PDF, lolos tes salin-tempel ke Notepad
+- [ ] Profil LinkedIn: foto, headline, About, Featured, Open to Work
+- [ ] 1–3 contoh portofolio atau studi kasus
+- [ ] Profil Upwork/Fiverr (jika memilih jalur freelance)
 
-Pilih 15 platform dari direktori. Kolom "Dicek ulang di situs resmi" wajib diisi sebelum mendaftar.
+**Pembayaran & identitas**
 
-| # | Platform | Kategori (A/B/C) | Eligible ID (direktori) | Dicek ulang di situs resmi (tgl + hasil) | Metode bayar cocok? | Prioritas (1–3) | Catatan |
-|---|---|---|---|---|---|---|---|
-| 1 | | | | | | | |
-| 2 | | | | | | | |
-| 3 | | | | | | | |
-| 4 | | | | | | | |
-| 5 | | | | | | | |
-| 6 | | | | | | | |
-| 7 | | | | | | | |
-| 8 | | | | | | | |
-| 9 | | | | | | | |
-| 10 | | | | | | | |
-| 11 | | | | | | | |
-| 12 | | | | | | | |
-| 13 | | | | | | | |
-| 14 | | | | | | | |
-| 15 | | | | | | | |
+- [ ] Rekening bank atas nama sendiri yang bisa menerima transfer internasional
+- [ ] Payoneer dan/atau PayPal terverifikasi
+- [ ] Nama di KTP, rekening, dan platform sama persis
+- [ ] NPWP dan folder untuk menyimpan bukti pembayaran
 
----
+**Perangkat**
 
-## 4. Tracker lamaran & proposal
+- [ ] Laptop, webcam, dan mikrofon/headset sudah diuji
+- [ ] Internet utama + hotspot cadangan
+- [ ] Tempat tenang dengan cahaya dari depan
 
-**Status:** Target → Terkirim → Assessment → Wawancara → Tawaran/Kontrak → Aktif | Ditolak | Tidak ada kabar
+# Tracker Lamaran {#tracker-lamaran .unnumbered}
 
-| Tanggal | Platform/Perusahaan | Peran/Proyek | Link | Eligible ID (dicek) | Versi CV/proposal | Status | Tgl follow-up | Hasil | Pembelajaran |
-|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | |
-| | | | | | | | | | |
-| | | | | | | | | | |
-| | | | | | | | | | |
-| | | | | | | | | | |
+Status: Terkirim → Tes → Wawancara → Tawaran → Diterima / Ditolak / Tidak ada kabar
 
-**Rumus ringkas untuk review mingguan (Google Sheets):**
-- Tingkat respons = `COUNTIF(Status;"<>Terkirim") / COUNTA(Status)`. Hanya hitung baris yang sudah lewat 7 hari.
-- Respons per versi CV = filter berdasarkan kolom "Versi CV/proposal".
-
----
-
-## 5. Tracker assessment & wawancara
-
-| Tanggal | Platform | Jenis (AI interview / tes domain / live) | Durasi | Persiapan yang dilakukan | Yang berjalan baik | Yang perlu diperbaiki | Hasil |
+| Tanggal | Platform/Perusahaan | Peran/Proyek | Versi CV | Pesan ke recruiter? | Status | Follow-up | Catatan |
 |---|---|---|---|---|---|---|---|
 | | | | | | | | |
 | | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
 
-### Checklist hari-H AI interview
-- [ ] Practice interview selesai (jika tersedia)
-- [ ] 5 cerita STAR siap (Prompt P14)
-- [ ] Kamera sejajar mata, wajah terlihat penuh, cahaya dari depan
-- [ ] Notifikasi dimatikan; tab lain ditutup
-- [ ] Air minum; tidak ada orang lain di ruangan
-- [ ] **Tidak ada AI copilot atau alat bantu jawaban**
+# Tracker Networking {#tracker-networking .unnumbered}
 
-### Checklist assessment
-- [ ] Instruksi dibaca dua kali; rubrik dicatat
-- [ ] Blok waktu ≥1,5× estimasi durasi
-- [ ] Tanpa LLM/Grammarly/penerjemah otomatis kecuali diizinkan
-- [ ] Setiap penilaian disertai alasan yang spesifik & bisa diverifikasi
+| Nama | Peran & perusahaan | Terkait lowongan | Template | Tgl kirim | Dibalas? | Follow-up | Hasil/saran |
+|---|---|---|---|---|---|---|---|
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
 
----
+# Persiapan Wawancara {#persiapan-wawancara .unnumbered}
 
-## 6. Tracker latihan (Bab 4)
+**Cerita STAR saya**
 
-| Tanggal | Alat (ChatGPT/Gemini/Claude/lainnya) | Mode (Pemula/Profesional/Expert) | Jenis (umum/teknis/evaluasi AI) | Skor rata-rata (1–5) | 3 perbaikan prioritas |
+| Tema | Situasi singkat | Tindakan saya | Hasil (angka jika ada) |
+|---|---|---|---|
+| Keberhasilan terbesar | | | |
+| Kesalahan & pelajaran | | | |
+| Konflik/klien sulit | | | |
+| Tenggat ketat | | | |
+| Belajar hal baru dengan cepat | | | |
+
+**Log latihan & wawancara**
+
+| Tanggal | Jenis (latihan AI / wawancara asli) | Perusahaan/platform | Yang berjalan baik | Yang perlu diperbaiki |
+|---|---|---|---|---|
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+
+**Checklist hari-H:** ☐ baca ulang lowongan & CV · ☐ 3–5 cerita STAR · ☐ kamera, audio, koneksi diuji · ☐ 2 pertanyaan untuk pewawancara · ☐ ucapan terima kasih dalam 24 jam
+
+# Tracker Progres 30 Hari {#tracker-30 .unnumbered}
+
+| Minggu | Target lamaran/proposal | Terkirim | Pesan networking | Respons (tes/wawancara/balasan) | Sesi latihan | Satu perbaikan untuk minggu depan |
+|---|---|---|---|---|---|---|
+| 1 | 5–8 | | | | | |
+| 2 | 10–15 | | | | | |
+| 3 | 10–15 | | | | | |
+| 4 | 10–15 | | | | | |
+
+**Keputusan hari ke-30**
+
+| Platform/saluran | Respons dalam 30 hari | Lanjut / Ubah / Hentikan | Alasan |
+|---|---|---|---|
+| | | | |
+| | | | |
+| | | | |
+| | | | |
+
+# Catatan Pendapatan {#pendapatan .unnumbered}
+
+| Tanggal diterima | Platform/klien | Jumlah (mata uang asli) | Potongan & biaya | Diterima (Rp) | Bukti disimpan? |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
+| | | | | | ☐ |
+| | | | | | ☐ |
+| | | | | | ☐ |
+| | | | | | ☐ |
+| | | | | | ☐ |
+
+*Simpan catatan ini untuk pelaporan SPT Tahunan.*
+
+# Kartu Anti-Penipuan {#anti-penipuan .unnumbered}
+
+Berhenti dan cek ulang jika ada **satu** saja dari tanda berikut:
+
+- ☐ Diminta membayar apa pun: deposit, pelatihan, aktivasi, atau peralatan
+- ☐ Rekrutmen hanya lewat Telegram/WhatsApp, tanpa lowongan di situs resmi
+- ☐ Tugas like/subscribe dengan imbalan tidak wajar
+- ☐ Ditawari membeli atau menyewa akun platform
+- ☐ Diminta OTP, PIN, password, atau foto KTP lewat chat
+- ☐ "Tes" berupa pekerjaan nyata berukuran besar tanpa bayaran
+- ☐ Diminta pindah pembayaran ke luar platform sebelum ada kepercayaan
+
+**Laporkan:** Kontak OJK 157 · WhatsApp 081157157157 · konsumen@ojk.go.id · kepolisian setempat
 
 ---
 
-## 7. Tracker networking (Bab 5)
-
-| Nama | Peran/Perusahaan | Jenis (alumni/recruiter/HM/kontributor/founder/klien) | Sumber | Template (T1–T10) | Tgl kirim | Diterima/balas? | Coffee chat (tgl) | Saran kunci | Follow-up berikutnya |
-|---|---|---|---|---|---|---|---|---|---|
-| | | | | | | | | | |
-| | | | | | | | | | |
-
-### Checklist coffee chat
-- [ ] Profil & 3 postingan terakhir sudah dibaca
-- [ ] 1 kalimat tujuan; perkenalan 30–90 detik
-- [ ] 8 pertanyaan (3 wajib ditandai) — kerangka PATH
-- [ ] Selesai tepat waktu; tanyakan siapa lagi yang sebaiknya saya ajak bicara
-- [ ] Ucapan terima kasih dikirim < 24 jam (T8)
-
----
-
-## 8. Log pendapatan, biaya & pajak
-
-| Tanggal diterima | Platform/Klien | Mata uang & jumlah kotor | Fee platform | Biaya tarik/konversi | Diterima (IDR) | Bukti (invoice/screenshot) | Catatan pajak |
-|---|---|---|---|---|---|---|---|
-| | | | | | | | |
-| | | | | | | | |
-
-*Bukan nasihat pajak. Penghasilan dari klien luar negeri tetap wajib dilaporkan. Lihat Bab 6 dan konsultasikan dengan konsultan pajak atau KPP.*
-
----
-
-## 9. Review mingguan (Hari 7, 14, 21, 28)
-
-| Pertanyaan | Minggu 1 | Minggu 2 | Minggu 3 | Minggu 4 |
-|---|---|---|---|---|
-| Lamaran/proposal berkualitas terkirim | | | | |
-| Respons (assessment/wawancara/balasan) | | | | |
-| Pesan networking terkirim / dibalas | | | | |
-| Sesi latihan wawancara | | | | |
-| Apa yang berhasil? | | | | |
-| Apa yang tidak berhasil? | | | | |
-| 1 perubahan untuk minggu depan | | | | |
-
----
-
-## 10. Keputusan hari ke-30
-
-| Platform/Saluran | Respons dalam 30 hari | Tarif bersih masuk akal? | Keputusan (Lanjut/Ubah/Hentikan) | Alasan |
-|---|---|---|---|---|
-| | | | | |
-| | | | | |
-
-**Aturan:** Lanjutkan yang memberi respons. Ubah niche/CV/target jika ≥15 lamaran berkualitas tidak mendapat respons sama sekali. Hentikan platform yang tidak eligible atau tarif bersihnya tidak masuk akal.
-
----
-
-## 11. Kartu darurat anti-penipuan
-
-Berhenti dan verifikasi bila ada **satu** saja dari tanda berikut:
-- Diminta membayar apa pun (deposit, pelatihan, aktivasi, peralatan)
-- Rekrutmen hanya via Telegram/WhatsApp tanpa listing resmi/domain perusahaan
-- Tugas like/subscribe dengan imbalan tidak masuk akal
-- Ditawari membeli/menyewa akun atau memakai identitas orang lain
-- Diminta OTP/PIN/password
-
-**Lapor:** OJK 157 · WA 081157157157 · konsumen@ojk.go.id / satgaspasti@ojk.go.id · kepolisian setempat.
+*Next Offer Academy · nextoveracademy.id*

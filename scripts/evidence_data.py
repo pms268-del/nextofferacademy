@@ -110,6 +110,13 @@ E = [
     ("Alat interview", "Google Interview Warmup gratis, tidak memberi skor, menyorot istilah & poin bicara", "PIHAK KETIGA", "METODE", "Sedang", "2022", "4", "https://9to5google.com/2022/05/17/google-interview-warmup/"),
     ("Alat interview", "Gemini Live gratis di Android dan mendukung bahasa Indonesia (rollout 2024)", "PIHAK KETIGA", "METODE", "Sedang", "2024", "4", "https://9to5google.com/2024/10/03/gemini-live-languages/"),
     ("Alat interview", "Mode suara ChatGPT tersedia untuk akun gratis dengan model lebih kecil (Agustus 2026)", "PIHAK KETIGA", "METODE", "Sedang", "2026-08", "4", "https://engadget.com/2234173/chatgpt-free-features-2026"),
+    # --- Revision 2026-10-22: publicly reported interview questions (used in Bab 2)
+    ("Mercor", "AI interview menggali baris CV, mis. Node.js -> event-driven architecture", "PENGALAMAN", "PROSES", "Lemah", "2025", "2", "https://fr.glassdoor.ca/Entretien/Mercor-Entretien-E9031572-RVW100314407.htm"),
+    ("Mercor", "Tahap lanjut engineering: review kode langsung, system design", "PIHAK KETIGA", "PROSES", "Lemah", "2026", "2", "https://www.techinterview.org/companies/mercor-interview-guide/"),
+    ("micro1", "Pertanyaan berbeda tiap kandidat; teknis terbuka, skenario, coding (peran teknis), latihan data (annotator)", "FAKTA RESMI", "PROSES", "Kuat", "2026", "2", "https://www.micro1.ai/ai-interview-guide"),
+    ("micro1", "Dilaporkan: data duplikat, outlier, KPI (data analyst); merge overlapping intervals & cache (Python)", "PENGALAMAN", "PROSES", "Lemah", "2025", "2", "https://www.glassdoor.co.uk/Interview/Micro1-Interview-E7558526-RVW105064622.htm"),
+    ("Alignerr", "Zara bertanya tentang CV & pengalaman; 'pertanyaan wawancara standar'", "PENGALAMAN", "PROSES", "Lemah", "2024-12", "2", "https://www.reddit.com/r/alignerr/comments/1hbjc2d/ai_interview_with_zara/"),
+    ("Remote support", "Dilaporkan: 'Tell me about a time you handled an angry customer' + skenario pelanggan tak terjawab", "PENGALAMAN", "PROSES", "Lemah", "2019-2025", "2", "https://static.glassdoor.it/Interview/remote-support-interview-questions-SRCH_KO0,14_IP30.htm"),
 ]
 
 

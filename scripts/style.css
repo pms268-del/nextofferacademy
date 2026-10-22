@@ -135,3 +135,17 @@ pre code { background: none; padding: 0; font-size: inherit; }
 
 hr { border: 0; border-top: 1px solid var(--line); margin: 5mm 0; }
 em { color: #334155; }
+
+/* ---------- Revision: brand, CTA, workbook ---------- */
+.cover-top { display: flex; justify-content: space-between; }
+.cover-brand { color: #fff; font-weight: 700; letter-spacing: 3px; }
+.cover-url { font-size: 12pt; }
+.cta { background: var(--navy); color: #fff; border-radius: 6px; padding: 5mm 6mm; margin: 6mm 0; break-inside: avoid;
+  border-left: 6px solid var(--gold); }
+.cta p { margin: 0 0 2mm; }
+.cta strong { color: #fff; }
+.cta p:first-child strong { color: var(--gold); font-size: 11.5pt; }
+.cta a { color: #fff; text-decoration: underline; }
+td:empty { height: 7.5mm; }
+blockquote table { font-size: 7.8pt; margin: 2mm 0; }
+.sample blockquote p { margin-bottom: 2mm; }

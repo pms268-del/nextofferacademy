@@ -1,350 +1,205 @@
-# AI Career Prompts — Remote Work Playbook 2026
+# Prompt Karier AI — Next Offer Academy
 
-Kumpulan prompt siap pakai untuk ChatGPT, Claude, Gemini, atau asisten AI lain. Prompt ini mencakup CV, lamaran, wawancara, dan networking.
+Kumpulan prompt dari *Remote Work Playbook 2026*. Prompt ini bisa dipakai di ChatGPT, Claude, Gemini, atau asisten AI lain.
 
-**Aturan penggunaan**
+**Aturan singkat**
 
-1. Ganti semua `[TEKS DALAM KURUNG SIKU]` dengan data Anda sendiri.
-2. **Jangan pernah meminta AI mengarang pengalaman, angka, atau sertifikat.** Setiap prompt di bawah memuat aturan anti-fabrikasi. Jangan menghapusnya.
-3. Hapus data sensitif (alamat rumah lengkap, NIK, slip gaji, dokumen klien yang bersifat rahasia) sebelum menempelkan apa pun ke alat AI.
-4. Hasil AI adalah draf. Baca, periksa setiap fakta, lalu tulis ulang dengan suara Anda sendiri.
-5. Platform AI training (misalnya Mercor, Outlier, Alignerr) **melarang penggunaan AI untuk mengerjakan assessment atau tugas**. Gunakan prompt ini hanya untuk *persiapan* dan *latihan*. Jangan pernah memakainya saat tes sedang berlangsung.
-
-Versi terbaru pustaka prompt ini: `[LIVE DIRECTORY URL]`
+- Ganti semua `[TEKS DALAM KURUNG SIKU]` dengan data Anda.
+- Jangan minta AI menambahkan pengalaman, angka, atau sertifikat yang tidak Anda miliki.
+- Hapus data pribadi sensitif (NIK, alamat lengkap, dokumen rahasia klien) sebelum menempelkan CV.
+- Platform AI training melarang penggunaan AI saat assessment dan saat mengerjakan tugas. Gunakan prompt ini hanya untuk persiapan.
 
 ---
 
-## Bagian A — Analisis & Positioning
+## Workflow Lamaran (CV + Lowongan → Lamaran Siap Kirim)
 
-### P01 — Analisis Deskripsi Pekerjaan (JD Decoder)
-**Kegunaan:** Sebelum menulis apa pun, uraikan apa yang sebenarnya diminta pemberi kerja.
+### W1 — Instruksi Asisten Lamaran (pasang sekali)
+Simpan sebagai instruksi tetap di fitur *Projects* (ChatGPT/Claude) atau *Gems* (Gemini) jika tersedia di akun Anda. Jika tidak tersedia, tempel di awal setiap percakapan baru.
 
 ```text
-Bertindaklah sebagai senior recruiter dan analis karier.
+Kamu adalah asisten lamaran kerja saya untuk pekerjaan remote internasional.
 
-Saya akan menempelkan satu deskripsi pekerjaan (JD). Analisis dan hasilkan:
+Tentang saya:
+- Saya tinggal di Indonesia (WIB/UTC+7).
+- Master CV saya ada di bawah. Ini satu-satunya sumber fakta tentang saya.
 
-1. Ringkasan peran dalam 3 kalimat: masalah utama apa yang akan diselesaikan orang ini.
-2. Tabel dengan kolom: Persyaratan | Jenis (Wajib / Nilai tambah / Tersirat) | Bukti di JD (kutipan langsung) | Apa yang perlu saya buktikan.
-3. 10 kata kunci/frasa terpenting (hard skill, tools, domain), diurutkan berdasarkan prioritas, beserta frekuensinya di JD.
-4. Sinyal lokasi & kelayakan: apakah peran terbuka worldwide, dibatasi negara/zona waktu tertentu, atau mensyaratkan izin kerja lokal? Kutip kalimatnya. Jika tidak jelas, tulis "TIDAK JELAS — tanyakan ke recruiter".
-5. Red flag atau risiko (misalnya bayaran tidak jelas, biaya di muka, permintaan chat via Telegram/WhatsApp, "deposit pelatihan").
-6. 5 pertanyaan yang paling mungkin ditanyakan dalam wawancara untuk peran ini.
+Aturan kerja:
+1. Jangan pernah menambahkan pengalaman, angka, tools, jabatan, atau sertifikat yang tidak ada di master CV. Jika butuh data tambahan, tanyakan kepada saya.
+2. Tulis dalam bahasa yang sama dengan lowongan (biasanya bahasa Inggris), kecuali saya minta lain.
+3. Gunakan bahasa yang lugas dan profesional, tanpa klise seperti "passionate" atau "hardworking".
+4. Format CV: satu kolom, teks polos, judul bagian standar (SUMMARY, SKILLS, EXPERIENCE, PROJECTS, EDUCATION, LANGUAGES).
+5. Setiap kali saya menempelkan lowongan baru, jalankan langkah W2 terlebih dahulu.
 
-Aturan: Jangan menambahkan persyaratan yang tidak ada di JD. Jika ada yang ambigu, tandai "ASUMSI".
-
-Bahasa jawaban: [Indonesia/Inggris]
-
-JD:
+Master CV:
 """
-[TEMPEL JD]
+[TEMPEL MASTER CV LENGKAP]
 """
 ```
 
-### P02 — Analisis Kesenjangan: CV vs JD
-**Kegunaan:** Temukan bagian CV yang sudah cocok dengan pekerjaan dan bagian yang belum.
-
+### W2 — Analisis Lowongan & Kecocokan
 ```text
-Bertindaklah sebagai hiring manager untuk peran di bawah ini.
+Berikut lowongan yang ingin saya lamar. Analisis dan berikan:
 
-Bandingkan CV saya dengan JD. Hasilkan:
-1. Skor Kecocokan (0–100) beserta alasannya, dipecah menjadi: hard skill, pengalaman domain, tools, bukti dampak, komunikasi.
-2. Tabel: Persyaratan JD | Bukti di CV saya (kutipan) | Status (Kuat / Lemah / Tidak ada).
-3. Untuk setiap item "Lemah": sarankan cara memperkuatnya HANYA dengan fakta yang sudah ada di CV saya.
-4. Untuk setiap item "Tidak ada": katakan dengan jujur apakah itu (a) kesenjangan nyata yang perlu saya pelajari, atau (b) mungkin pengalaman yang saya punya tapi belum saya tulis — ajukan pertanyaan klarifikasi untuk (b).
-5. Rencana aksi 14 hari untuk menutup 2 kesenjangan paling kritis (kursus gratis, proyek portofolio mini).
+1. Ringkasan peran dalam 2 kalimat.
+2. 5 persyaratan terpenting, masing-masing ditandai [WAJIB] atau [NILAI TAMBAH].
+3. Untuk setiap persyaratan: bukti yang sudah ada di CV saya (kutip), atau tulis "BELUM ADA".
+4. 8–10 kata kunci dari lowongan yang perlu muncul di CV saya, hanya jika saya memang punya pengalamannya.
+5. Kelayakan lokasi: apakah lowongan terbuka untuk kandidat di Indonesia? Kutip kalimat yang relevan. Jika tidak jelas, tulis "Tanyakan ke recruiter".
+6. Tanda bahaya, jika ada (biaya pendaftaran, rekrutmen via Telegram/WhatsApp, bayaran tidak jelas).
+7. Penilaian akhir: "Layak dilamar", "Layak dengan catatan", atau "Lewati", disertai satu kalimat alasan.
 
-Aturan ketat: JANGAN mengarang pengalaman, angka, sertifikasi, atau jabatan. Jika informasinya tidak ada, tanyakan kepada saya.
-
-JD:
+Lowongan:
 """
-[TEMPEL JD]
-"""
-
-CV:
-"""
-[TEMPEL TEKS CV]
+[TEMPEL DESKRIPSI LOWONGAN]
 """
 ```
 
-### P03 — Identifikasi Kata Kunci & Istilah ATS
+### W3 — CV yang Disesuaikan
 ```text
-Dari JD di bawah, ekstrak:
-1. Kata kunci hard skill (tools, bahasa pemrograman, metodologi) — dalam bentuk persis seperti tertulis di JD (misalnya "Google Analytics 4", bukan "GA").
-2. Sinonim/singkatan umum yang juga dipakai recruiter (misalnya "RLHF" ↔ "reinforcement learning from human feedback").
-3. Kata kunci soft skill/perilaku.
-4. Untuk setiap kata kunci: apakah muncul di CV saya? (Ya/Tidak/Hanya sinonim).
-5. Rekomendasi: di bagian mana CV saya setiap kata kunci bisa ditempatkan secara alami (Ringkasan / Skills / bullet tertentu) — HANYA jika saya memang punya pengalamannya.
+Buat CV yang disesuaikan untuk lowongan ini dari master CV saya.
 
-Jangan menyarankan "keyword stuffing" atau teks berwarna putih. ATS tidak menjamin diterima — tujuannya adalah kejelasan bagi mesin dan manusia.
-
-JD: """[TEMPEL JD]"""
-CV: """[TEMPEL CV]"""
+- Pilih pengalaman dan bullet yang paling relevan. Urutkan dari yang paling relevan.
+- Tulis ulang bullet dengan pola: kata kerja aksi + apa yang dikerjakan + hasil/angka (angka hanya jika ada di master CV).
+- Jika sebuah bullet akan lebih kuat dengan angka yang tidak saya miliki, beri tanda [PERLU ANGKA] dan ajukan satu pertanyaan kepada saya.
+- Buat ringkasan (SUMMARY) 2–3 kalimat yang menjawab kebutuhan utama lowongan.
+- Maksimal 1 halaman untuk pengalaman di bawah 5 tahun, maksimal 2 halaman untuk yang lebih lama.
+- Setelah CV, tampilkan daftar singkat "Yang saya ubah dan alasannya".
 ```
 
----
-
-## Bagian B — CV & Profil
-
-### P04 — Bullet Point Berbasis Pencapaian (CAR/STAR)
+### W4 — Cover Letter / Pesan Lamaran
 ```text
-Bertindaklah sebagai editor resume yang terlatih dengan metode career office: mulai dengan kata kerja aksi, tunjukkan konteks, tindakan, dan hasil yang terukur (CAR: Context–Action–Result).
+Tulis cover letter untuk lowongan ini, maksimal 200 kata:
+1. Pembuka: mengapa peran ini cocok, dengan menyebut satu hal spesifik dari lowongan atau perusahaan.
+2. Bukti utama: satu pencapaian paling relevan dari CV saya.
+3. Kontribusi: bagaimana saya membantu dalam 30–60 hari pertama.
+4. Penutup: zona waktu saya (UTC+7), jam yang bisa beririsan dengan tim, dan ajakan untuk wawancara.
 
-Berikut catatan mentah saya tentang sebuah peran/proyek. Tulis ulang menjadi 3–5 bullet point CV:
-- Maksimal 2 baris per bullet, diawali kata kerja aksi yang kuat (dalam bahasa Inggris jika CV berbahasa Inggris).
-- Cantumkan angka HANYA jika ada di catatan saya. Jika tidak ada angka, beri placeholder [PERLU DATA: …] dan satu pertanyaan untuk membantu saya menemukan angkanya (misalnya "berapa laporan per minggu?").
-- Hindari frasa "bertanggung jawab atas" / "responsible for" / "duties included".
-- Sesuaikan penekanan dengan kata kunci JD target berikut: [KATA KUNCI 1, KATA KUNCI 2, KATA KUNCI 3].
-
-Lalu tampilkan tabel sebelum/sesudah dan jelaskan mengapa setiap versi lebih kuat.
-
-Catatan mentah:
-"""
-[contoh: Kerja di tim finance, bikin laporan bulanan di Excel, bantu audit, kadang melatih anak magang]
-"""
+Buat juga versi singkat 80 kata untuk kolom "Why are you interested?" atau pesan ke recruiter di LinkedIn.
 ```
 
-### P05 — Ringkasan Profesional (Professional Summary)
+### W5 — Review Akhir Sebelum Kirim
 ```text
-Tulis 3 variasi ringkasan profesional (maksimal 3 kalimat / 60 kata per variasi) untuk CV yang menyasar: [PERAN] di [JENIS PERUSAHAAN: startup AI / platform AI training / agensi internasional].
+Periksa CV dan cover letter final saya sebagai recruiter yang hanya punya 30 detik:
+1. Apa 3 hal pertama yang tertangkap? Apakah sudah menjawab kebutuhan utama lowongan?
+2. Klaim mana yang paling lemah atau sulit dipertanggungjawabkan dalam wawancara?
+3. Kesalahan bahasa, ketidakkonsistenan tanggal/jabatan, atau format yang menyulitkan sistem ATS.
+4. Maksimal 5 perbaikan prioritas, masing-masing dengan contoh kalimat perbaikannya.
+5. Kesimpulan: "Siap kirim" atau "Perbaiki dulu".
 
-Gunakan hanya fakta di bawah. Struktur: [Identitas + lama pengalaman] → [2 kekuatan paling relevan beserta buktinya] → [nilai untuk peran ini].
-Variasi 1: formal. Variasi 2: ringkas dan teknis. Variasi 3: cocok untuk headline + summary Upwork/LinkedIn.
-
-Dilarang: klise ("pekerja keras", "passionate", "team player") tanpa bukti, angka karangan, atau klaim pernah bekerja dengan perusahaan yang tidak pernah saya ajak bekerja sama.
-
-Fakta saya:
-- Pendidikan: [...]
-- Pengalaman: [...]
-- Tools/skill: [...]
-- Pencapaian utama (dengan angka jika ada): [...]
-- Bahasa: Indonesia (native), Inggris ([level/skor tes jika ada])
+CV final: """[TEMPEL]"""
+Cover letter final: """[TEMPEL]"""
 ```
 
-### P06 — Menyesuaikan CV untuk Satu Lowongan (One-JD Tailoring)
+### W6 — Mode Cepat untuk Banyak Lamaran
+Gunakan untuk lowongan yang mirip dengan lowongan yang sudah pernah Anda proses.
+
 ```text
-Saya melamar untuk JD di bawah. Master CV saya terlampir.
+Lowongan baru di bawah mirip dengan lowongan sebelumnya. Lakukan sekaligus:
+1. Analisis singkat (maksimal 5 baris): kecocokan, kelayakan lokasi, dan tanda bahaya.
+2. Hanya bagian CV yang perlu diubah (SUMMARY dan 3–5 bullet), bukan seluruh CV.
+3. Pesan lamaran 80 kata.
 
-Tugas:
-1. Pilih 8–12 bullet paling relevan dari master CV saya untuk JD ini; urutkan berdasarkan relevansi (yang paling relevan lebih dulu di setiap peran).
-2. Sunting kata-katanya agar memakai terminologi JD jika memang AKURAT (misalnya "evaluated LLM outputs" jika saya benar-benar pernah mengevaluasi output AI).
-3. Sarankan bagian mana yang dihapus/dipadatkan agar CV muat 1 halaman (fresh graduate) atau 2 halaman (berpengalaman).
-4. Hasilkan dalam format teks polos satu kolom dengan judul bagian standar: SUMMARY, SKILLS, EXPERIENCE, PROJECTS, EDUCATION, CERTIFICATIONS, LANGUAGES.
-5. Daftarkan perubahan yang Anda buat beserta alasan masing-masing.
-
-Anti-fabrikasi: jangan menambahkan tools, angka, jabatan, atau pemberi kerja yang tidak ada di master CV. Tandai apa pun yang Anda ragukan dengan [CEK].
-
-JD: """[TEMPEL JD]"""
-Master CV: """[TEMPEL MASTER CV]"""
-```
-
-### P07 — Cover Letter / Pesan Motivasi
-```text
-Tulis cover letter untuk posisi [PERAN] di [PERUSAHAAN] dalam bahasa [Inggris/Indonesia], maksimal 250 kata, 4 paragraf:
-1. Pembuka: mengapa peran/perusahaan ini secara spesifik (gunakan 1 fakta spesifik dari JD/situs perusahaan yang saya tempelkan).
-2. Bukti 1: pencapaian saya yang paling relevan, lengkap dengan konteks dan hasilnya.
-3. Bukti 2: skill yang menjawab kebutuhan utama mereka + bagaimana saya akan berkontribusi dalam 30–60 hari pertama.
-4. Penutup: ketersediaan (zona waktu WIB/UTC+7, jam yang bisa beririsan dengan tim mereka), ajakan tindak lanjut yang jelas.
-
-Nada: profesional, spesifik, tidak berlebihan. Jangan mengulang isi CV baris per baris.
-Anti-fabrikasi: gunakan hanya fakta di bawah.
-
-JD / info perusahaan: """[TEMPEL]"""
-Fakta saya: """[TEMPEL 3–5 PENCAPAIAN]"""
-```
-
-### P08 — Optimasi LinkedIn
-```text
-Bertindaklah sebagai strategis profil LinkedIn untuk kandidat yang menyasar pekerjaan remote internasional.
-
-Input: profil saya saat ini + peran target.
-Output:
-1. 3 opsi headline (≤220 karakter) dengan formula: [Peran/Spesialisasi] | [Domain/Tools] | [Nilai/Bukti] | [Open to remote, UTC+7].
-2. Bagian "About" (≤2.000 karakter): paragraf 1 siapa saya & masalah apa yang saya selesaikan; paragraf 2 bukti (2–3 pencapaian); paragraf 3 daftar skill/tools; paragraf 4 pekerjaan yang saya cari + ajakan tindak lanjut. Teks polos, tanpa emoji berlebihan.
-3. Tulis ulang 2 entri Experience terbaru saya (masing-masing 3 bullet).
-4. 15 Skills yang perlu ditambahkan, diurutkan berdasarkan prioritas (sesuai istilah yang dicari recruiter).
-5. 3 ide konten Featured (portofolio, studi kasus, artikel).
-6. 5 ide postingan yang bisa saya tulis bulan depan untuk membangun kredibilitas (berdasarkan pengalaman nyata).
-
-Aturan anti-fabrikasi berlaku. Peran target: [PERAN]. Profil saat ini: """[TEMPEL]"""
-```
-
-### P09 — Profil Upwork / Fiverr
-```text
-Buat profil freelance untuk [Upwork / Fiverr] untuk jasa: [JASA SPESIFIK, misalnya "lokalisasi Indonesia–Inggris untuk aplikasi SaaS"].
-
-Output:
-1. Judul (Upwork: ≤70 karakter; judul gig Fiverr diawali "I will ...").
-2. Overview/deskripsi: buka dengan masalah klien (2 kalimat — klien sering hanya membaca bagian awal), lalu solusi & proses, bukti (portofolio/hasil), apa saja yang termasuk, dan ajakan tindak lanjut.
-3. Untuk Fiverr: 3 tingkat paket (Basic/Standard/Premium) dengan cakupan, jumlah revisi, dan waktu pengerjaan — harga akan saya tentukan sendiri; berikan pertimbangan rentang harga berdasarkan cakupan saja.
-4. 5 item portofolio yang bisa saya buat dalam 1 minggu jika belum punya klien (proyek contoh yang realistis, diberi label jelas "contoh/inisiatif sendiri").
-5. 10 tag pencarian yang relevan.
-6. FAQ 5 butir yang menjawab keberatan umum klien.
-
-Jangan menjanjikan hasil yang tidak bisa dijamin (misalnya "dijamin halaman 1 Google"). Fakta saya: """[TEMPEL]"""
-```
-
-### P10 — Positioning Portofolio (Studi Kasus)
-```text
-Bantu saya mengubah proyek ini menjadi studi kasus portofolio 1 halaman.
-
-Struktur:
-- Judul (hasilnya, bukan aktivitasnya)
-- Konteks & masalah (2–3 kalimat)
-- Peran saya (jujur: sendiri/tim, bagian mana yang saya kerjakan)
-- Proses (3–5 langkah, tools yang dipakai)
-- Hasil (angka jika ada; jika tidak, bukti kualitatif: umpan balik pengguna, tangkapan layar sebelum/sesudah)
-- Yang saya pelajari / yang akan saya lakukan berbeda
-- Tautan/demo
-
-Jika proyek ini inisiatif sendiri atau contoh, tambahkan label "Proyek inisiatif sendiri" — jangan menyamarkannya sebagai pekerjaan klien.
-Jika memuat data klien, beri saran cara menganonimkannya.
-
-Catatan proyek: """[TEMPEL]"""
-```
-
-### P11 — Review Kualitas Lamaran (Red-Team)
-```text
-Bertindaklah sebagai 3 reviewer sekaligus: (1) recruiter skeptis yang membaca selama 30 detik, (2) hiring manager yang ahli di bidang [BIDANG], (3) parser ATS.
-
-Tinjau paket lamaran saya (CV + cover letter/proposal) terhadap JD:
-1. Recruiter (30 detik): apa yang tertangkap, apa yang terlewat, apakah dia akan lanjut membaca? (Ya/Tidak + alasan)
-2. Hiring manager: 3 klaim paling lemah, pertanyaan atau keraguan yang muncul, inkonsistensi.
-3. ATS: elemen yang kemungkinan salah terbaca (tabel, kolom, ikon, header/footer, nama bagian yang tidak lazim).
-4. Bahasa: tata bahasa, konsistensi tenses, campuran Indonesia-Inggris yang tidak pas.
-5. Daftar perbaikan berdasarkan prioritas (maks. 10), masing-masing dengan contoh konkret.
-6. Skor akhir 1–10 dan "siap dikirim?" (Ya / Belum).
-
-Jangan menulis ulang semuanya — berikan perbaikan yang terarah.
-JD: """[...]""" CV: """[...]""" Surat/proposal: """[...]"""
-```
-
-### P12 — Proposal Proyek Freelance (Upwork / Freelancer / Sribu)
-```text
-Tulis proposal untuk posting pekerjaan di bawah. Maksimal 150–200 kata.
-
-Struktur:
-1. Dua kalimat pertama: tunjukkan saya memahami masalah spesifik klien (kutip/parafrasekan satu detail dari posting) + solusi singkat saya.
-2. Bukti relevan: 1 proyek serupa/contoh portofolio (placeholder tautan [LINK]).
-3. Rencana mini 3 langkah + estimasi waktu.
-4. 1 pertanyaan klarifikasi cerdas yang menunjukkan keahlian.
-5. Jawab pertanyaan screening klien, jika ada (akan saya tempelkan).
-6. Penutup singkat; jangan memohon, jangan menyebut "saya masih baru".
-
-Dilarang: template generik, klaim pengalaman yang tidak saya miliki, harga yang tidak masuk akal untuk cakupannya.
-Posting pekerjaan: """[TEMPEL]"""  Bukti relevan saya: """[TEMPEL]"""
+Lowongan: """[TEMPEL]"""
 ```
 
 ---
 
-## Bagian C — Wawancara
+## Freelance
 
-### P13 — Simulator Wawancara AI (Adaptif, Dua Bahasa)
-**Kegunaan:** Latihan wawancara lengkap. Paling baik dipakai dengan mode suara ChatGPT atau Gemini Live untuk latihan berbicara, atau lewat teks.
-
+### F1 — Profil Upwork / Fiverr
 ```text
-Anda adalah "Remote Interview Coach", simulator wawancara adaptif. Ikuti protokol ini secara KETAT.
+Buat profil freelance untuk [Upwork/Fiverr] dengan jasa: [JASA SPESIFIK].
+Fakta tentang saya: [pengalaman, tools, hasil kerja, tautan portofolio].
 
-=== TAHAP 0: PERSIAPAN (ajukan satu pertanyaan per giliran, lalu tunggu jawaban saya) ===
-Tanyakan berurutan:
-1. Bahasa wawancara: Indonesia atau Inggris?
-2. Mode: (a) Pemula — pertanyaan ramah, boleh diberi petunjuk; (b) Profesional — realistis, tanpa petunjuk; (c) Expert — follow-up mendalam, studi kasus, tekanan pada penalaran.
-3. Jenis wawancara: (1) Umum/perilaku, (2) Teknis/domain, (3) Evaluasi AI/AI training (menilai respons AI, rubrik, pengecekan fakta), (4) Campuran.
-4. Minta saya menempelkan CV dan JD. Jika saya tidak punya JD, tanyakan peran targetnya.
-5. Jumlah pertanyaan (default 8) dan apakah saya ingin umpan balik setiap selesai menjawab atau hanya di akhir.
-Lalu rangkum: "Peran: …, 3 kompetensi kunci yang diuji: …, 2 area risiko dari CV Anda: …". Tanyakan "Siap mulai?".
-
-=== TAHAP 1: WAWANCARA ===
-- Ajukan SATU pertanyaan per giliran. Jangan pernah mengajukan dua pertanyaan sekaligus.
-- Ambil pertanyaan dari: (a) persyaratan terpenting di JD, (b) klaim spesifik di CV saya (gali lebih dalam: "Anda menulis X — jelaskan bagaimana Anda mengukurnya"), (c) skenario yang relevan dengan kerja remote (komunikasi asinkron, zona waktu, kualitas di bawah tekanan).
-- Adaptif: jika jawaban saya kuat, naikkan tingkat kesulitan; jika lemah atau kabur, ajukan satu follow-up penggali ("Bisa beri contoh spesifik?") sebelum lanjut.
-- Untuk wawancara evaluasi AI: sesekali berikan prompt singkat + respons AI, lalu minta saya menilainya dengan rubrik (akurasi, kepatuhan instruksi, keamanan, kejelasan) beserta alasannya.
-- Pada mode Expert, tambahkan minimal 1 pertanyaan kasus/estimasi dan 1 pertanyaan tentang trade-off.
-- Jangan membuka skor selama wawancara kecuali saya memilih umpan balik per pertanyaan.
-
-=== TAHAP 2: PENILAIAN (per jawaban, atau di akhir) ===
-Gunakan rubrik 1–5 untuk setiap dimensi:
-- Relevansi: apakah menjawab pertanyaan yang diajukan dan terhubung dengan peran?
-- Kejelasan & struktur: ada pembuka yang jelas, struktur (STAR/CAR/PREP), dan kesimpulan?
-- Penalaran: apakah logika, asumsi, dan trade-off dijelaskan?
-- Keahlian domain: akurat secara teknis, terminologi benar, cukup mendalam?
-- Komunikasi: ringkas, percaya diri, register sesuai (untuk bahasa Inggris: tata bahasa & kelancaran, tanpa menghukum aksen).
-Jangkar skor: 1 = tidak menjawab/salah; 2 = umum tanpa contoh; 3 = cukup, ada contoh tapi tidak terukur; 4 = spesifik, terstruktur, ada bukti; 5 = spesifik, terukur, reflektif, menunjukkan penilaian yang matang.
-
-=== TAHAP 3: LAPORAN AKHIR ===
 Berikan:
-1. Tabel: Pertanyaan | Skor per dimensi | Rata-rata | Catatan 1 kalimat.
-2. 3 kekuatan terbesar (dengan kutipan dari jawaban saya).
-3. 3 area perbaikan dengan prioritas tertinggi.
-4. Untuk 2 jawaban terlemah: contoh jawaban model ±150 kata yang HANYA memakai fakta dari CV saya (jika faktanya tidak ada, gunakan placeholder [CONTOH ANDA]).
-5. Rencana latihan 7 hari (15–30 menit per hari) yang menyasar kelemahan tersebut.
-6. Perkiraan kesiapan: "Belum siap / Hampir siap / Siap", beserta alasannya.
-
-Aturan: Jangan mengarang fakta tentang saya. Jangan memberi pujian yang tidak realistis. Jika saya menulis "STOP", akhiri sesi dan berikan laporan akhir.
-
-Mulai dengan TAHAP 0 pertanyaan 1.
+1. Judul profil (Upwork maks. 70 karakter; Fiverr diawali "I will ...").
+2. Deskripsi 150–250 kata yang dibuka dengan masalah klien, lalu solusi, proses kerja, bukti, dan ajakan menghubungi.
+3. Untuk Fiverr: 3 paket (Basic/Standard/Premium) berisi cakupan, jumlah revisi, dan waktu pengerjaan. Harga akan saya tentukan sendiri.
+4. 3 ide contoh portofolio yang bisa saya buat dalam seminggu, diberi label "proyek contoh".
+5. 10 kata kunci pencarian.
+Jangan menjanjikan hasil yang tidak bisa dijamin.
 ```
 
-### P14 — Penyusun Jawaban Perilaku (STAR) dari Pengalaman Nyata
+### F2 — Proposal Proyek
 ```text
-Saya akan menceritakan satu pengalaman nyata dalam beberapa kalimat. Ubah menjadi jawaban STAR (Situation, Task, Action, Result) yang bisa disampaikan dalam 60–90 detik (±150–200 kata).
-- Jadikan bagian Action yang paling panjang dan gunakan "saya" (kontribusi saya), bukan hanya "kami".
-- Jika bagian Result tidak punya angka, beri saya 2 pertanyaan untuk membantu menemukan ukuran dampaknya.
-- Lalu beri 3 pertanyaan follow-up yang mungkin diajukan pewawancara, lengkap dengan petunjuk jawaban singkat.
-Pertanyaan yang sedang dilatih: [contoh: "Ceritakan saat Anda menerima kritik yang tajam"]
+Tulis proposal untuk posting proyek di bawah, maksimal 150 kata:
+1. Dua kalimat pertama: tunjukkan bahwa saya memahami masalah spesifik klien (sebut satu detail dari posting).
+2. Satu bukti relevan dari pengalaman saya + tautan [LINK].
+3. Rencana kerja 3 langkah beserta perkiraan waktu.
+4. Satu pertanyaan klarifikasi yang cerdas.
+5. Jawaban untuk pertanyaan screening klien (jika ada).
+Hindari kalimat pembuka generik dan klaim pengalaman yang tidak saya miliki.
+
+Posting: """[TEMPEL]"""
+Pengalaman saya yang relevan: """[TEMPEL]"""
+```
+
+---
+
+## Wawancara
+
+### I1 — Simulator Wawancara AI
+Bisa dipakai lewat teks, atau lewat mode suara di ChatGPT/Gemini untuk latihan berbicara.
+
+```text
+Bertindaklah sebagai pewawancara untuk lowongan di bawah. Gunakan CV saya sebagai dasar pertanyaan.
+
+Sebelum mulai, tanyakan kepada saya:
+1. Bahasa wawancara: Inggris atau Indonesia?
+2. Tingkat kesulitan: Dasar, Menengah, atau Sulit?
+3. Jenis wawancara: AI training, klien freelance, atau pekerjaan remote (recruiter/hiring manager)?
+
+Aturan:
+- Ajukan satu pertanyaan per giliran, lalu tunggu jawaban saya.
+- Total 8 pertanyaan: campuran pertanyaan tentang CV saya, kebutuhan lowongan, situasi kerja remote, dan satu pertanyaan yang lebih menantang.
+- Jika jawaban saya kabur, ajukan satu pertanyaan lanjutan ("Bisa beri contoh spesifik?").
+- Untuk wawancara AI training: sertakan satu latihan menilai dua jawaban AI dan minta saya menjelaskan alasannya.
+- Setelah setiap jawaban, berikan umpan balik singkat:
+  • Yang sudah bagus (1 poin)
+  • Yang perlu diperbaiki (1–2 poin)
+  • Versi jawaban yang lebih kuat, hanya memakai fakta dari CV saya
+- Untuk wawancara berbahasa Inggris: koreksi maksimal 2 kesalahan bahasa yang paling penting per jawaban.
+- Setelah pertanyaan ke-8, berikan ringkasan: 3 kekuatan, 3 hal yang perlu dilatih, dan 3 pertanyaan yang sebaiknya saya latih lagi.
+
+Lowongan: """[TEMPEL]"""
+CV: """[TEMPEL]"""
+```
+
+### I2 — Menyusun Cerita Pengalaman (STAR)
+```text
+Ubah pengalaman saya di bawah menjadi jawaban wawancara 60–90 detik dalam bahasa [Inggris/Indonesia] dengan struktur: Situasi → Tugas → Tindakan saya → Hasil.
+Fokuskan pada tindakan saya, bukan tim. Jika hasilnya belum terukur, beri 2 pertanyaan untuk membantu saya menemukan angkanya.
+Pertanyaan yang dilatih: [contoh: "Tell me about a time you handled a difficult customer"]
 Pengalaman saya: """[TEMPEL]"""
 ```
 
-### P15 — Latihan Evaluasi Respons AI (Rubrik Buatan Sendiri)
-**Kegunaan:** Melatih kemampuan "rater" untuk pekerjaan AI training, tanpa memakai materi assessment asli.
-
+### I3 — Latihan Menilai Jawaban AI
 ```text
-Buat 5 soal latihan evaluasi respons AI untuk domain: [UMUM / CODING / KEUANGAN / HUKUM / KESEHATAN / BAHASA INDONESIA].
-Setiap soal berisi: (1) prompt pengguna dengan instruksi eksplisit (termasuk batasan format/panjang), (2) dua respons AI (A dan B), masing-masing dengan campuran kelebihan dan kekurangan yang berbeda (misalnya A akurat tapi mengabaikan format, B mengikuti format tapi ada kesalahan fakta), (3) jangan berikan kunci jawaban dulu.
-
-Setelah saya menjawab (mana yang lebih baik + skor 1–5 untuk akurasi, kepatuhan instruksi, kebermanfaatan, keamanan, kejelasan + justifikasi 3–5 kalimat), nilailah jawaban saya: apakah saya menemukan semua kesalahan? Apakah justifikasi saya spesifik dan bisa diverifikasi? Apakah saya membiarkan gaya bahasa mengalahkan substansi?
-
-Gunakan materi ORISINAL, bukan salinan dari assessment asli platform mana pun.
+Buat 5 soal latihan menilai jawaban AI untuk bidang [UMUM/CODING/KEUANGAN/BAHASA INDONESIA].
+Setiap soal berisi satu instruksi pengguna dan dua jawaban AI (A dan B) dengan kelebihan dan kekurangan yang berbeda, misalnya satu akurat tetapi melanggar format, satu lagi rapi tetapi ada kesalahan fakta.
+Jangan beri kunci jawaban dulu. Setelah saya memilih dan menjelaskan alasan saya, beri tahu apakah saya melewatkan kesalahan dan apakah alasan saya cukup spesifik.
+Gunakan soal orisinal, bukan salinan soal asli platform mana pun.
 ```
 
 ---
 
-## Bagian D — Networking
+## LinkedIn & Networking
 
-### P16 — Personalisasi Pesan Outreach
+### N1 — Optimasi Profil LinkedIn
 ```text
-Bantu saya mempersonalisasi pesan outreach kepada [NAMA/PERAN] di [PERUSAHAAN].
-Konteks: tujuan saya adalah [informational interview / bertanya tentang suatu peran / menawarkan jasa freelance].
-Info profil mereka yang saya temukan (postingan, artikel, proyek): """[TEMPEL]"""
-Latar belakang saya: """[2–3 kalimat]"""
-
-Buat 2 versi:
-1. Catatan koneksi LinkedIn (≤300 karakter).
-2. Pesan/email lanjutan (≤120 kata): 1 detail personalisasi yang spesifik, mengapa mereka, satu permintaan kecil yang jelas (15 menit, atau pertanyaan asinkron juga boleh), dan cara mudah bagi mereka untuk menolak.
-Bahasa: [Indonesia/Inggris]. Jangan memuji berlebihan. Jangan langsung meminta pekerjaan di pesan pertama.
+Berdasarkan CV saya dan target peran [PERAN], buat:
+1. 3 pilihan headline (maks. 220 karakter): Peran | Bidang/Tools | Bukti | Open to remote (UTC+7).
+2. Bagian About (maks. 1.500 karakter): masalah yang saya selesaikan, 2–3 bukti, skill utama, dan jenis pekerjaan yang saya cari.
+3. 10 skill yang perlu dicantumkan, sesuai istilah yang biasa dicari recruiter.
+Hanya gunakan fakta dari CV saya.
+CV: """[TEMPEL]"""
 ```
 
-### P17 — Persiapan Coffee Chat
+### N2 — Pesan Outreach yang Dipersonalisasi
 ```text
-Saya akan coffee chat selama 20 menit dengan [PERAN] di [PERUSAHAAN]. Profil mereka: """[TEMPEL]""". Tujuan saya: [TEMPEL].
-Siapkan:
-1. Perkenalan diri 30 detik (2 versi: Indonesia & Inggris).
-2. 8 pertanyaan berdasarkan prioritas (peran/keseharian, bagaimana mereka bisa masuk, proses rekrutmen, skill yang penting, kesalahan yang sering dibuat kandidat, saran untuk pelamar dari Indonesia/zona waktu kita, siapa lagi yang sebaiknya saya ajak bicara). Tandai 3 pertanyaan yang wajib ditanyakan.
-3. 3 hal yang TIDAK boleh dikatakan/dilakukan.
-4. Template pesan terima kasih yang dikirim dalam 24 jam, menyebut 1 saran spesifik dari mereka.
+Tulis pesan LinkedIn untuk [NAMA, PERAN, PERUSAHAAN].
+Konteks: [saya baru melamar posisi X / ingin bertanya tentang tim mereka / menawarkan jasa].
+Info tentang mereka: [postingan, proyek, latar belakang yang sama].
+Buat 2 versi: catatan koneksi (maks. 300 karakter) dan pesan lanjutan (maks. 100 kata) dengan satu permintaan kecil yang jelas.
+Bahasa: [Inggris/Indonesia]. Jangan meminta pekerjaan secara langsung.
 ```
-
-### P18 — Personalisasi Rencana 30 Hari
-```text
-Berikut profil saya: [latar belakang, jam tersedia per hari, kategori target: AI training / freelance / pekerjaan remote, level bahasa Inggris, portofolio saat ini].
-Sesuaikan rencana 30 hari di Remote Work Playbook dengan situasi saya:
-- Prioritaskan 3 kategori platform yang paling cocok beserta alasannya (berdasarkan kelayakan dari Indonesia).
-- Jadwal harian yang muat dalam [X] jam per hari.
-- KPI mingguan (jumlah lamaran berkualitas, proposal, pesan outreach, simulasi wawancara).
-- Aturan "berhenti/lanjut" setelah hari ke-30 berdasarkan data di tracker saya.
-Jangan menjanjikan penghasilan atau penerimaan.
-```
-
----
-
-*Alat AI berubah cepat (model, batas pemakaian gratis, fitur). Periksa halaman harga resmi setiap alat sebelum berlangganan paket berbayar.*

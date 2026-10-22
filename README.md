@@ -1,33 +1,29 @@
-# Remote Work Playbook 2026 (Indonesia)
+# Next Offer Academy — Remote Work Playbook 2026
 
-*Panduan Mendapatkan Pekerjaan Remote & Freelance Internasional dari Indonesia*. Sebuah panduan karier berbasis riset dalam Bahasa Indonesia.
+Panduan karier praktis dalam Bahasa Indonesia untuk mendapatkan pekerjaan remote dan freelance internasional dari Indonesia.
 
-## Deliverables
+## File untuk pembaca
 
 | File | Isi |
 |---|---|
-| `REMOTE_WORK_PLAYBOOK_ID.pdf` | Panduan lengkap siap terbit (A4, daftar isi yang bisa diklik, bookmark PDF, tautan sumber aktif) |
-| `REMOTE_WORK_PLAYBOOK_ID.md` | Naskah gabungan yang bisa diedit (dihasilkan dari `manuscript/`) |
-| `REMOTE_WORK_DIRECTORY.csv` | Basis data 102 platform terverifikasi (siap dipakai untuk situs web) |
-| `RESEARCH_EVIDENCE.csv` | 87 klaim dengan jenis bukti, kekuatan, tanggal, dan sumber |
-| `AI_CAREER_PROMPTS.md` | 18 prompt CV, lamaran, wawancara, dan networking |
-| `ACTION_WORKBOOK.md` | Checklist & tracker (lamaran, networking, pendapatan, review mingguan) |
-| `FACT_CHECK.md` | Laporan verifikasi, koreksi, dan celah riset |
-| `research/00_RESEARCH_LOG.md` | Catatan riset mentah per sumber |
+| `REMOTE_WORK_PLAYBOOK_ID.pdf` / `.docx` | Panduan karier (PDF siap terbit + Word yang bisa diedit) |
+| `ACTION_WORKBOOK.pdf` / `.docx` | Workbook: roadmap 7 hari, tracker 30 hari, tracker lamaran/networking, kartu anti-penipuan |
+| `AI_CAREER_PROMPTS.md` | Semua prompt (workflow lamaran, freelance, wawancara, networking) |
+| `REMOTE_WORK_DIRECTORY.csv` | Database lengkap 102 platform untuk direktori di website |
 
-## Cara mengedit & membangun ulang
+## File internal (akurasi editorial)
 
-Sumber kebenaran:
-- Teks bab: `manuscript/*.md`
-- Data direktori: `scripts/directory_data.py`
-- Data bukti: `scripts/evidence_data.py`
-- Prompt: `AI_CAREER_PROMPTS.md` (disisipkan ke bab lewat penanda `{{PROMPT:Pxx}}`)
-- Desain: `scripts/style.css`
+`internal/` berisi log riset, catatan sumber (`RESEARCH_EVIDENCE.csv`), laporan fact-check versi pertama, dan catatan editorial revisi.
+
+## Mengedit & membangun ulang
+
+- Teks panduan: `manuscript/00_…08_*.md` · Workbook: `manuscript/workbook.md`
+- Prompt: `AI_CAREER_PROMPTS.md` (disisipkan lewat penanda `{{PROMPT:W1}}` dan sejenisnya)
+- Data direktori: `scripts/directory_data.py` · Desain: `scripts/style.css`
+- Domain website: konstanta `WEBSITE` di `scripts/build.py`
 
 ```bash
-python3 scripts/build.py   # menghasilkan CSV, MD gabungan, dan PDF
+python3 scripts/build.py   # menghasilkan PDF, DOCX, MD gabungan, dan CSV
 ```
 
-Kebutuhan: Python 3 (`beautifulsoup4`, `pypdf`), `pandoc`, Node.js dengan Playwright + Chromium.
-
-Ganti `[LIVE DIRECTORY URL]` setelah situs direktori siap, lalu jalankan build ulang.
+Kebutuhan: Python 3 (`beautifulsoup4`, `pypdf`, `python-docx`), `pandoc`, Node.js dengan Playwright + Chromium.
