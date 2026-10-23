@@ -29,7 +29,7 @@ import evidence_data as E  # noqa: E402
 BUILD = os.path.join(ROOT, "build")
 MANUSCRIPT = os.path.join(ROOT, "manuscript")
 BRAND = "Next Offer Academy"
-WEBSITE = "nextoveracademy.id"
+WEBSITE = "nextofferacademy.id"
 TITLE = "Remote Work Playbook 2026"
 SUBTITLE = "Panduan Mendapatkan Pekerjaan Remote & Freelance Internasional dari Indonesia"
 GUIDE_CHAPTERS = ["00_pendahuluan.md", "01_peluang.md", "02_diterima.md", "03_workflow_cv.md",
@@ -67,8 +67,23 @@ META = re.compile(r"\s*\((?:pihak ketiga[^)]*|klaim[^)]*|dilaporkan|agregator[^)
                   r"opsional, dilaporkan|Asia, klaim situs)\)")
 
 
+READER_PHRASES = {
+    "sering dilaporkan": "sering terjadi",
+    "(dilaporkan: ": "(",
+    "(preferensi penutur asli dilaporkan)": "(lebih memilih penutur asli)",
+    "Banyak sumber pihak ketiga mengaitkan DataAnnotation dengan Surge—Belum terverifikasi resmi.":
+        "Sering dikaitkan dengan DataAnnotation.",
+    "Belum terverifikasi resmi": "cek di situs",
+    "klaim 'top 2%'": "menyebut diri 'top 2%'",
+    "listing pihak ketiga": "listing dari pihak lain",
+    "hanya terlihat di agregator": "lebih sering muncul di situs agregator lowongan",
+}
+
+
 def reader_text(text):
     """Strip research/verification wording from a directory cell for readers."""
+    for old, new in READER_PHRASES.items():
+        text = text.replace(old, new)
     text = META.sub("", text).replace("(dilaporkan ", "(").replace(", dilaporkan)", ")")
     text = re.sub(r"\s*\((?:blog resmi|dok\. resmi|FAQ resmi|data lama|dilaporkan)\)", "", text)
     text = text.replace("dilaporkan ", "").replace("Dilaporkan ", "")
@@ -89,6 +104,30 @@ def directory_table(prefix):
     return "\n".join(out)
 
 
+def directory_cards(prefix):
+    """Full reader-facing directory: every platform with all practical fields."""
+    rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
+    parts = []
+    for i, r in enumerate(rows, 1):
+        sources = " · ".join(f"[{n}]({u.strip()})" for n, u in enumerate(r["sumber"].split("|"), 1))
+        fields = [
+            ("Kategori", f"{r['kategori'][3:]} — {reader_text(r['subkategori'])}"),
+            ("Website / cara melamar", f"<{r['url']}>"),
+            ("Jenis pekerjaan", reader_text(r["jenis_pekerjaan"])),
+            ("Skill yang dibutuhkan", reader_text(r["skill_dibutuhkan"])),
+            ("Untuk Indonesia", f"**{ELIG_LABEL[r['eligible_indonesia']]}** · {reader_text(r['cakupan'])}"),
+            ("Bayaran yang diiklankan", reader_text(r["bayaran_diiklankan"])),
+            ("Proses seleksi", reader_text(r["proses_seleksi"])),
+            ("Biaya & pembayaran", reader_text(r["biaya_pembayaran"])),
+        ]
+        if r["catatan"]:
+            fields.append(("Catatan", reader_text(r["catatan"])))
+        fields.append(("Data per", f"Oktober 2026 · Info: {sources}"))
+        body = "\n".join(f"- **{k}:** {v}" for k, v in fields)
+        parts.append(f"::: {{.card}}\n**{i}. [{r['platform']}]({r['url']})**\n\n{body}\n:::\n")
+    return "\n".join(parts)
+
+
 def resolve(md):
     prompts = load_prompts()
 
@@ -98,7 +137,7 @@ def resolve(md):
         return prompts[m.group(1)]
     md = re.sub(r"\{\{PROMPT:([A-Z]\d)\}\}", prompt_sub, md)
     for cat in "ABC":
-        md = md.replace(f"{{{{DIRECTORY:{cat}}}}}", directory_table(cat + "."))
+        md = md.replace(f"{{{{DIRECTORY:{cat}}}}}", directory_cards(cat + "."))
     md = md.replace("{{TOTAL}}", str(len(D.rows_as_dicts())))
     md = md.replace("{{WEBSITE}}", WEBSITE)
     left = re.findall(r"\{\{[A-Z]+[:A-Z0-9]*\}\}", md)

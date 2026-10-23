@@ -171,4 +171,4 @@ Berhenti dan cek ulang jika ada **satu** saja dari tanda berikut:
 
 ---
 
-*Next Offer Academy · nextoveracademy.id*
+*Next Offer Academy · nextofferacademy.id*

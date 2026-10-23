@@ -149,3 +149,7 @@ em { color: #334155; }
 td:empty { height: 7.5mm; }
 blockquote table { font-size: 7.8pt; margin: 2mm 0; }
 .sample blockquote p { margin-bottom: 2mm; }
+/* Revision 2c: single-column directory cards */
+.card ul { display: block; }
+.card li { margin: 0 0 .6mm; }
+.card > p:first-child { font-size: 10pt; }

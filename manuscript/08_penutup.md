@@ -11,7 +11,7 @@ Anda sudah punya peta peluang, cara lolos seleksi, workflow lamaran dengan AI, b
 ::: {.cta}
 **Database peluang remote — {{WEBSITE}}**
 
-Next Offer Academy sedang menyiapkan database peluang di website. Database ini akan berisi detail setiap platform dari direktori di panduan ini (proses seleksi, cara pembayaran, tips melamar), dan akan diperbarui secara berkala dengan platform dan lowongan terbaru.
+Next Offer Academy sedang menyiapkan database peluang di website. Database ini akan memuat data yang lebih rinci dan teknis untuk setiap platform di direktori panduan ini, dan akan diperbarui secara berkala dengan platform dan lowongan terbaru.
 
 Kunjungi **[{{WEBSITE}}](https://{{WEBSITE}})** untuk informasi terbaru.
 :::
