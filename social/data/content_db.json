@@ -194,17 +194,19 @@
         "checked_at": "2026-10-26T00:33:52+00:00"
       },
       "content_hash": "08f5a6f1da7622d2",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeacf56887a2efc135a166",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {
@@ -376,17 +378,19 @@
         "checked_at": "2026-10-26T00:34:05+00:00"
       },
       "content_hash": "a7c69d94d136b293",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeafd7e4be8a4d86d97bf8",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {
@@ -650,17 +654,19 @@
         "checked_at": "2026-10-26T00:34:19+00:00"
       },
       "content_hash": "c7c23ceb844612fd",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeafe70b5343d07001d31c",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {
@@ -848,17 +854,19 @@
         "checked_at": "2026-10-26T00:36:33+00:00"
       },
       "content_hash": "ba36ea55ca71e6b7",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeafeb3d5b27036b0265c7",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {
@@ -1040,17 +1048,19 @@
         "checked_at": "2026-10-26T00:34:43+00:00"
       },
       "content_hash": "28ff01627c4ddbc5",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeafee0b5343d07001d415",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {
@@ -1223,17 +1233,19 @@
         "checked_at": "2026-10-26T00:34:56+00:00"
       },
       "content_hash": "f88dd2023a53fcec",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeb009e4be8a4d86d97fe8",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {
@@ -1467,17 +1479,19 @@
         "checked_at": "2026-10-26T00:52:57+00:00"
       },
       "content_hash": "a6a4ae532ea4e7b3",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adea3562f1f5ed648d1a6bc",
+        "post_id": "6adeb00de4be8a4d86d98091",
+        "state": "draft",
+        "error": null,
+        "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/tiktok/tiktok_video.mp4",
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
       "published_url": null,
       "metrics": {

@@ -3,7 +3,7 @@
 A low-cost daily pipeline for **@nextofferacademyus** (Instagram, TikTok, Threads):
 calendar → sourced opportunity database → Claude generation → media rendering → automated fact-check → **human approval** → Buffer → publication log → performance tracker.
 
-## Current status (Oct 26, 2026)
+## Current status (Oct 26, 2026 · updated after Buffer connection)
 
 | Piece | Status |
 |---|---|
@@ -13,7 +13,8 @@ calendar → sourced opportunity database → Claude generation → media render
 | Threads library | ✅ 33 posts in `threads/threads_library.md` |
 | Content database | ✅ `data/content_db.json` (+ `.csv` view), `data/opportunities.json`, `data/publication_log.csv`, `data/performance_tracker.csv` |
 | Daily generator | ✅ `scripts/pipeline.py` (Claude API), not yet run against the live API |
-| **Buffer connection** | ❌ **Not connected.** No Buffer connector is installed in this Claude session, and this environment's network policy blocks api.buffer.com. Channel matching, drafts and test scheduling have **not** run. |
+| **Buffer connection** | ✅ Connected through the Buffer MCP connector. Organization "My organization" (America/New_York). **TikTok @nextofferacademyus matched** (channel `6adea3562f1f5ed648d1a6bc`). **Instagram and Threads are not connected in Buffer yet.** Plan limits: 3 channels, 10 scheduled posts. |
+| Buffer drafts | ✅ All 7 TikTok videos saved as **Buffer drafts** with their planned times (7:00 PM ET, Oct 27 – Nov 2). Status `draft`, nothing published. Media served from commit-pinned public URLs. IDs in `data/content_db.json` and `data/publication_log.csv`. |
 | Automation (GitHub Actions / n8n) | 🟡 Configs written in `automation/`, **inactive** until you copy them into `.github/workflows/` |
 | TikTok audio | 🟡 Videos have a silent track. Record the voiceover in `script.md` or finish in the TikTok app (see template) |
 | Threads | 🟡 Disabled in `config/channels.json` until the account is connected to Buffer |
@@ -33,6 +34,8 @@ you: approve.py approve <id> --by "<name>" [--live-checked]   ← job posts requ
   └─ publication_log.csv · record_metrics.py → performance_tracker.csv
 ```
 
+**Publishing an approved TikTok draft (via Claude + Buffer MCP):** approve it (`approve.py approve <id> --by <name> --live-checked`), then ask Claude to convert the Buffer draft to scheduled (`edit_post` with `saveToDraft: false`, keeping its time). Because the videos are silent, either replace the video with a voiced version first, or switch the draft to `schedulingType: notification` so Buffer reminds you to finish it in the TikTok app with a voiceover or sound.
+
 **Safety rails built in**
 - Automated checks: every dollar figure must exist in the research corpus; sources must be known research URLs; hype phrases blocked; length limits; media specs (IG 1080×1350, 2–10 slides; TikTok 1080×1920, 20–45 s); opportunity data older than 14 days must be re-verified.
 - Nothing reaches Buffer without `status: approved`. Job posts can't be approved without `--live-checked`.
@@ -42,7 +45,7 @@ you: approve.py approve <id> --by "<name>" [--live-checked]   ← job posts requ
 
 ## Setup to go live (about 30 minutes)
 
-1. **Connect Buffer.** Either:
+1. **Connect Buffer.** ✅ Done via MCP (TikTok). Still to do: connect Instagram (and Threads later) in Buffer. For unattended runs you also need:
    - **Buffer MCP in Claude:** add Buffer at <https://claude.ai/customize/connectors>, then start a new session. Claude can then list channels, create drafts and schedule through MCP. Or:
    - **Buffer API key** (needed for unattended runs): create one in Buffer's API settings (see <https://developers.buffer.com>). Then:
      ```bash
@@ -51,7 +54,7 @@ you: approve.py approve <id> --by "<name>" [--live-checked]   ← job posts requ
      python3 social/scripts/buffer_client.py channels     # lists channels, matches @nextofferacademyus, saves IDs
      ```
      If `introspect` shows different field names than `build_input()` uses (assets/metadata/draft flag), adjust `buffer_client.py` before the first send. Those field names come from Buffer's docs but haven't been tested live.
-2. **Host media publicly.** Buffer fetches media by URL at publish time (no upload endpoint; URLs must not expire). Options: make the repo public and use `MEDIA_BASE_URL=https://raw.githubusercontent.com/pms268-del/nextofferacademy/main`, or copy `social/content/` to a public bucket (Cloudflare R2/S3) and point `MEDIA_BASE_URL` there.
+2. **Host media publicly.** ✅ The repo is public; media is served as `https://raw.githubusercontent.com/pms268-del/nextofferacademy/<commit-sha>/<path>` (pinned to a commit so it never changes). For automation set `MEDIA_BASE_URL` to that prefix, or copy `social/content/` to a public bucket (Cloudflare R2/S3) and point `MEDIA_BASE_URL` there.
 3. **Approve week 1.** `python3 social/scripts/approve.py list`, open each listing, then `approve ... --live-checked`.
 4. **Test with drafts.** `python3 social/scripts/publish_approved.py --dry-run`, then `--mode draft --only 2026-10-27-ig`. Check the draft in Buffer.
 5. **Turn on daily generation.** Add repo secrets `ANTHROPIC_API_KEY` and `BUFFER_API_KEY`, and variable `MEDIA_BASE_URL`; copy `automation/github-actions/*.yml` to `.github/workflows/` on `main`.
