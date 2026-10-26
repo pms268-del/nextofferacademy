@@ -356,12 +356,12 @@ post(id="2026-11-02-ig", date="2026-11-02", time_et="12:00", channel="instagram"
          {"type": "stat", "big": "21", "title": "Copy-paste AI prompts", "body": "Resume tailoring, LinkedIn, proposals, pricing and an AI interview simulator."},
          {"type": "stat", "big": "7 + 30", "title": "Day action plans", "body": "An urgent-income track and a stable-job track, with printable trackers."},
          {"type": "tip", "n": "✓", "title": "What it won't do", "body": "Promise you a job or an income. It gives you verified places to apply and a plan to follow."},
-         {"type": "cta", "title": "Get the playbook", "body": "Start applying in your first reading session.", "action": f"{LINK_CTA} · nextofferacademy"},
+         {"type": "cta", "title": "Get the playbook", "body": "Start applying in your first reading session.", "action": "nextofferacademy.us · Link in bio"},
      ],
      caption=("We built the guide we wish existed for US job seekers chasing legit remote work. 📘\n\n"
               "Inside the US Remote Job Playbook:\n• 71 opportunities with direct links and status labels\n• 51 documented worker outcomes\n"
               "• 21 copy-paste AI career prompts\n• 7-day and 30-day action plans\n\nNo promises of jobs or income. Just verified places to apply and a plan.\n\n"
-              "👉 Link in bio"),
+              "👉 nextofferacademy.us (link in bio)"),
      hashtags=["#remotejobs", "#jobsearch", "#careerguide", "#layoffs", "#newgrad"],
      sources=["us/OPPORTUNITY_DIRECTORY.csv", "us/WORKER_SUCCESS_RESEARCH.csv", "us/AI_CAREER_PROMPTS.md"])
 

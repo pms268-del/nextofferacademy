@@ -1276,7 +1276,7 @@
         "passed": true,
         "issues": [],
         "warnings": [],
-        "checked_at": "2026-10-26T00:35:10+00:00"
+        "checked_at": "2026-10-26T00:52:57+00:00"
       },
       "content_hash": "1e958380102ee5c9",
       "status": "needs_approval",
@@ -1314,7 +1314,7 @@
       "format": "carousel",
       "topic": "Inside the US Remote Job Playbook",
       "hook": null,
-      "caption": "We built the guide we wish existed for US job seekers chasing legit remote work. 📘\n\nInside the US Remote Job Playbook:\n• 71 opportunities with direct links and status labels\n• 51 documented worker outcomes\n• 21 copy-paste AI career prompts\n• 7-day and 30-day action plans\n\nNo promises of jobs or income. Just verified places to apply and a plan.\n\n👉 Link in bio",
+      "caption": "We built the guide we wish existed for US job seekers chasing legit remote work. 📘\n\nInside the US Remote Job Playbook:\n• 71 opportunities with direct links and status labels\n• 51 documented worker outcomes\n• 21 copy-paste AI career prompts\n• 7-day and 30-day action plans\n\nNo promises of jobs or income. Just verified places to apply and a plan.\n\n👉 nextofferacademy.us (link in bio)",
       "hashtags": [
         "#remotejobs",
         "#jobsearch",
@@ -1348,9 +1348,9 @@
         "passed": true,
         "issues": [],
         "warnings": [],
-        "checked_at": "2026-10-26T00:34:58+00:00"
+        "checked_at": "2026-10-26T00:52:45+00:00"
       },
-      "content_hash": "f266c8467c886f96",
+      "content_hash": "a9f0c41e21deac54",
       "status": "needs_approval",
       "approval": {
         "approved_by": null,
@@ -1406,7 +1406,7 @@
         "passed": true,
         "issues": [],
         "warnings": [],
-        "checked_at": "2026-10-26T00:35:10+00:00"
+        "checked_at": "2026-10-26T00:52:57+00:00"
       },
       "content_hash": "59e5f3e99abf12cd",
       "status": "needs_approval",
@@ -1464,7 +1464,7 @@
         "passed": true,
         "issues": [],
         "warnings": [],
-        "checked_at": "2026-10-26T00:35:10+00:00"
+        "checked_at": "2026-10-26T00:52:57+00:00"
       },
       "content_hash": "a6a4ae532ea4e7b3",
       "status": "needs_approval",
@@ -1492,5 +1492,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-26T00:36:33+00:00"
+  "updated_at": "2026-10-26T00:52:57+00:00"
 }

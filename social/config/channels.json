@@ -1,6 +1,6 @@
 {
   "brand": "Next Offer Academy US",
-  "website": "https://nextoveracademy.id",
+  "website": "https://nextofferacademy.us",
   "note": "Only these accounts may receive posts. buffer_channel_id is filled by `buffer_client.py channels` after it matches the handle; publishing refuses any channel with verified=false.",
   "channels": {
     "instagram": {
@@ -9,15 +9,18 @@
       "buffer_channel_id": null,
       "buffer_organization_id": null,
       "verified": false,
-      "enabled": true
+      "enabled": true,
+      "note": "Not connected in Buffer as of 2026-10-26 (only TikTok is). Connect it in Buffer, then re-run channel matching."
     },
     "tiktok": {
       "handle": "@nextofferacademyus",
       "profile_url": "https://www.tiktok.com/@nextofferacademyus",
-      "buffer_channel_id": null,
-      "buffer_organization_id": null,
-      "verified": false,
-      "enabled": true
+      "buffer_channel_id": "6adea3562f1f5ed648d1a6bc",
+      "buffer_organization_id": "6ade9d9ca35a0249267751f6",
+      "verified": true,
+      "enabled": true,
+      "verified_at": "2026-10-26",
+      "verified_via": "Buffer MCP list_channels: service=tiktok, name=nextofferacademyus"
     },
     "threads": {
       "handle": "@nextofferacademyus",
@@ -27,5 +30,12 @@
       "verified": false,
       "enabled": false
     }
+  },
+  "buffer_plan_limits": {
+    "checked": "2026-10-26",
+    "organization": "My organization",
+    "channels": 3,
+    "scheduledPosts": 10,
+    "ideas": 100
   }
 }

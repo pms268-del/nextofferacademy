@@ -41,7 +41,7 @@ SCHEMA = {"type": "object", "additionalProperties": False, "required": ["instagr
     "threads": {"type": "array", "items": {"type": "object", "additionalProperties": False, "required": ["topic", "text", "sources"],
                                            "properties": {"topic": S, "text": S, "sources": {"type": "array", "items": S}}}}}}
 
-SYSTEM = """You write social content for Next Offer Academy US (@nextofferacademyus): a brand that helps US job seekers, new grads and laid-off professionals find LEGITIMATE remote work.
+SYSTEM = """You write social content for Next Offer Academy US (@nextofferacademyus, website nextofferacademy.us): a brand that helps US job seekers, new grads and laid-off professionals find LEGITIMATE remote work.
 
 Voice: natural American English, warm, direct, practical. Sound like a knowledgeable friend, not a brand bot. No hype, no emojis walls, no "game-changer", no "unlock", no "in today's fast-paced world". Short sentences. Concrete details.
 
