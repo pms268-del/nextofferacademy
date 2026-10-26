@@ -1,0 +1,33 @@
+# INACTIVE until you copy it to .github/workflows/ on the default branch.
+# When approved posts land on main (or on demand), send them to Buffer.
+# Default mode is "draft" (Buffer drafts only). Scheduling requires repo variables
+# PUBLISH_MODE=schedule AND ALLOW_SCHEDULING=yes: set those only after you approve auto-scheduling.
+name: Send approved posts to Buffer
+
+on:
+  push:
+    branches: [main]
+    paths: ["social/data/content_db.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Send approved posts
+        env:
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          MEDIA_BASE_URL: ${{ vars.MEDIA_BASE_URL }}          # e.g. https://raw.githubusercontent.com/<owner>/<repo>/main (public repos only)
+          ALLOW_SCHEDULING: ${{ vars.ALLOW_SCHEDULING }}
+        run: python3 social/scripts/publish_approved.py --mode "${{ vars.PUBLISH_MODE || 'draft' }}"
+      - name: Commit publication log
+        run: |
+          git config user.name "content-bot" && git config user.email "content-bot@users.noreply.github.com"
+          git add social/data && git commit -m "Update publication log" || exit 0
+          git push

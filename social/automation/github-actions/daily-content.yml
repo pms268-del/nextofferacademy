@@ -1,0 +1,53 @@
+# INACTIVE until you copy it to .github/workflows/ on the default branch.
+# Daily: generate tomorrow's content (Claude), render media, run checks, open a PR for human approval.
+# Nothing is sent to Buffer by this workflow.
+name: Daily social content (drafts for approval)
+
+on:
+  schedule:
+    - cron: "47 12 * * *"   # 12:47 UTC ≈ 8:47 AM ET (7:47 AM in winter)
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Calendar date to generate (YYYY-MM-DD). Blank = next planned day."
+        required: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Install tools
+        run: |
+          sudo apt-get update && sudo apt-get install -y ffmpeg fonts-inter fonts-dejavu-core
+          pip install anthropic pillow
+          npm install -g playwright@1.56.0 && npx playwright install --with-deps chromium
+      - name: Generate, render, check
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NODE_PATH: /usr/local/lib/node_modules
+        run: |
+          ARGS="--verify"
+          if [ -n "${{ github.event.inputs.date }}" ]; then ARGS="$ARGS --date ${{ github.event.inputs.date }}"; fi
+          python3 social/scripts/pipeline.py $ARGS
+      - name: Open approval PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BR="content/$(date -u +%Y%m%d-%H%M)"
+          git config user.name "content-bot" && git config user.email "content-bot@users.noreply.github.com"
+          git checkout -b "$BR"
+          git add social/generated social/content social/data
+          git commit -m "Social content drafts for approval ($BR)" || exit 0
+          git push -u origin "$BR"
+          gh pr create --title "Social drafts for approval: $BR" \
+            --body "Review captions, media and the fact-check results in social/data/content_db.json. Approve posts with: python3 social/scripts/approve.py approve <id> --by <name> [--live-checked], commit, then merge. Nothing is published by this PR."

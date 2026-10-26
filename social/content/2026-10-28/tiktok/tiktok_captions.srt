@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:03,500
+Can you spot the mistake? AI training tests check for exactly this.
+
+2
+00:00:03,500 --> 00:00:08,500
+An AI explains compound interest to a kid: one hundred dollars at ten percent, compounded every year.
+
+3
+00:00:08,500 --> 00:00:12,500
+It says after two years, you'll have one hundred twenty dollars.
+
+4
+00:00:12,500 --> 00:00:18,500
+Wrong. Year one, you get to one-ten. Year two, you earn ten percent of one-ten. That's one twenty-one.
+
+5
+00:00:18,500 --> 00:00:23,000
+One twenty is simple interest. The exact thing it was supposed to explain the difference from.
+
+6
+00:00:23,000 --> 00:00:27,500
+On these tests, a friendly answer with a wrong number loses. Accuracy beats style.
+
+7
+00:00:27,500 --> 00:00:30,500
+Follow for more practice questions before your real test.

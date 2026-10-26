@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:03,500
+Recruiters skim right past this resume line. Here's the fix.
+
+2
+00:00:03,500 --> 00:00:08,000
+Responsible for helping customers. It says nothing about what you did.
+
+3
+00:00:08,000 --> 00:00:13,000
+Ask yourself three things: how many, what tools, and what changed because of you.
+
+4
+00:00:13,000 --> 00:00:18,500
+Now it reads: resolved forty to sixty customer issues per shift, including returns and escalations.
+
+5
+00:00:18,500 --> 00:00:23,000
+If you use AI to rewrite it, tell it: use only my facts and never invent numbers.
+
+6
+00:00:23,000 --> 00:00:26,500
+That example is illustrative. Use your own real numbers.
+
+7
+00:00:26,500 --> 00:00:29,500
+Follow for more resume fixes.

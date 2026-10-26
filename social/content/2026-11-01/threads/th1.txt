@@ -1,0 +1,5 @@
+Unpopular opinion: the "75% of resumes get auto-rejected by ATS" stat gets repeated way more than it's backed up.
+
+Most ATS systems parse your resume and let recruiters search keywords. The real killers are tables, columns, and contact info stuck in the header.
+
+Simple single-column resume > fancy template.

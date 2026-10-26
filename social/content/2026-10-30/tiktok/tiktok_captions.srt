@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:04,500
+We read the worker reviews and news reports on AI training gigs. Here's the honest version.
+
+2
+00:00:04,500 --> 00:00:09,500
+The good: they do pay. DataAnnotation is rated four point one on Indeed, and reviewers call payment prompt.
+
+3
+00:00:09,500 --> 00:00:15,000
+The bad: rates can drop. Business Insider reported one Outlier worker going from fifty to fifteen dollars an hour.
+
+4
+00:00:15,000 --> 00:00:18,500
+Work comes and goes. Accepted doesn't mean busy.
+
+5
+00:00:18,500 --> 00:00:23,500
+And the trend? xAI cut five hundred generalist tutors while hiring more specialists.
+
+6
+00:00:23,500 --> 00:00:27,500
+So stack platforms, specialize where you can, and keep your job search going.
+
+7
+00:00:27,500 --> 00:00:30,500
+Follow for honest remote-work research.

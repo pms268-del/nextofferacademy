@@ -1,0 +1,7 @@
+Slide 1: REAL WORKER EXPERIENCES | What AI training workers actually report | The good and the bad, from reviews and reporting. Not hype.
+Slide 2: 4.1/5 | The good: DataAnnotation | Rated 4.1 on Indeed (1,477 reviews, June 2026). Reviewers say payment is "prompt and problem free." | Indeed company reviews
+Slide 3: Weekly | The good: Mercor pay | Indeed reviewers consistently praise weekly pay. Mercor's docs confirm weekly payouts for hourly contracts. | Indeed reviews + Mercor docs
+Slide 4: $50→$15 | The bad: rate cuts | Business Insider reported an Outlier annotator whose hourly pay on generalist projects dropped from $50 to $15. | Business Insider (via Yahoo)
+Slide 5: 2 wks–6 mo | The bad: long silences | Mercor applicants on Indeed report waiting "2 weeks to 6 months" to hear back, or never. | Indeed reviews
+Slide 6: 500+ | The trend: specialists win | xAI laid off at least 500 generalist AI tutors in Sept 2025 while planning to grow specialist tutors 10x. | Business Insider via Reuters
+Slide 7: The pattern | Real money, unstable volume. Specialize, stack platforms, and keep a steady job search going. | Follow for honest remote-work research

@@ -1,0 +1,1496 @@
+{
+  "posts": [
+    {
+      "id": "2026-10-27-th1",
+      "date": "2026-10-27",
+      "time_et": "09:00",
+      "scheduled_at_utc": "2026-10-27T13:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "text",
+      "topic": "AI training reality check",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "Quick reality check on AI training gigs:\n\nThe legit ones (DataAnnotation, Outlier, Prolific, TELUS) do pay real people. But \"accepted\" and \"working\" are two different things. Outlier workers call it the empty queue.\n\nIf you're trying this, apply to 3 at once and keep your regular job search running alongside.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD002",
+        "OD003"
+      ],
+      "sources": [
+        "https://theairankings.com/ai-jobs/outlier-review/",
+        "https://www.indeed.com/cmp/DataAnnotation/reviews"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: DataAnnotation (https://www.dataannotation.tech)",
+          "Re-check live listing before approval: Outlier (Scale AI) (https://outlier.ai/experts/all)"
+        ],
+        "checked_at": "2026-10-26T00:33:52+00:00"
+      },
+      "content_hash": "988ad530cd1e5777",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-27-ig",
+      "date": "2026-10-27",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-10-27T16:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "carousel",
+      "topic": "5 AI training gigs open to US residents",
+      "hook": null,
+      "caption": "5 AI training gigs open to US residents right now, with the pay each one actually lists 👇\n\n1. DataAnnotation: write and rate chatbot answers (reported ~$20+/hr to start)\n2. Outlier: generalist AI tasks (listed up to ~$15/hr)\n3. TELUS Digital: US Content Reviewer (listing est. $14/hr)\n4. Prolific: paid research studies ($8/hr minimum rule)\n5. Handshake AI Fellowship: US grad students ($50–125/hr per Handshake)\n\nThe honest part: these are contract gigs. Work comes and goes, and some entry tests are one-shot. Apply to a few at once and treat them as income stacking, not a salary.\n\nPay and eligibility checked Oct 22, 2026. Always confirm on the official site before you apply.\n\nWhich one are you trying first? 👇",
+      "hashtags": [
+        "#remotejobs",
+        "#aitraining",
+        "#workfromhome",
+        "#sidehustle",
+        "#jobsearch"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-10-27/instagram/ig_slide_01.png",
+        "social/content/2026-10-27/instagram/ig_slide_02.png",
+        "social/content/2026-10-27/instagram/ig_slide_03.png",
+        "social/content/2026-10-27/instagram/ig_slide_04.png",
+        "social/content/2026-10-27/instagram/ig_slide_05.png",
+        "social/content/2026-10-27/instagram/ig_slide_06.png",
+        "social/content/2026-10-27/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD002",
+        "OD003",
+        "OD007",
+        "OD008",
+        "OD005"
+      ],
+      "sources": [
+        "https://www.secondtalent.com/resources/is-dataannotation-legit/",
+        "https://outlier.ai/blog/your-first-steps-on-outlier-what-to-expect-from-onboarding",
+        "https://theairankings.com/ai-jobs/outlier-review/",
+        "https://cazvid.com/en/job/content-reviewer-united-states-5cb55c",
+        "https://researcher-help.prolific.com/en/articles/445266-how-much-should-i-pay-participants",
+        "https://support.joinhandshake.com/hc/en-us/articles/32264709473303-MOVE-Program-Overview-FAQs-for-EDU-Partners"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: DataAnnotation (https://www.dataannotation.tech)",
+          "Re-check live listing before approval: Outlier (Scale AI) (https://outlier.ai/experts/all)",
+          "Re-check live listing before approval: TELUS Digital AI Community (https://www.telusdigital.com/careers)",
+          "Re-check live listing before approval: Prolific (https://www.prolific.com/participants)",
+          "Re-check live listing before approval: Handshake AI Fellowship (MOVE) (https://joinhandshake.com/fellowship-program)"
+        ],
+        "checked_at": "2026-10-26T00:33:40+00:00"
+      },
+      "content_hash": "37f05810fa2d5275",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-27-tt",
+      "date": "2026-10-27",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-10-27T23:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "video",
+      "topic": "AI training jobs that pay, and the catch",
+      "hook": "These companies pay you to train AI. Here's the catch.",
+      "caption": "AI training gigs are real, but read the fine print first. Pay checked Oct 22, 2026; confirm on the official sites. #remotejobs #aitraining #sidehustle #jobsearch",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-10-27/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 33.0
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD002",
+        "OD003",
+        "OD008"
+      ],
+      "sources": [
+        "https://www.secondtalent.com/resources/is-dataannotation-legit/",
+        "https://theairankings.com/ai-jobs/outlier-review/",
+        "https://researcher-help.prolific.com/en/articles/445266-how-much-should-i-pay-participants"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: DataAnnotation (https://www.dataannotation.tech)",
+          "Re-check live listing before approval: Outlier (Scale AI) (https://outlier.ai/experts/all)",
+          "Re-check live listing before approval: Prolific (https://www.prolific.com/participants)"
+        ],
+        "checked_at": "2026-10-26T00:33:52+00:00"
+      },
+      "content_hash": "08f5a6f1da7622d2",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-28-ig",
+      "date": "2026-10-28",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-10-28T16:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "carousel",
+      "topic": "How to pass a one-shot AI training test",
+      "hook": null,
+      "caption": "Some AI training platforms give you ONE shot at the entry test. DataAnnotation's Starter Assessment can't be retaken, and if you don't pass you may never hear back.\n\nHere's how to give yourself the best chance:\n✅ Read every instruction twice\n✅ Accuracy beats style, so check the math\n✅ Justify with the exact sentence\n✅ Never use AI to write your answers\n✅ Block 90 quiet minutes\n\nSave this for test day 📌",
+      "hashtags": [
+        "#aitraining",
+        "#remotework",
+        "#jobsearchtips",
+        "#careertips"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-10-28/instagram/ig_slide_01.png",
+        "social/content/2026-10-28/instagram/ig_slide_02.png",
+        "social/content/2026-10-28/instagram/ig_slide_03.png",
+        "social/content/2026-10-28/instagram/ig_slide_04.png",
+        "social/content/2026-10-28/instagram/ig_slide_05.png",
+        "social/content/2026-10-28/instagram/ig_slide_06.png",
+        "social/content/2026-10-28/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD002"
+      ],
+      "sources": [
+        "https://www.secondtalent.com/resources/is-dataannotation-legit/",
+        "https://ibtimes.co.uk/openai-contractors-removed-using-ai-1822365"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:33:53+00:00"
+      },
+      "content_hash": "9b6b82ef63cb8417",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-28-th1",
+      "date": "2026-10-28",
+      "time_et": "17:00",
+      "scheduled_at_utc": "2026-10-28T21:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "text",
+      "topic": "Assessment tip",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "The most common way people fail AI training entry tests isn't lack of knowledge.\n\nIt's missing an instruction. \"Under 100 words.\" \"Explain why.\" \"Use bullet points.\"\n\nRead the prompt twice before you write a single word.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:05+00:00"
+      },
+      "content_hash": "ad9b5f48a6fa803c",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-28-tt",
+      "date": "2026-10-28",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-10-28T23:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "video",
+      "topic": "Spot the mistake: AI training test practice",
+      "hook": "Can you spot the mistake? AI companies test for this.",
+      "caption": "This is the kind of error AI training tests want you to catch. Did you get it? #aitraining #remotejobs #jobsearch #mathcheck",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-10-28/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 30.5
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:05+00:00"
+      },
+      "content_hash": "a7c69d94d136b293",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-29-th1",
+      "date": "2026-10-29",
+      "time_et": "09:00",
+      "scheduled_at_utc": "2026-10-29T13:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "text",
+      "topic": "Expert AI training for laid-off pros",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "If you were laid off from a specialist role (accounting, nursing, law, engineering, teaching), look at expert AI-training listings.\n\nMercor has listed $50–140/hr expert roles. Handshake's AI Fellowship lists $50–125/hr for US grad students and grads.\n\nContract work, not a salary, but it pays for what you already know.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD001",
+        "OD005"
+      ],
+      "sources": [
+        "https://work.mercor.com/jobs/list_AAABlRvLjyMZ_QjpNyhB6r5E/expert-model-trainer",
+        "https://support.joinhandshake.com/hc/en-us/articles/32264709473303-MOVE-Program-Overview-FAQs-for-EDU-Partners"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: Mercor (https://work.mercor.com)",
+          "Re-check live listing before approval: Handshake AI Fellowship (MOVE) (https://joinhandshake.com/fellowship-program)"
+        ],
+        "checked_at": "2026-10-26T00:34:19+00:00"
+      },
+      "content_hash": "b2030134b6b78400",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-29-ig",
+      "date": "2026-10-29",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-10-29T16:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "carousel",
+      "topic": "Laid off? Expert AI training pays for your expertise",
+      "hook": null,
+      "caption": "Laid off? Your professional expertise has a market right now.\n\nAI companies pay domain experts to evaluate and improve their models. Listings we checked:\n• Mercor: $50–140/hr (expert trainer listing)\n• Alignerr: $30–150/hr (US PhD listing)\n• micro1: $20–98/hr\n• GLG: paid expert calls (often estimated at $100–300/hr)\n\nThe honest part: it's 1099 contract work. Projects end, rates change, and interviews often go quiet. Use it to bridge income while you search, and set aside money for taxes.\n\nChecked Oct 22, 2026. Verify each listing before applying.",
+      "hashtags": [
+        "#layoffs",
+        "#remotejobs",
+        "#aitraining",
+        "#careerchange",
+        "#opentowork"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-10-29/instagram/ig_slide_01.png",
+        "social/content/2026-10-29/instagram/ig_slide_02.png",
+        "social/content/2026-10-29/instagram/ig_slide_03.png",
+        "social/content/2026-10-29/instagram/ig_slide_04.png",
+        "social/content/2026-10-29/instagram/ig_slide_05.png",
+        "social/content/2026-10-29/instagram/ig_slide_06.png",
+        "social/content/2026-10-29/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD001",
+        "OD004",
+        "OD006",
+        "OD036"
+      ],
+      "sources": [
+        "https://work.mercor.com/jobs/list_AAABlRvLjyMZ_QjpNyhB6r5E/expert-model-trainer",
+        "https://talent.docs.mercor.com/how-to/prepare-for-ai-interview",
+        "https://job-boards.greenhouse.io/alignerr/jobs/4600287007",
+        "https://jobs.micro1.ai/post/8f87173b-4f95-4fde-8df4-9cfd4a6c337f",
+        "https://expertopportunities.com/expert-network-hourly-rates/",
+        "https://www.aol.com/articles/ai-startup-powering-meta-openai-230627434.html"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: Mercor (https://work.mercor.com)",
+          "Re-check live listing before approval: Alignerr (Labelbox) (https://job-boards.greenhouse.io/alignerr)",
+          "Re-check live listing before approval: micro1 (https://jobs.micro1.ai)",
+          "Re-check live listing before approval: GLG (Gerson Lehrman Group) (https://glginsights.com)"
+        ],
+        "checked_at": "2026-10-26T00:34:07+00:00"
+      },
+      "content_hash": "fbc0120108c7f2ab",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-29-th2",
+      "date": "2026-10-29",
+      "time_et": "17:00",
+      "scheduled_at_utc": "2026-10-29T21:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "text",
+      "topic": "AI interview tip",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "AI interviewers (Mercor, Alignerr's \"Zara\", micro1) build their questions from your resume.\n\nSo before you start: pick your 3 biggest projects and practice explaining each in 2 minutes. What you did, how, and the result with a number.\n\nVague resume = vague interview.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD001",
+        "OD004"
+      ],
+      "sources": [
+        "https://talent.docs.mercor.com/how-to/prepare-for-ai-interview",
+        "https://au.trustpilot.com/review/www.alignerr.com?page=8"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:19+00:00"
+      },
+      "content_hash": "c0e0f8ff6334cbd5",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-29-tt",
+      "date": "2026-10-29",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-10-29T23:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "video",
+      "topic": "Laid off? AI companies pay for your expertise",
+      "hook": "Got laid off? AI companies are paying for what you already know.",
+      "caption": "Laid off? Expert AI training can bridge income. Listings checked Oct 22, 2026; verify before applying. #layoffs #remotejobs #aitraining #opentowork",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-10-29/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 31.0
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD001",
+        "OD004"
+      ],
+      "sources": [
+        "https://work.mercor.com/jobs/list_AAABlRvLjyMZ_QjpNyhB6r5E/expert-model-trainer",
+        "https://job-boards.greenhouse.io/alignerr/jobs/4600287007",
+        "https://talent.docs.mercor.com/how-to/prepare-for-ai-interview"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: Mercor (https://work.mercor.com)",
+          "Re-check live listing before approval: Alignerr (Labelbox) (https://job-boards.greenhouse.io/alignerr)"
+        ],
+        "checked_at": "2026-10-26T00:34:19+00:00"
+      },
+      "content_hash": "c7c23ceb844612fd",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-30-th1",
+      "date": "2026-10-30",
+      "time_et": "09:00",
+      "scheduled_at_utc": "2026-10-30T13:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "experience",
+      "format": "text",
+      "topic": "Upwork first-client timelines",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "What first-client timelines on Upwork actually look like, from freelancers on Upwork's own community forum:\n\n• \"About 2 months to land my first client, and 3 weeks after that to land my next\"\n• Others sent proposals for 6 months, and broke through only after narrowing their niche\n\nIf you're 3 weeks in with nothing, change the profile, not just the number of proposals.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD024"
+      ],
+      "sources": [
+        "https://community.upwork.com/t5/Freelancers/How-many-proposals-til-your-first-job/m-p/1220716/highlight/true"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:36:33+00:00"
+      },
+      "content_hash": "16155525092ae2d9",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-30-ig",
+      "date": "2026-10-30",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-10-30T16:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "experience",
+      "format": "carousel",
+      "topic": "What AI training workers actually report",
+      "hook": null,
+      "caption": "We went through worker reviews and news reporting on AI training gigs. The honest picture:\n\n👍 DataAnnotation: 4.1/5 on Indeed, \"payment is prompt\"\n👍 Mercor: weekly pay praised\n👎 Outlier: one annotator's rate fell from $50 to $15/hr (Business Insider)\n👎 Long silences after interviews\n📉 xAI cut 500+ generalist tutors while expanding specialists\n\nTakeaway: specialize where you can, and treat these gigs as income stacking.\n\nHave you tried one? Tell us what happened 👇",
+      "hashtags": [
+        "#aitraining",
+        "#remotework",
+        "#gigeconomy",
+        "#jobsearch"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-10-30/instagram/ig_slide_01.png",
+        "social/content/2026-10-30/instagram/ig_slide_02.png",
+        "social/content/2026-10-30/instagram/ig_slide_03.png",
+        "social/content/2026-10-30/instagram/ig_slide_04.png",
+        "social/content/2026-10-30/instagram/ig_slide_05.png",
+        "social/content/2026-10-30/instagram/ig_slide_06.png",
+        "social/content/2026-10-30/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD001",
+        "OD002",
+        "OD003"
+      ],
+      "sources": [
+        "https://www.indeed.com/cmp/DataAnnotation/reviews",
+        "https://www.indeed.com/cmp/Mercor/reviews",
+        "https://talent.docs.mercor.com/how-to/payments",
+        "https://tech.yahoo.com/ai/articles/inside-lucrative-surreal-disturbing-world-081101391.html",
+        "https://www.aol.com/articles/musks-xai-lays-off-hundreds-025738720.html"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:36:22+00:00"
+      },
+      "content_hash": "b768421f17a30716",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-30-tt",
+      "date": "2026-10-30",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-10-30T23:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "experience",
+      "format": "video",
+      "topic": "The truth about AI training side hustles",
+      "hook": "We read the reviews on AI training gigs so you don't have to.",
+      "caption": "AI training gigs: real money, unstable volume. Sources: Indeed reviews, Business Insider. #aitraining #sidehustle #remotework #gigwork",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-10-30/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 30.5
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD002",
+        "OD003"
+      ],
+      "sources": [
+        "https://www.indeed.com/cmp/DataAnnotation/reviews",
+        "https://tech.yahoo.com/ai/articles/inside-lucrative-surreal-disturbing-world-081101391.html",
+        "https://www.aol.com/articles/musks-xai-lays-off-hundreds-025738720.html"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:36:33+00:00"
+      },
+      "content_hash": "ba36ea55ca71e6b7",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-31-th1",
+      "date": "2026-10-31",
+      "time_et": "10:00",
+      "scheduled_at_utc": "2026-10-31T14:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "text",
+      "topic": "W-2 vs 1099",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "Before you take a \"work from home\" call-center gig, check one thing: W-2 or 1099?\n\nSome contractor models charge you up front. Liveops, for example, says agents pay a $25 background check, certification is unpaid, and some programs pay 25–34¢ per talk minute.\n\nDo the math on your real hourly rate first.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD044"
+      ],
+      "sources": [
+        "https://join.liveops.com/faqs"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [
+          "Re-check live listing before approval: Liveops (https://join.liveops.com)"
+        ],
+        "checked_at": "2026-10-26T00:34:43+00:00"
+      },
+      "content_hash": "fd75c45c403a8333",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-31-ig",
+      "date": "2026-10-31",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-10-31T16:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "carousel",
+      "topic": "Remote W-2 jobs that hire beginners",
+      "hook": null,
+      "caption": "Need a remote job with a steady W-2 paycheck? These employers hire beginners for support roles:\n\n• Amazon Virtual Customer Service (~$15–19/hr reported)\n• Apple At Home Advisor (College Program listing $27.75–32.45/hr)\n• Concentrix (~$13–18/hr reported)\n• TTEC @Home (~$15–18/hr reported)\n\nPay varies by state and role, so check the live posting. Most roles are limited to certain states.\n\n⚠️ Apply ONLY on official careers sites (amazon.jobs, jobs.apple.com, etc.). Fake recruiters copy these brands.",
+      "hashtags": [
+        "#workfromhome",
+        "#remotejobs",
+        "#customerservice",
+        "#hiring",
+        "#entryleveljobs"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-10-31/instagram/ig_slide_01.png",
+        "social/content/2026-10-31/instagram/ig_slide_02.png",
+        "social/content/2026-10-31/instagram/ig_slide_03.png",
+        "social/content/2026-10-31/instagram/ig_slide_04.png",
+        "social/content/2026-10-31/instagram/ig_slide_05.png",
+        "social/content/2026-10-31/instagram/ig_slide_06.png",
+        "social/content/2026-10-31/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "https://www.lilachbullock.com/amazon-remote-jobs-real-work-from-home-roles/",
+        "https://tech.co/news/fully-remote-jobs-at-apple",
+        "https://joingerald.com/learn/work--income/customer-service-true-work-from-home-jobs"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:33+00:00"
+      },
+      "content_hash": "5a78df3fe06b9ef2",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-10-31-tt",
+      "date": "2026-10-31",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-10-31T23:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "jobs",
+      "format": "video",
+      "topic": "Remote jobs with a W-2 that hire beginners",
+      "hook": "Want a remote job with an actual paycheck and benefits? Start here.",
+      "caption": "Remote W-2 support jobs that hire beginners. Pay varies by state; check the live posting. #workfromhome #remotejobs #customerservice #entryleveljobs",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-10-31/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 30.0
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "https://tech.co/news/fully-remote-jobs-at-apple",
+        "https://www.lilachbullock.com/amazon-remote-jobs-real-work-from-home-roles/",
+        "https://joingerald.com/learn/work--income/customer-service-true-work-from-home-jobs"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:43+00:00"
+      },
+      "content_hash": "28ff01627c4ddbc5",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-01-th1",
+      "date": "2026-11-01",
+      "time_et": "11:00",
+      "scheduled_at_utc": "2026-11-01T16:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "text",
+      "topic": "ATS myth",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "Unpopular opinion: the \"75% of resumes get auto-rejected by ATS\" stat gets repeated way more than it's backed up.\n\nMost ATS systems parse your resume and let recruiters search keywords. The real killers are tables, columns, and contact info stuck in the header.\n\nSimple single-column resume > fancy template.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "https://atsverification.com/blog/ats-resume-myths-debunked/",
+        "https://resumegenius.com/blog/applicant-tracking-systems-resume-keyword-help"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:56+00:00"
+      },
+      "content_hash": "6b9347540669e7b6",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-01-ig",
+      "date": "2026-11-01",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-11-01T17:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "carousel",
+      "topic": "Rewrite your resume with AI in 45 minutes, honestly",
+      "hook": null,
+      "caption": "AI can tailor your resume in minutes, but only if you give it rules.\n\nThe 45-minute workflow:\n1️⃣ Decode the job: must-haves + exact keywords\n2️⃣ Fit check: score 1–10, skip below 6\n3️⃣ Tailor with rules: \"Use only my facts. Never invent numbers.\"\n4️⃣ Test the PDF: copy-paste it into a text editor\n\nGolden rule: if you can't explain a line in an interview, delete it.\n\nSave this for your next application 📌",
+      "hashtags": [
+        "#resumetips",
+        "#jobsearch",
+        "#chatgpt",
+        "#careertips",
+        "#newgrad"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-11-01/instagram/ig_slide_01.png",
+        "social/content/2026-11-01/instagram/ig_slide_02.png",
+        "social/content/2026-11-01/instagram/ig_slide_03.png",
+        "social/content/2026-11-01/instagram/ig_slide_04.png",
+        "social/content/2026-11-01/instagram/ig_slide_05.png",
+        "social/content/2026-11-01/instagram/ig_slide_06.png",
+        "social/content/2026-11-01/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "https://atsverification.com/blog/ats-resume-myths-debunked/"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:45+00:00"
+      },
+      "content_hash": "858416810dad684f",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-01-tt",
+      "date": "2026-11-01",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-11-02T00:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "prep",
+      "format": "video",
+      "topic": "Fix a boring resume bullet",
+      "hook": "Recruiters skip this resume line. Here's the fix.",
+      "caption": "One resume line, fixed. Numbers + tools + result. Never invent facts. #resumetips #jobsearch #careertips #newgrad",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-11-01/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 29.5
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:56+00:00"
+      },
+      "content_hash": "f88dd2023a53fcec",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-02-th1",
+      "date": "2026-11-02",
+      "time_et": "09:00",
+      "scheduled_at_utc": "2026-11-02T14:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "promo",
+      "format": "text",
+      "topic": "Playbook announcement",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "We put together a US Remote Job Playbook: 71 remote opportunities with direct links, each labeled Apply Now, Explore, Caution or Unavailable, plus 21 AI prompts and 7- and 30-day plans.\n\nNo income promises. Just verified places to apply.\n\nLink's in our bio if it helps.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "us/OPPORTUNITY_DIRECTORY.csv"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:35:10+00:00"
+      },
+      "content_hash": "1e958380102ee5c9",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-02-ig",
+      "date": "2026-11-02",
+      "time_et": "12:00",
+      "scheduled_at_utc": "2026-11-02T17:00:00Z",
+      "channel": "instagram",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "promo",
+      "format": "carousel",
+      "topic": "Inside the US Remote Job Playbook",
+      "hook": null,
+      "caption": "We built the guide we wish existed for US job seekers chasing legit remote work. 📘\n\nInside the US Remote Job Playbook:\n• 71 opportunities with direct links and status labels\n• 51 documented worker outcomes\n• 21 copy-paste AI career prompts\n• 7-day and 30-day action plans\n\nNo promises of jobs or income. Just verified places to apply and a plan.\n\n👉 Link in bio",
+      "hashtags": [
+        "#remotejobs",
+        "#jobsearch",
+        "#careerguide",
+        "#layoffs",
+        "#newgrad"
+      ],
+      "text": null,
+      "media": [
+        "social/content/2026-11-02/instagram/ig_slide_01.png",
+        "social/content/2026-11-02/instagram/ig_slide_02.png",
+        "social/content/2026-11-02/instagram/ig_slide_03.png",
+        "social/content/2026-11-02/instagram/ig_slide_04.png",
+        "social/content/2026-11-02/instagram/ig_slide_05.png",
+        "social/content/2026-11-02/instagram/ig_slide_06.png",
+        "social/content/2026-11-02/instagram/ig_slide_07.png"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "us/OPPORTUNITY_DIRECTORY.csv",
+        "us/WORKER_SUCCESS_RESEARCH.csv",
+        "us/AI_CAREER_PROMPTS.md"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:34:58+00:00"
+      },
+      "content_hash": "f266c8467c886f96",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-02-th2",
+      "date": "2026-11-02",
+      "time_et": "17:00",
+      "scheduled_at_utc": "2026-11-02T22:00:00Z",
+      "channel": "threads",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "experience",
+      "format": "text",
+      "topic": "Remote competition data",
+      "hook": null,
+      "caption": null,
+      "hashtags": [],
+      "text": "Why remote jobs feel impossible to land: LinkedIn data showed remote roles were 8.4% of postings but drew 42% of applications.\n\nThat's why applying in the first 24–48 hours and messaging someone on the team matters so much more for remote roles.",
+      "media": [],
+      "media_check": {
+        "issues": [],
+        "duration_s": null
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [
+        "OD059"
+      ],
+      "sources": [
+        "https://www.sherwood.news/business/22-of-job-posts-on-linked-on-linkedin-are-hybrid-or-remote-work"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:35:10+00:00"
+      },
+      "content_hash": "59e5f3e99abf12cd",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    },
+    {
+      "id": "2026-11-02-tt",
+      "date": "2026-11-02",
+      "time_et": "19:00",
+      "scheduled_at_utc": "2026-11-03T00:00:00Z",
+      "channel": "tiktok",
+      "account_handle": "@nextofferacademyus",
+      "pillar": "experience",
+      "format": "video",
+      "topic": "Remote job scam red flags (FTC data)",
+      "hook": "Remote job scams quadrupled. Here's how to spot one in 10 seconds.",
+      "caption": "Task scams surged per FTC data (Dec 2024 report). Legit jobs never make you pay. Report at ReportFraud.ftc.gov #jobscams #remotejobs #workfromhome #scamalert",
+      "hashtags": [],
+      "text": null,
+      "media": [
+        "social/content/2026-11-02/tiktok/tiktok_video.mp4"
+      ],
+      "media_check": {
+        "issues": [],
+        "duration_s": 33.5
+      },
+      "generated_by": "manual (week 1)",
+      "live_verification": [],
+      "opportunity_ids": [],
+      "sources": [
+        "https://ftc.gov/news-events/news/press-releases/2024/12/new-ftc-data-show-skyrocketing-consumer-reports-about-game-online-job-scams"
+      ],
+      "factcheck": {
+        "passed": true,
+        "issues": [],
+        "warnings": [],
+        "checked_at": "2026-10-26T00:35:10+00:00"
+      },
+      "content_hash": "a6a4ae532ea4e7b3",
+      "status": "needs_approval",
+      "approval": {
+        "approved_by": null,
+        "approved_at": null,
+        "notes": null
+      },
+      "buffer": {
+        "channel_id": null,
+        "post_id": null,
+        "state": null,
+        "error": null
+      },
+      "published_url": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null,
+        "saves": null,
+        "follows": null,
+        "link_clicks": null,
+        "updated_at": null
+      }
+    }
+  ],
+  "updated_at": "2026-10-26T00:36:33+00:00"
+}

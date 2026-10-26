@@ -1,0 +1,31 @@
+{
+  "brand": "Next Offer Academy US",
+  "website": "https://nextoveracademy.id",
+  "note": "Only these accounts may receive posts. buffer_channel_id is filled by `buffer_client.py channels` after it matches the handle; publishing refuses any channel with verified=false.",
+  "channels": {
+    "instagram": {
+      "handle": "@nextofferacademyus",
+      "profile_url": "https://www.instagram.com/nextofferacademyus/",
+      "buffer_channel_id": null,
+      "buffer_organization_id": null,
+      "verified": false,
+      "enabled": true
+    },
+    "tiktok": {
+      "handle": "@nextofferacademyus",
+      "profile_url": "https://www.tiktok.com/@nextofferacademyus",
+      "buffer_channel_id": null,
+      "buffer_organization_id": null,
+      "verified": false,
+      "enabled": true
+    },
+    "threads": {
+      "handle": "@nextofferacademyus",
+      "profile_url": null,
+      "buffer_channel_id": null,
+      "buffer_organization_id": null,
+      "verified": false,
+      "enabled": false
+    }
+  }
+}

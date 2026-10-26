@@ -1,0 +1,7 @@
+Slide 1: RESUME WORKFLOW | Tailor your resume with AI in 45 min (without lying) | Works with free ChatGPT, Claude or Gemini.
+Slide 2: 1 | Decode the job (5 min) | Paste the full posting. Ask the AI for the 5 must-haves and the 12 exact keywords recruiters search for.
+Slide 3: 2 | Fit check (5 min) | Ask it to compare your resume to each must-have and score fit 1–10. Below 6? Skip, or get a referral first.
+Slide 4: 3 | Tailor with rules (15 min) | Tell it: use ONLY my facts, never invent numbers, and write [ADD METRIC?] where one is missing.
+Slide 5: Before → After | Responsible for helping customers | Resolved 40–60 customer issues per shift, including returns and escalations, in a high-volume store | Illustrative example. Use your own real numbers.
+Slide 6: 4 | Test the PDF (5 min) | Open it, select all, paste into a plain-text editor. If the text comes out scrambled, remove columns and tables.
+Slide 7: Get all 21 prompts | Copy-paste resume, LinkedIn, proposal and interview prompts are in the US Remote Job Playbook. | Link in bio · Save this

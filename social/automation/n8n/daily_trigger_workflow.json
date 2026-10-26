@@ -1,0 +1,39 @@
+{
+  "name": "Next Offer Academy US - daily content trigger",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": { "interval": [ { "field": "cronExpression", "expression": "47 8 * * *" } ] }
+      },
+      "name": "Every day 8:47 AM",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.github.com/repos/pms268-del/nextofferacademy/actions/workflows/daily-content.yml/dispatches",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Accept", "value": "application/vnd.github+json" },
+            { "name": "Authorization", "value": "=Bearer {{ $credentials.githubToken }}" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{ \"ref\": \"main\" }"
+      },
+      "name": "Run GitHub 'Daily social content' workflow",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [260, 0]
+    }
+  ],
+  "connections": {
+    "Every day 8:47 AM": { "main": [ [ { "node": "Run GitHub 'Daily social content' workflow", "type": "main", "index": 0 } ] ] }
+  },
+  "settings": { "timezone": "America/New_York" },
+  "meta": { "note": "Optional. GitHub Actions' own cron already runs daily; use this only if you want n8n as the scheduler. Set the workflow timezone and add a GitHub fine-grained token (Actions: write) as a credential. Untested import." }
+}

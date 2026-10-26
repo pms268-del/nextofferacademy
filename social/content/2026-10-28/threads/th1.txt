@@ -1,0 +1,5 @@
+The most common way people fail AI training entry tests isn't lack of knowledge.
+
+It's missing an instruction. "Under 100 words." "Explain why." "Use bullet points."
+
+Read the prompt twice before you write a single word.

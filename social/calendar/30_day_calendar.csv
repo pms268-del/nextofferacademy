@@ -1,0 +1,31 @@
+day,date,weekday,pillar,ig_format,ig_topic,tiktok_topic,threads_topics,opportunity_ids,evidence_ids,needs_live_research,status
+1,2026-10-27,Tue,jobs,carousel,5 AI training gigs open to US residents,"AI training jobs that pay, and the catch",AI training reality check,OD002 OD003 OD007 OD008 OD005,WS009 WS019,N,built
+2,2026-10-28,Wed,prep,carousel,How to pass a one-shot AI training test,Spot the mistake: AI training test practice,Assessment tip,OD002,WS008 WS009,N,built
+3,2026-10-29,Thu,jobs,carousel,Laid off? Expert AI training pays for your expertise,Laid off? AI companies pay for your expertise,Expert AI training; AI interview tip,OD001 OD004 OD006 OD036,WS001 WS006,N,built
+4,2026-10-30,Fri,experience,carousel,What AI training workers actually report,The truth about AI training side hustles,Upwork first-client timelines,OD001 OD002 OD003,WS003 WS004 WS011 WS016 WS026,N,built
+5,2026-10-31,Sat,jobs,carousel,Remote W-2 jobs that hire beginners,Remote jobs with a W-2 that hire beginners,W-2 vs 1099,OD039 OD040 OD041 OD042,WS048,N,built
+6,2026-11-01,Sun,prep,carousel,"Tailor your resume with AI in 45 minutes, honestly",Fix a boring resume bullet,ATS myth,,,N,built
+7,2026-11-02,Mon,promo,carousel,Inside the US Remote Job Playbook,Remote job scam red flags (FTC data),Playbook announcement; remote competition data,OD059,WS043 WS045,N,built
+8,2026-11-03,Tue,jobs,carousel,Get paid for your opinion: 4 legit research-study sites,Paid studies that actually pay (and what they pay),Prolific minimum-pay rule,OD054 OD055 OD056 OD008,WS028 WS029 WS050,N,planned
+9,2026-11-04,Wed,prep,carousel,"How AI video interviews work (Mercor, Alignerr, micro1)",Prep for an AI interviewer in 60 seconds,Resume deep-dive prep,OD001 OD004 OD006,WS001 WS020 WS025,N,planned
+10,2026-11-05,Thu,jobs,carousel,What freelance platforms take from your pay,Upwork vs Fiverr vs Contra fees,Fee math before you price,OD024 OD025 OD026,,N,planned
+11,2026-11-06,Fri,experience,carousel,How long the first freelance client really takes,First client: 6 days to 6 months,Profile beats proposal volume,OD024 OD025,WS031 WS032 WS033 WS036 WS037 WS038,N,planned
+12,2026-11-07,Sat,jobs,carousel,Grad students: the Handshake AI Fellowship explained,$50-125/hr for grad students? The details,Ask your career office,OD005,WS022 WS023,N,planned
+13,2026-11-08,Sun,prep,carousel,The Upwork proposal formula (before/after),Rewrite a weak proposal in 30 seconds,First line = client's goal,OD024,WS031,N,planned
+14,2026-11-09,Mon,promo,carousel,The 7-day urgent income plan (from the playbook),"If you need income in 7 days, do this",Two tracks at once,OD002 OD003 OD008 OD054,WS042,N,planned
+15,2026-11-10,Tue,jobs,carousel,Free remote job boards worth your time,Where remote jobs are posted first,Apply in the first 48 hours,OD061 OD062 OD063 OD022 OD021,WS043,N,planned
+16,2026-11-11,Wed,prep,carousel,Fix your LinkedIn headline + Open to Work settings,LinkedIn headline formula,Recruiters-only vs green banner,OD059,,N,planned
+17,2026-11-12,Thu,experience,carousel,Why remote jobs feel impossible (the data),"8% of jobs, 42% of applicants",Referrals vs cold applying,OD059,WS039 WS040 WS041 WS043,N,planned
+18,2026-11-13,Fri,jobs,carousel,Developer side income: AI coding evaluation and vetted networks,Coders get paid to grade AI code,Coding track reality,OD009 OD002 OD028 OD033,,N,planned
+19,2026-11-14,Sat,prep,carousel,The 3-part message hiring managers answer,DM a hiring manager without being weird,"One detail, one ask",OD059,WS041,N,planned
+20,2026-11-15,Sun,jobs,carousel,Online tutoring: pay and commissions compared,Tutoring online: who takes what cut,"Start on a marketplace, then go direct",OD048 OD049 OD050,,N,planned
+21,2026-11-16,Mon,experience,carousel,Contract pay got cut? Protect yourself,Rate cuts happen: do these 3 things,Keep records from day one,OD003 OD004,WS006 WS016 WS021,N,planned
+22,2026-11-17,Tue,prep,carousel,Build 8 STAR stories before your next interview,"The STAR answer, fixed",Interview story bank,,,N,planned
+23,2026-11-18,Wed,jobs,carousel,Laid off? Free help most people don't use,Free job help from the government,File for unemployment first,OD071,WS042,N,planned
+24,2026-11-19,Thu,prep,carousel,Price freelance work after fees and taxes,The freelance pricing formula,Set aside 25-30% for taxes,OD024 OD025 OD026,,N,planned
+25,2026-11-20,Fri,jobs,carousel,Expert networks: get paid for 1-hour calls,Paid expert calls for laid-off pros,Never share confidential info,OD036 OD037,WS027,N,planned
+26,2026-11-21,Sat,experience,carousel,"Read this before you pay for any ""job""",Pay-to-work red flags,Worker-paid costs,OD069,WS045 WS046 WS047 WS048,N,planned
+27,2026-11-22,Sun,prep,carousel,Customer service interview answers that work,Angry customer? Say this,Empathy + action + options,OD039 OD040,,N,planned
+28,2026-11-23,Mon,jobs,carousel,Startup jobs: YC Work at a Startup and Wellfound,How to get noticed by startup founders,"One profile, many founders",OD021 OD022,,N,planned
+29,2026-11-24,Tue,promo,carousel,21 AI prompts that won't lie on your resume,The prompt that stops AI inventing your resume,Never-invent rule,,,N,planned
+30,2026-11-25,Wed,jobs,carousel,Seasonal remote roles to check now (re-verify live),Holiday-season remote openings,Check official careers sites,OD039 OD040 OD041 OD042,,Y,planned

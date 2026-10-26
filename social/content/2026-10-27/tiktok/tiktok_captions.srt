@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:03,500
+These companies pay you to train AI. Here's the catch nobody mentions.
+
+2
+00:00:03,500 --> 00:00:08,500
+DataAnnotation pays you to write and grade chatbot answers. Reviews quote about twenty dollars an hour to start.
+
+3
+00:00:08,500 --> 00:00:13,000
+But the entry test is one shot. No retakes, and you might not get an email if you fail.
+
+4
+00:00:13,000 --> 00:00:17,000
+Outlier lists generalist work at up to about fifteen dollars an hour.
+
+5
+00:00:17,000 --> 00:00:21,000
+But workers say the queue can sit empty for days after you're accepted.
+
+6
+00:00:21,000 --> 00:00:25,500
+Prolific pays for research studies, and requires at least eight dollars an hour.
+
+7
+00:00:25,500 --> 00:00:30,000
+So apply to three, not one. Getting accepted is not the same as getting work.
+
+8
+00:00:30,000 --> 00:00:33,000
+Follow for verified remote jobs every day.

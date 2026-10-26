@@ -1,0 +1,7 @@
+Slide 1: APPLICATION PREP | How to pass a one-shot AI training test | Some entry tests (like DataAnnotation's) give you exactly one attempt. Do it right the first time.
+Slide 2: 1 | Read every instruction twice | Word limits, format, audience, "explain why." Most fails are instruction misses, not knowledge gaps.
+Slide 3: 2 | Accuracy beats style | A friendly answer with one wrong number loses to a dry answer that's correct. Check every fact and every bit of math.
+Slide 4: 3 | Point to the exact sentence | Don't say "B is clearer." Say which line is wrong, why, and what the ideal answer would do instead.
+Slide 5: 4 | Don't use AI to answer | Contractors have been removed for using AI tools on tasks. Write it yourself. It's what they're paying for. | IBTimes report on contractor removals
+Slide 6: 5 | Block 90 quiet minutes | Laptop, not phone. Notifications off. Proofread once before you hit submit.
+Slide 7: Practice before the real test | Our playbook includes 7 original practice assessments with model answers. | Link in bio · Save for later
