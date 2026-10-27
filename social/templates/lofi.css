@@ -1,0 +1,101 @@
+/* Next Offer Academy US: week-2 "native" look. Lo-fi phone-style text, notes-app lists, job cards.
+   Brand stays small (handle only). Instagram 1080x1350, vertical video 1080x1920. */
+:root {
+  --ink: #111418;
+  --muted: #5b6470;
+  --paper: #fbf8f1;
+  --note: #fffdf6;
+  --line: #e7e1d3;
+  --yellow: #f7c948;
+  --green: #1f9d55;
+  --red: #d64545;
+  --teal: #0e7c86;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: "Inter", "DejaVu Sans", sans-serif; background: #ccc; }
+.slide { position: relative; overflow: hidden; display: flex; flex-direction: column; color: var(--ink); }
+.v { width: 1080px; height: 1920px; padding: 300px 80px 420px; justify-content: center; align-items: center; }
+.ig { width: 1080px; height: 1350px; padding: 90px 84px 110px; }
+
+/* Backgrounds: soft, slightly different per scene so cuts feel like cuts */
+.bg0 { background: linear-gradient(180deg, #f3efe6, #e9e3d5); }
+.bg1 { background: linear-gradient(180deg, #e8f1f2, #d6e6e8); }
+.bg2 { background: linear-gradient(180deg, #f6ece4, #ecdccf); }
+.bg3 { background: linear-gradient(180deg, #ecebf5, #dddbee); }
+.dark { background: #15181d; color: #fff; }
+
+/* TikTok-style text with tight background ("caption bubble") */
+.bubble { display: inline; font-weight: 800; font-size: 86px; line-height: 1.32; padding: 6px 22px;
+          background: #fff; color: var(--ink); border-radius: 18px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+.bubble.y { background: var(--yellow); }
+.bubble.k { background: var(--ink); color: #fff; }
+.center { text-align: center; }
+.stack { display: flex; flex-direction: column; gap: 34px; align-items: center; width: 100%; }
+
+/* Notes-app card */
+.note { width: 100%; background: var(--note); border-radius: 36px; box-shadow: 0 18px 50px rgba(0,0,0,.12); padding: 54px 58px; }
+.note .bar { display: flex; justify-content: space-between; color: #c99a06; font-weight: 700; font-size: 34px; margin-bottom: 26px; }
+.note h3 { font-size: 58px; font-weight: 800; margin-bottom: 22px; line-height: 1.12; }
+.note .line { font-size: 52px; line-height: 1.38; font-weight: 600; white-space: pre-line; }
+.note ul { list-style: none; }
+.note li { font-size: 44px; line-height: 1.35; padding: 16px 0; border-bottom: 2px solid var(--line); font-weight: 600; }
+.note li:last-child { border-bottom: 0; }
+.note li::before { content: "○  "; color: #c99a06; }
+
+/* Job card */
+.job { width: 100%; background: #fff; border-radius: 34px; box-shadow: 0 18px 50px rgba(0,0,0,.14); padding: 52px 56px; }
+.job .co { font-size: 64px; font-weight: 800; line-height: 1.1; }
+.job .role { font-size: 42px; color: var(--muted); margin-top: 14px; line-height: 1.3; }
+.job .pay { display: inline-block; margin-top: 30px; font-size: 54px; font-weight: 800; background: #e6f4ea; color: #146c3a; padding: 10px 26px; border-radius: 16px; }
+.job .catch { margin-top: 28px; font-size: 40px; font-weight: 700; color: var(--red); }
+.job .tag { font-size: 30px; font-weight: 700; color: var(--teal); letter-spacing: 2px; margin-bottom: 18px; }
+
+/* Claim vs found */
+.claim { width: 100%; display: flex; flex-direction: column; gap: 26px; }
+.claim .box { border-radius: 30px; padding: 40px 46px; font-size: 50px; font-weight: 700; line-height: 1.25; background: #fff; box-shadow: 0 12px 34px rgba(0,0,0,.1); }
+.claim .lab { font-size: 30px; font-weight: 800; letter-spacing: 2px; margin-bottom: 12px; }
+.claim .said .lab { color: var(--red); }
+.claim .said { text-decoration: line-through; text-decoration-color: rgba(214,69,69,.7); text-decoration-thickness: 5px; }
+.claim .found { border: 5px solid var(--green); }
+.claim .found .lab { color: var(--green); }
+
+/* Stat */
+.big { font-size: 190px; font-weight: 900; line-height: 1; letter-spacing: -4px; }
+.statline { font-size: 52px; font-weight: 700; line-height: 1.3; max-width: 900px; }
+
+/* Fix: before -> after */
+.fix { width: 100%; display: flex; flex-direction: column; gap: 22px; }
+.fix .row { border-radius: 28px; padding: 36px 44px; font-size: 48px; font-weight: 700; line-height: 1.25; background: #fff; }
+.fix .bad { color: #8a2c2c; background: #fbe9e9; }
+.fix .good { color: #145c33; background: #e3f4e9; }
+.fix .arrow { text-align: center; font-size: 60px; color: var(--muted); }
+
+/* Chrome */
+.prog { position: absolute; top: 0; left: 0; right: 0; height: 12px; background: rgba(0,0,0,.08); }
+.prog i { display: block; height: 100%; background: var(--ink); }
+.handle { position: absolute; bottom: 300px; left: 0; right: 0; text-align: center; font-size: 34px; font-weight: 700; color: rgba(0,0,0,.45); }
+.dark .handle, .dark .pg { color: rgba(255,255,255,.6) !important; }
+.ig .handle { bottom: 46px; font-size: 28px; }
+.ig .pg { position: absolute; top: 40px; right: 50px; font-size: 28px; font-weight: 700; color: rgba(0,0,0,.4); }
+.ig .center-wrap { margin: auto 0; display: flex; flex-direction: column; gap: 30px; }
+.ig h1 { font-size: 92px; font-weight: 900; line-height: 1.05; letter-spacing: -1px; }
+.ig .sub { font-size: 42px; line-height: 1.35; color: var(--muted); font-weight: 600; }
+.ig .swipe { font-size: 34px; font-weight: 800; color: var(--teal); }
+.ig .vs { display: grid; gap: 24px; }
+.ig .vs .row { border-radius: 28px; padding: 34px 40px; font-size: 44px; font-weight: 700; line-height: 1.3; }
+.ig .vs .bad { background: #fbe9e9; color: #8a2c2c; }
+.ig .vs .good { background: #e3f4e9; color: #145c33; }
+.ig .kick { font-size: 32px; font-weight: 800; letter-spacing: 2px; color: var(--teal); }
+.ig .note li { font-size: 42px; }
+.ig .job .co { font-size: 60px; }
+
+/* Larger type on vertical video (phone readability) */
+.v .fix .row, .v .claim .box { font-size: 60px; }
+.v .claim .lab, .v .job .tag { font-size: 36px; }
+.v .job .co { font-size: 80px; }
+.v .job .role { font-size: 50px; }
+.v .job .pay { font-size: 64px; }
+.v .job .catch { font-size: 48px; }
+.v .note .line { font-size: 62px; }
+.v .note .bar { font-size: 40px; }
+.v .statline { font-size: 60px; }

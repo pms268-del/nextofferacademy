@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:02,500
+Three resume fixes you can make before your next application.
+
+2
+00:00:02,500 --> 00:00:05,500
+One. Name the file with your name, not resume final version three.
+
+3
+00:00:05,500 --> 00:00:09,000
+Two. Put your contact info in the body. Some systems misread headers.
+
+4
+00:00:09,000 --> 00:00:13,000
+Three. Swap duties for numbers. This one's an example, use your real ones.
+
+5
+00:00:13,000 --> 00:00:16,000
+And never invent numbers. If you can't explain it in an interview, delete it.
+
+6
+00:00:16,000 --> 00:00:18,000
+Follow for more.

@@ -15,7 +15,8 @@ import re
 SOCIAL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPO = os.path.dirname(SOCIAL)
 CORPUS_FILES = ["us/OPPORTUNITY_DIRECTORY.csv", "us/WORKER_SUCCESS_RESEARCH.csv",
-                "us/research/00_RESEARCH_LOG_US.md", "us/PLAYBOOK.md", "social/data/opportunities.json"]
+                "us/research/00_RESEARCH_LOG_US.md", "us/PLAYBOOK.md", "social/data/opportunities.json",
+                "social/research/week2_fact_sources.md", "social/research/trend_reference_library.md"]
 MAX_AGE_DAYS = 14  # job facts older than this must be re-verified before approval
 BANNED = [r"guaranteed (income|job|pay|earnings|approval|work)", r"easy money", r"get rich", r"passive income",
           r"100% legit", r"make \$\d[\d,]* (a|per) (day|week)", r"instant approval", r"no (interview|experience) (and|\+) \$"]
@@ -46,7 +47,7 @@ def visible_text(post):
     for s in post.get("slides", []):
         parts += [str(v) for k, v in s.items() if k != "type"]
     for sc in post.get("scenes", []):
-        parts.append(sc["text"])
+        parts += [str(v) for k, v in sc.items() if k not in ("kind", "secs", "vo")]
     return "\n".join(parts)
 
 
