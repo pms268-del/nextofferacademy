@@ -126,17 +126,27 @@
         "checked_at": "2026-10-26T00:33:40+00:00"
       },
       "content_hash": "37f05810fa2d5275",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adebfb18b3d437ddc3f5897",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {
@@ -268,17 +278,27 @@
         "checked_at": "2026-10-26T00:33:53+00:00"
       },
       "content_hash": "9b6b82ef63cb8417",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adebffb6887a2efc13a6806",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {
@@ -528,17 +548,27 @@
         "checked_at": "2026-10-26T00:34:07+00:00"
       },
       "content_hash": "fbc0120108c7f2ab",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adec2ff8b3d437ddc4077cc",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {
@@ -791,17 +821,27 @@
         "checked_at": "2026-10-26T00:36:22+00:00"
       },
       "content_hash": "b768421f17a30716",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adef5251f120735cf946b53",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {
@@ -951,7 +991,7 @@
       "format": "carousel",
       "topic": "Remote W-2 jobs that hire beginners",
       "hook": null,
-      "caption": "Need a remote job with a steady W-2 paycheck? These employers hire beginners for support roles:\n\n• Amazon Virtual Customer Service (~$15–19/hr reported)\n• Apple At Home Advisor (College Program listing $27.75–32.45/hr)\n• Concentrix (~$13–18/hr reported)\n• TTEC @Home (~$15–18/hr reported)\n\nPay varies by state and role, so check the live posting. Most roles are limited to certain states.\n\n⚠️ Apply ONLY on official careers sites (amazon.jobs, jobs.apple.com, etc.). Fake recruiters copy these brands.",
+      "caption": "Need a remote job with a steady W-2 paycheck? These employers hire beginners for support roles:\n\n• Amazon Virtual Customer Service (~$15–19/hr reported)\n• Apple At Home Advisor (College Program listing $27.75–32.45/hr)\n• Concentrix (~$13–18/hr reported)\n• TTEC work-from-home roles (~$15–18/hr reported)\n\nPay varies by state and role, so check the live posting. Most roles are limited to certain states.\n\n⚠️ Apply ONLY on official careers sites (amazon.jobs, jobs.apple.com, etc.). Fake recruiters copy these brands.",
       "hashtags": [
         "#workfromhome",
         "#remotejobs",
@@ -988,17 +1028,27 @@
         "checked_at": "2026-10-26T00:34:33+00:00"
       },
       "content_hash": "5a78df3fe06b9ef2",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adf95c735213ac4125daca4",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {
@@ -1177,17 +1227,27 @@
         "checked_at": "2026-10-26T00:34:45+00:00"
       },
       "content_hash": "858416810dad684f",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adfeb280565644c94803e7d",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {
@@ -1363,17 +1423,27 @@
         "checked_at": "2026-10-26T00:52:45+00:00"
       },
       "content_hash": "a9f0c41e21deac54",
-      "status": "needs_approval",
+      "status": "buffer_draft_pending_approval",
       "approval": {
         "approved_by": null,
         "approved_at": null,
         "notes": null
       },
       "buffer": {
-        "channel_id": null,
-        "post_id": null,
-        "state": null,
-        "error": null
+        "channel_id": "6adeb0412f1f5ed648d216c1",
+        "post_id": "6adfeb9cf266a5f7e1055306",
+        "state": "draft",
+        "error": null,
+        "media_urls": [
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_01.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_02.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_03.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_04.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_05.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_06.png",
+          "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_07.png"
+        ],
+        "created_via": "Buffer MCP create_post (saveToDraft)"
       },
       "published_url": null,
       "metrics": {

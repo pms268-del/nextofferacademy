@@ -1,5 +1,7 @@
 # Next Offer Academy US: Social Content System
 
+> **New here? Read [HOW_TO_POST.md](HOW_TO_POST.md) first. It is the simple step-by-step guide.**
+
 A low-cost daily pipeline for **@nextofferacademyus** (Instagram, TikTok, Threads):
 calendar → sourced opportunity database → Claude generation → media rendering → automated fact-check → **human approval** → Buffer → publication log → performance tracker.
 
@@ -13,8 +15,8 @@ calendar → sourced opportunity database → Claude generation → media render
 | Threads library | ✅ 33 posts in `threads/threads_library.md` |
 | Content database | ✅ `data/content_db.json` (+ `.csv` view), `data/opportunities.json`, `data/publication_log.csv`, `data/performance_tracker.csv` |
 | Daily generator | ✅ `scripts/pipeline.py` (Claude API), not yet run against the live API |
-| **Buffer connection** | ✅ Connected through the Buffer MCP connector. Organization "My organization" (America/New_York). **TikTok @nextofferacademyus matched** (channel `6adea3562f1f5ed648d1a6bc`). **Instagram and Threads are not connected in Buffer yet.** Plan limits: 3 channels, 10 scheduled posts. |
-| Buffer drafts | ✅ All 7 TikTok videos saved as **Buffer drafts** with their planned times (7:00 PM ET, Oct 27 – Nov 2). Status `draft`, nothing published. Media served from commit-pinned public URLs. IDs in `data/content_db.json` and `data/publication_log.csv`. |
+| **Buffer connection** | ✅ Connected via Buffer MCP. **Instagram (`6adeb0412f1f5ed648d216c1`) and TikTok (`6adea3562f1f5ed648d1a6bc`) @nextofferacademyus matched.** Threads not connected yet. Plan limits: 3 channels, 10 scheduled posts. |
+| Buffer drafts | ✅ All 7 Instagram carousels and 7 TikTok videos saved as **Buffer drafts** with their planned times (7:00 PM ET, Oct 27 – Nov 2). Status `draft`, nothing published. Media served from commit-pinned public URLs. IDs in `data/content_db.json` and `data/publication_log.csv`. |
 | Automation (GitHub Actions / n8n) | 🟡 Configs written in `automation/`, **inactive** until you copy them into `.github/workflows/` |
 | TikTok audio | 🟡 Videos have a silent track. Record the voiceover in `script.md` or finish in the TikTok app (see template) |
 | Threads | 🟡 Disabled in `config/channels.json` until the account is connected to Buffer |

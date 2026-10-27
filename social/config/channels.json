@@ -6,11 +6,12 @@
     "instagram": {
       "handle": "@nextofferacademyus",
       "profile_url": "https://www.instagram.com/nextofferacademyus/",
-      "buffer_channel_id": null,
-      "buffer_organization_id": null,
-      "verified": false,
+      "buffer_channel_id": "6adeb0412f1f5ed648d216c1",
+      "buffer_organization_id": "6ade9d9ca35a0249267751f6",
+      "verified": true,
       "enabled": true,
-      "note": "Not connected in Buffer as of 2026-10-26 (only TikTok is). Connect it in Buffer, then re-run channel matching."
+      "verified_at": "2026-10-26",
+      "verified_via": "Buffer MCP list_channels: service=instagram (business), name=nextofferacademyus"
     },
     "tiktok": {
       "handle": "@nextofferacademyus",

@@ -272,7 +272,7 @@ post(id="2026-10-31-ig", date="2026-10-31", time_et="12:00", channel="instagram"
      ],
      caption=("Need a remote job with a steady W-2 paycheck? These employers hire beginners for support roles:\n\n"
               "• Amazon Virtual Customer Service (~$15–19/hr reported)\n• Apple At Home Advisor (College Program listing $27.75–32.45/hr)\n"
-              "• Concentrix (~$13–18/hr reported)\n• TTEC @Home (~$15–18/hr reported)\n\n"
+              "• Concentrix (~$13–18/hr reported)\n• TTEC work-from-home roles (~$15–18/hr reported)\n\n"
               "Pay varies by state and role, so check the live posting. Most roles are limited to certain states.\n\n"
               "⚠️ Apply ONLY on official careers sites (amazon.jobs, jobs.apple.com, etc.). Fake recruiters copy these brands."),
      hashtags=["#workfromhome", "#remotejobs", "#customerservice", "#hiring", "#entryleveljobs"],
