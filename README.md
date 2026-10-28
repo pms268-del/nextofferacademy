@@ -26,4 +26,4 @@ Panduan karier praktis dalam Bahasa Indonesia untuk mendapatkan pekerjaan remote
 python3 scripts/build.py   # menghasilkan PDF, DOCX, MD gabungan, dan CSV
 ```
 
-Kebutuhan: Python 3 (`beautifulsoup4`, `pypdf`, `python-docx`), `pandoc`, Node.js dengan Playwright + Chromium.
+Kebutuhan: Python 3 (`beautifulsoup4`, `pypdf`, `pikepdf`, `python-docx`), `pandoc`, Node.js dengan Playwright + Chromium.

@@ -32,7 +32,7 @@ async function main() {
     margin: noFooter ? { top: '0', bottom: '0', left: '0', right: '0' }
                      : { top: '16mm', bottom: '16mm', left: '16mm', right: '16mm' },
     outline: true,
-    tagged: true,
+    tagged: false,
   });
   await browser.close();
 }

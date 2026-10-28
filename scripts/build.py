@@ -19,6 +19,7 @@ import sys
 from bs4 import BeautifulSoup
 from docx import Document
 from docx.shared import Pt, RGBColor
+import pikepdf
 from pypdf import PdfReader, PdfWriter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -290,8 +291,12 @@ def build_pdf(md_path, name, cover, toc_levels, footer):
     writer.add_metadata({"/Title": f"{TITLE} — {name.replace('_', ' ').title()}", "/Author": BRAND,
                          "/Subject": SUBTITLE, "/Lang": "id"})
     out = os.path.join(ROOT, f"{name}.pdf")
-    with open(out, "wb") as f:
+    merged = os.path.join(BUILD, f"{name}_merged.pdf")
+    with open(merged, "wb") as f:
         writer.write(f)
+    # Re-save through qpdf: fresh xref table, linearized, PDF 1.7 — opens reliably in every viewer.
+    with pikepdf.open(merged) as pdf:
+        pdf.save(out, linearize=True, min_version="1.7", object_stream_mode=pikepdf.ObjectStreamMode.disable)
     print(f"{name}.pdf: {len(PdfReader(out).pages)} pages")
 
 
