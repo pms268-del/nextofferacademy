@@ -62,8 +62,8 @@ def load_prompts():
 
 ELIG_LABEL = {"Ya": "Ya", "Ya – per listing": "Per lowongan",
               "Belum terverifikasi": "Cek saat daftar", "Tidak": "Belum menerima"}
-META = re.compile(r"\s*\((?:pihak ketiga[^)]*|klaim[^)]*|dilaporkan|agregator[^)]*|data 2021|data lama|"
-                  r"DailySocial, data lama|sumber bertentangan|dikutip pihak ketiga dari FAQ resmi|"
+META = re.compile(r"\s*\((?:pihak ketiga[^)]*|klaim[^)]*|dilaporkan|agregator[^)]*|"
+                  r"sumber bertentangan|dikutip pihak ketiga dari FAQ resmi|"
                   r"opsional, dilaporkan|Asia, klaim situs)\)")
 
 
@@ -104,25 +104,39 @@ def directory_table(prefix):
     return "\n".join(out)
 
 
+def directory_index(prefix):
+    rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
+    key, label = (("biaya_pembayaran", "Biaya & pembayaran") if prefix == "B."
+                  else ("bayaran_diiklankan", "Bayaran yang diiklankan"))
+    out = [f"| # | Platform | Jenis pekerjaan | Untuk Indonesia | {label} |",
+           "|--|----------|--------------------|--------|--------------------------|"]
+    for i, r in enumerate(rows, 1):
+        out.append(f"| {i} | [{r['platform']}]({r['url']}) | {reader_text(r['jenis_pekerjaan'])} | "
+                   f"**{ELIG_LABEL[r['eligible_indonesia']]}** | {reader_text(r[key])} |")
+    return "\n".join(out)
+
+
 def directory_cards(prefix):
     """Full reader-facing directory: every platform with all practical fields."""
     rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
     parts = []
     for i, r in enumerate(rows, 1):
-        sources = " · ".join(f"[{n}]({u.strip()})" for n, u in enumerate(r["sumber"].split("|"), 1))
         fields = [
             ("Kategori", f"{r['kategori'][3:]} — {reader_text(r['subkategori'])}"),
             ("Website / cara melamar", f"<{r['url']}>"),
             ("Jenis pekerjaan", reader_text(r["jenis_pekerjaan"])),
             ("Skill yang dibutuhkan", reader_text(r["skill_dibutuhkan"])),
-            ("Untuk Indonesia", f"**{ELIG_LABEL[r['eligible_indonesia']]}** · {reader_text(r['cakupan'])}"),
+            ("Untuk Indonesia", f"**{ELIG_LABEL[r['eligible_indonesia']]}**"),
+            ("Cakupan lokasi", reader_text(r["cakupan"])),
+            ("Tipe akses", reader_text(r["tipe_akses"])),
             ("Bayaran yang diiklankan", reader_text(r["bayaran_diiklankan"])),
             ("Proses seleksi", reader_text(r["proses_seleksi"])),
             ("Biaya & pembayaran", reader_text(r["biaya_pembayaran"])),
         ]
         if r["catatan"]:
             fields.append(("Catatan", reader_text(r["catatan"])))
-        fields.append(("Data per", f"Oktober 2026 · Info: {sources}"))
+        fields.append(("Data diperbarui", "21 Oktober 2026"))
+        fields.append(("Sumber info", " · ".join(f"<{u.strip()}>" for u in r["sumber"].split("|"))))
         body = "\n".join(f"- **{k}:** {v}" for k, v in fields)
         parts.append(f"::: {{.card}}\n**{i}. [{r['platform']}]({r['url']})**\n\n{body}\n:::\n")
     return "\n".join(parts)
@@ -138,6 +152,7 @@ def resolve(md):
     md = re.sub(r"\{\{PROMPT:([A-Z]\d)\}\}", prompt_sub, md)
     for cat in "ABC":
         md = md.replace(f"{{{{DIRECTORY:{cat}}}}}", directory_cards(cat + "."))
+        md = md.replace(f"{{{{INDEX:{cat}}}}}", directory_index(cat + "."))
     md = md.replace("{{TOTAL}}", str(len(D.rows_as_dicts())))
     md = md.replace("{{WEBSITE}}", WEBSITE)
     left = re.findall(r"\{\{[A-Z]+[:A-Z0-9]*\}\}", md)

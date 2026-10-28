@@ -1037,9 +1037,48 @@ Berikut daftar lengkap 102 platform yang dikurasi Next Offer Academy, dibagi ke 
 - **Cek saat daftar:** pastikan Indonesia tersedia di formulir pendaftaran.
 - **Belum menerima:** saat ini belum menerima pelamar dari Indonesia. Dicantumkan agar Anda tidak membuang waktu.
 
-Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman resmi sebelum mendaftar. Pembaruan dan data teknis setiap platform akan tersedia di database **[nextofferacademy.id](https://nextofferacademy.id)**.
+Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman resmi sebelum mendaftar. Bagian ini dimulai dengan tabel ringkas seluruh platform per jalur, lalu detail lengkap setiap platform. Pembaruan berkala akan tersedia di database **[nextofferacademy.id](https://nextofferacademy.id)**.
 
 ## A. AI Training & Evaluation
+
+### Ringkasan semua platform A
+
+| # | Platform | Jenis pekerjaan | Untuk Indonesia | Bayaran yang diiklankan |
+|--|----------|--------------------|--------|--------------------------|
+| 1 | [Mercor](https://work.mercor.com) | AI training/evaluasi berbasis keahlian (bahasa, STEM, hukum, medis, coding), AI safety | **Ya** | Listing Indonesia: US$10–14/jam (Indonesian Language Expert); US$18–22/jam (Bilingual Indonesian Generalist – AI Safety); US$50/jam (Indonesian Audio Generalist Evaluator) |
+| 2 | [Outlier (Scale AI)](https://outlier.ai) | Menulis/menilai respons AI, evaluasi bahasa, coding, domain expert | **Per lowongan** | Listing Indonesian writer: rata-rata US$7,50/jam (dihapus Jul 2025); Indonesian voice evaluator US$8/jam (Des 2024) |
+| 3 | [DataAnnotation](https://www.dataannotation.tech) | Menulis & menilai respons chatbot, coding evaluation | **Belum menerima** | Umum US$25–50+/jam; coding US$40–150+/jam |
+| 4 | [Alignerr (Labelbox)](https://www.alignerr.com) | Evaluasi AI, domain expert, audio, coding | **Cek saat daftar** | Listing rata-rata US$91/jam (rentang US$15–250) berdasarkan 545 listing |
+| 5 | [micro1](https://www.micro1.ai) | AI trainer, expert reviewer, coding & domain evaluation | **Cek saat daftar** | Listing US$21–70/jam; tipikal US$30–135+/jam |
+| 6 | [Halluminate](https://www.workatastartup.com/jobs/84521) | Lowongan full-time (Strategic Project Lead, Member of Technical Staff) | **Belum menerima** | US$150–275K/tahun (full-time, AS) |
+| 7 | [Mindrift (Toloka)](https://mindrift.ai) | Menulis, coding, evaluasi dan pembuatan data AI per proyek | **Per lowongan** | US$15–100+/jam; tiap tugas menampilkan reward tetap |
+| 8 | [Toloka (crowd tasks)](https://toloka.ai) | Microtask: klasifikasi, moderasi, anotasi sederhana | **Cek saat daftar** | Sebagian besar tugas bernilai sen |
+| 9 | [Appen / CrowdGen](https://www.appen.com) | Social media evaluator, search evaluator, data collection | **Ya** | Listing Social Media Evaluator Indonesia: US$2,43/jam, ±20 jam/minggu |
+| 10 | [TELUS Digital AI Community](https://www.telusdigital.com) | Quality Assurance Rater – Indonesian (menilai hasil pencarian & konten AI) | **Ya** | ±US$5/jam |
+| 11 | [RWS TrainAI](https://jobs.lever.co/rws) | AI Data Specialist/Annotator Indonesian, search engine evaluator, speech evaluation | **Ya** | US$4/jam (search evaluator); US$5/jam (AI Data Specialist); US$14/jam (Annotator STEM S2) |
+| 12 | [OneForma (Centific)](https://www.oneforma.com) | Transkripsi, anotasi, judging, terjemahan, pengumpulan data | **Ya** | Bervariasi per proyek; ulasan: US$9–12/jam diamati (satu peninjau) |
+| 13 | [Clickworker / UHRS](https://www.clickworker.com) | Microtask, penulisan pendek, UHRS rating | **Cek saat daftar** | Per tugas (rendah); Cek di situs |
+| 14 | [DataForce (TransPerfect)](https://www.dataforce.ai) | Anotasi teks/audio/gambar/video, studi pengumpulan data | **Cek saat daftar** | Cek di situs |
+| 15 | [Welo Data (Welocalize)](https://jobs.lever.co/weloglobal) | Ads Quality Rater – Indonesian; Translation Validator; talent hub Indonesia/Jawa/Sunda | **Ya** | Translation Validator Indonesian: US$5/jam (kontrak 2 minggu) |
+| 16 | [Turing](https://work.turing.com) | Membuat/menilai tugas software engineering untuk LLM, agentic trainer | **Per lowongan** | US$25–55/jam (bervariasi per negara) hingga US$200–300/jam (khusus AS) |
+| 17 | [Prolific](https://www.prolific.com) | Studi riset akademik, survei, tugas evaluasi AI | **Belum menerima** | — |
+| 18 | [Remotasks (Scale AI)](https://www.remotasks.com) | Anotasi data, labeling | **Cek saat daftar** | Cek di situs |
+| 19 | [Invisible Technologies (Expert Marketplace)](https://job-boards.eu.greenhouse.io/invisibletech) | AI data trainer: bahasa, STEM, bisnis, coding | **Per lowongan** | US$8–65/jam; kompensasi disesuaikan pasar lokal di luar AS |
+| 20 | [Handshake AI (MOVE / Fellowship)](https://joinhandshake.com) | Melatih & mengevaluasi LLM (STEM, PhD, dll.) | **Belum menerima** | US$30–125/jam |
+| 21 | [Snorkel AI Expert Community](https://snorkel.ai/expert-community/) | Membuat & menilai soal/tugas reasoning (hukum, STEM, kedokteran) | **Per lowongan** | US$10–100 per tugas berkualitas (listing hukum) |
+| 22 | [LXT](https://www.lxt.ai) | Merekam ratusan prompt suara, evaluasi audio | **Cek saat daftar** | Cek di situs |
+| 23 | [xAI (AI Tutor)](https://job-boards.greenhouse.io/xai) | AI Tutor – Indonesian: rekam, transkripsi, anotasi audio | **Per lowongan** | US$35–45/jam untuk kandidat AS; tarif internasional diinformasikan saat rekrutmen |
+| 24 | [Sigma AI](https://sigma.ai) | Terjemahan, kategorisasi, anotasi, transkripsi Bahasa Indonesia | **Per lowongan** | Cek di situs |
+| 25 | [Defined.ai (Neevo)](https://defined.ai) | Tugas menulis, tagging, pengumpulan & klasifikasi data | **Cek saat daftar** | Per tugas; Cek di situs |
+| 26 | [Pareto AI](https://pareto.ai) | Prompt engineering, evaluasi, anotasi ahli (hukum, dll.) | **Cek saat daftar** | Cek di situs |
+| 27 | [Surge AI](https://www.surgehq.ai) | RLHF, evaluasi LLM | **Cek saat daftar** | Cek di situs |
+| 28 | [Uber AI Solutions (Scaled Solutions)](https://www.uber.com) | Anotasi, coding, data collection berbasis tugas | **Belum menerima** | Per tugas, dibayar bulanan |
+| 29 | [iMerit](https://imerit.net) | Video annotator, language expert (Gen AI) | **Cek saat daftar** | Listing bahasa Asia Tenggara mulai US$5/jam |
+| 30 | [Rex.zone (Remo Experts)](https://rex.zone) | AI trainer generalis & spesialis (medis, hukum) | **Cek saat daftar** | US$25–120/jam pada listing (angka antar sumber tidak konsisten) |
+| 31 | [LILT](https://lilt.com) | Penerjemah/linguis Bahasa Indonesia (AI-assisted translation) | **Per lowongan** | Cek di situs |
+| 32 | [Lionbridge (freelance & AI tasks)](https://www.lionbridge.com) | Transkripsi, AI feedback, rekaman suara, moderasi, cek terjemahan | **Cek saat daftar** | Cek di situs |
+
+### Detail setiap platform A
 
 ::: {.card}
 **1. [Mercor](https://work.mercor.com)**
@@ -1048,12 +1087,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://work.mercor.com>
 - **Jenis pekerjaan:** AI training/evaluasi berbasis keahlian (bahasa, STEM, hukum, medis, coding), AI safety
 - **Skill yang dibutuhkan:** Keahlian domain terbukti; Bahasa Indonesia native + Inggris bisnis untuk proyek bahasa
-- **Untuk Indonesia:** **Ya** · Per-listing (banyak worldwide, sebagian dibatasi negara)
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Per-listing (banyak worldwide, sebagian dibatasi negara)
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** Listing Indonesia: US$10–14/jam (Indonesian Language Expert); US$18–22/jam (Bilingual Indonesian Generalist – AI Safety); US$50/jam (Indonesian Audio Generalist Evaluator)
 - **Proses seleksi:** Upload CV → AI interview ±20 menit → formulir/assessment → (kadang) wawancara manusia → kontrak
 - **Biaya & pembayaran:** Tanpa biaya pendaftaran. Kontrak dalam USD; dibayar via Stripe Connect ke rekening bank atas nama sendiri (Indonesia ada di daftar negara Stripe Mercor); payout mingguan (Rabu) untuk kontrak per jam
 - **Catatan:** Status listing berubah cepat; cek tombol Apply masih aktif. Dompet digital tidak didukung Stripe—harus rekening bank.
-- **Data per:** Oktober 2026 · Info: [1](https://talent.docs.mercor.com/policies/supported-countries) · [2](https://talent.docs.mercor.com/how-to/payments) · [3](https://talent.docs.mercor.com/how-to/prepare-for-ai-interview) · [4](https://work.mercor.com/jobs/list_AAABoGonExXGGYAsl71Ay4_x) · [5](https://work.mercor.com/jobs/list_AAABmsaTttpdHZCCOG9EXoA5)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://talent.docs.mercor.com/policies/supported-countries> · <https://talent.docs.mercor.com/how-to/payments> · <https://talent.docs.mercor.com/how-to/prepare-for-ai-interview> · <https://work.mercor.com/jobs/list_AAABoGonExXGGYAsl71Ay4_x> · <https://work.mercor.com/jobs/list_AAABmsaTttpdHZCCOG9EXoA5>
 :::
 
 ::: {.card}
@@ -1063,12 +1105,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://outlier.ai>
 - **Jenis pekerjaan:** Menulis/menilai respons AI, evaluasi bahasa, coding, domain expert
 - **Skill yang dibutuhkan:** Menulis jelas, ketelitian mengikuti pedoman, keahlian domain
-- **Untuk Indonesia:** **Per lowongan** · Per-proyek
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-proyek
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Listing Indonesian writer: rata-rata US$7,50/jam (dihapus Jul 2025); Indonesian voice evaluator US$8/jam (Des 2024)
 - **Proses seleksi:** Buat akun → pilih keahlian → skill screening → verifikasi identitas → onboarding per proyek
 - **Biaya & pembayaran:** Tanpa biaya. Pembayaran via PayPal/AirTM/ACH
 - **Catatan:** Empty queue (tidak ada tugas) sering terjadi; lulus onboarding ≠ pasti ada pekerjaan.
-- **Data per:** Oktober 2026 · Info: [1](https://outlier.ai/blog/your-first-steps-on-outlier-what-to-expect-from-onboarding) · [2](https://builtin.com/job/remote-ai-training-indonesian-writers/2687946) · [3](https://remowork.life/jobs/6a43f79741b9af7acf0b9006/voice-conversation-evaluator-indonesian)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://outlier.ai/blog/your-first-steps-on-outlier-what-to-expect-from-onboarding> · <https://builtin.com/job/remote-ai-training-indonesian-writers/2687946> · <https://remowork.life/jobs/6a43f79741b9af7acf0b9006/voice-conversation-evaluator-indonesian>
 :::
 
 ::: {.card}
@@ -1078,12 +1123,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.dataannotation.tech>
 - **Jenis pekerjaan:** Menulis & menilai respons chatbot, coding evaluation
 - **Skill yang dibutuhkan:** Menulis bahasa Inggris kuat, logika, coding (untuk proyek coding)
-- **Untuk Indonesia:** **Belum menerima** · Dibatasi negara (AS, UK, Kanada, Australia, Selandia Baru, Irlandia)
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** Dibatasi negara (AS, UK, Kanada, Australia, Selandia Baru, Irlandia)
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Umum US$25–50+/jam; coding US$40–150+/jam
 - **Proses seleksi:** Starter Assessment ±1 jam (sekali saja) → kualifikasi tambahan
 - **Biaya & pembayaran:** Tanpa biaya; PayPal
 - **Catatan:** Daftar negara resmi tidak dipublikasikan; jangan memakai VPN/alamat palsu—melanggar ketentuan.
-- **Data per:** Oktober 2026 · Info: [1](https://aitrainer.work/guides/is-dataannotation-legit-review) · [2](https://aitrainer.work/compare/dataannotation-vs-terac) · [3](https://www.aitrainingjobsfinder.com/blog/dataannotation-review-2026)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://aitrainer.work/guides/is-dataannotation-legit-review> · <https://aitrainer.work/compare/dataannotation-vs-terac> · <https://www.aitrainingjobsfinder.com/blog/dataannotation-review-2026>
 :::
 
 ::: {.card}
@@ -1093,12 +1141,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.alignerr.com>
 - **Jenis pekerjaan:** Evaluasi AI, domain expert, audio, coding
 - **Skill yang dibutuhkan:** Keahlian domain; komunikasi lisan untuk AI interview
-- **Untuk Indonesia:** **Cek saat daftar** · Per-proyek; tarif disesuaikan lokasi
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-proyek; tarif disesuaikan lokasi
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Listing rata-rata US$91/jam (rentang US$15–250) berdasarkan 545 listing
 - **Proses seleksi:** CV → verifikasi ID → AI interview 'Zara' (tidak semua peran) → assessment domain → kontrak/onboarding
 - **Biaya & pembayaran:** Tanpa biaya; metode pembayaran ditentukan negara; siklus mingguan
 - **Catatan:** Staf Alignerr di Reddit: 'project based work', jangan dianggap pekerjaan penuh waktu.
-- **Data per:** Oktober 2026 · Info: [1](https://labelbox.com/services/alignerr-connect/) · [2](https://remowork.life/companies/alignerr) · [3](https://www.aigigjobs.com/blog/alignerr-pay-guide-2026) · [4](https://www.bbb.org/us/ca/san-francisco/profile/artificial-intelligence/alignerr-1116-975409/complaints)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://labelbox.com/services/alignerr-connect/> · <https://remowork.life/companies/alignerr> · <https://www.aigigjobs.com/blog/alignerr-pay-guide-2026> · <https://www.bbb.org/us/ca/san-francisco/profile/artificial-intelligence/alignerr-1116-975409/complaints>
 :::
 
 ::: {.card}
@@ -1108,12 +1159,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.micro1.ai>
 - **Jenis pekerjaan:** AI trainer, expert reviewer, coding & domain evaluation
 - **Skill yang dibutuhkan:** Keahlian domain; wawancara lisan bahasa Inggris
-- **Untuk Indonesia:** **Cek saat daftar** · Per-listing
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Registrasi + listing
 - **Bayaran yang diiklankan:** Listing US$21–70/jam; tipikal US$30–135+/jam
 - **Proses seleksi:** AI interview 'Zara' 30–60 menit (kamera, mikrofon, share screen) → chat HR → diskusi spesialis
 - **Biaya & pembayaran:** Tanpa biaya; metode pembayaran: cek di situs
 - **Catatan:** Laporan: Zara kadang memotong jawaban; siapkan koneksi stabil.
-- **Data per:** Oktober 2026 · Info: [1](https://dataford.io/interview-guides/micro1/ai-trainer) · [2](https://www.micro1.ai/experts/reviews) · [3](https://www.trustpilot.com/review/micro1.ai?page=6)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://dataford.io/interview-guides/micro1/ai-trainer> · <https://www.micro1.ai/experts/reviews> · <https://www.trustpilot.com/review/micro1.ai?page=6>
 :::
 
 ::: {.card}
@@ -1123,12 +1177,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.workatastartup.com/jobs/84521>
 - **Jenis pekerjaan:** Lowongan full-time (Strategic Project Lead, Member of Technical Staff)
 - **Skill yang dibutuhkan:** Pengalaman senior (IB/PE, riset post-training, engineering)
-- **Untuk Indonesia:** **Belum menerima** · San Francisco / AS
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** San Francisco / AS
+- **Tipe akses:** Lowongan perusahaan
 - **Bayaran yang diiklankan:** US$150–275K/tahun (full-time, AS)
 - **Proses seleksi:** Lamaran langsung ke perusahaan
 - **Biaya & pembayaran:** —
 - **Catatan:** Tidak ditemukan program kontributor terbuka untuk Indonesia (Cek di situs).
-- **Data per:** Oktober 2026 · Info: [1](https://www.workatastartup.com/jobs/84521) · [2](https://seedtable.com/jobs/74941)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.workatastartup.com/jobs/84521> · <https://seedtable.com/jobs/74941>
 :::
 
 ::: {.card}
@@ -1138,12 +1195,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://mindrift.ai>
 - **Jenis pekerjaan:** Menulis, coding, evaluasi dan pembuatan data AI per proyek
 - **Skill yang dibutuhkan:** Keahlian domain; bahasa Inggris
-- **Untuk Indonesia:** **Per lowongan** · Per-proyek; kompensasi bervariasi per wilayah
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-proyek; kompensasi bervariasi per wilayah
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** US$15–100+/jam; tiap tugas menampilkan reward tetap
 - **Proses seleksi:** Pendaftaran → tes/kualifikasi per proyek
 - **Biaya & pembayaran:** Payout tanggal 5 & 20; perlu Payoneer/Tipalti
 - **Catatan:** Waspada situs palsu yang meniru Mindrift.
-- **Data per:** Oktober 2026 · Info: [1](https://app.cyberyozh.com/blog/mindrift-ai-freelancing-guide/) · [2](https://twine.net/projects/b8pcr0) · [3](https://joingerald.com/learn/work--income/mindrift-jobs-guide)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://app.cyberyozh.com/blog/mindrift-ai-freelancing-guide/> · <https://twine.net/projects/b8pcr0> · <https://joingerald.com/learn/work--income/mindrift-jobs-guide>
 :::
 
 ::: {.card}
@@ -1153,12 +1213,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://toloka.ai>
 - **Jenis pekerjaan:** Microtask: klasifikasi, moderasi, anotasi sederhana
 - **Skill yang dibutuhkan:** Teliti, bahasa lokal
-- **Untuk Indonesia:** **Cek saat daftar** · Per-proyek
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-proyek
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Sebagian besar tugas bernilai sen
 - **Proses seleksi:** Registrasi → tugas pelatihan
 - **Biaya & pembayaran:** Payoneer jadi metode utama; PayPal tidak lagi didukung
 - **Catatan:** Cocok hanya sebagai tambahan; pendapatan per jam rendah.
-- **Data per:** Oktober 2026 · Info: [1](https://remowork.life/companies/toloka/pay-and-benefits) · [2](https://reviewindex.mataroa.blog/blog/toloka-ai-review-do-their-annotator-jobs-pay)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remowork.life/companies/toloka/pay-and-benefits> · <https://reviewindex.mataroa.blog/blog/toloka-ai-review-do-their-annotator-jobs-pay>
 :::
 
 ::: {.card}
@@ -1168,12 +1231,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.appen.com>
 - **Jenis pekerjaan:** Social media evaluator, search evaluator, data collection
 - **Skill yang dibutuhkan:** Native Bahasa Indonesia, berdomisili di Indonesia
-- **Untuk Indonesia:** **Ya** · Per-proyek per negara
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Per-proyek per negara
+- **Tipe akses:** Registrasi + listing
 - **Bayaran yang diiklankan:** Listing Social Media Evaluator Indonesia: US$2,43/jam, ±20 jam/minggu
 - **Proses seleksi:** Lamar listing → email CrowdGen untuk buat akun → kualifikasi
 - **Biaya & pembayaran:** Tanpa biaya (listing menegaskan tidak boleh membayar apa pun)
 - **Catatan:** Tarif lokal rendah; bandingkan dengan alternatif sebelum berkomitmen.
-- **Data per:** Oktober 2026 · Info: [1](https://remotive.com/remote/jobs/marketing/social-media-evaluator-4985979)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remotive.com/remote/jobs/marketing/social-media-evaluator-4985979>
 :::
 
 ::: {.card}
@@ -1183,12 +1249,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.telusdigital.com>
 - **Jenis pekerjaan:** Quality Assurance Rater – Indonesian (menilai hasil pencarian & konten AI)
 - **Skill yang dibutuhkan:** Fasih Indonesia & Inggris; tinggal di Indonesia ≥5 tahun berturut-turut
-- **Untuk Indonesia:** **Ya** · Khusus Indonesia (listing bahasa)
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Khusus Indonesia (listing bahasa)
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** ±US$5/jam
 - **Proses seleksi:** Lamaran → pelatihan & ujian kualifikasi proyek
 - **Biaya & pembayaran:** Tanpa biaya; metode: cek di situs
 - **Catatan:** Ujian kualifikasi rater biasanya panjang; pelajari pedoman dengan serius.
-- **Data per:** Oktober 2026 · Info: [1](https://remotejobs.org/remote-jobs/quality-assurance-rater-indonesian-id-jobs-for-humanity) · [2](https://cazvid.com/job/quality-assurance-rater-indonesian-425297) · [3](https://proz.com/translation-jobs/2088583)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remotejobs.org/remote-jobs/quality-assurance-rater-indonesian-id-jobs-for-humanity> · <https://cazvid.com/job/quality-assurance-rater-indonesian-425297> · <https://proz.com/translation-jobs/2088583>
 :::
 
 ::: {.card}
@@ -1198,12 +1267,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://jobs.lever.co/rws>
 - **Jenis pekerjaan:** AI Data Specialist/Annotator Indonesian, search engine evaluator, speech evaluation
 - **Skill yang dibutuhkan:** Native Indonesia, Inggris B2–C2; beberapa peran butuh S2 STEM
-- **Untuk Indonesia:** **Ya** · Per-listing (Indonesia & global)
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Per-listing (Indonesia & global)
+- **Tipe akses:** Listing spesifik (Lever/iCIMS)
 - **Bayaran yang diiklankan:** US$4/jam (search evaluator); US$5/jam (AI Data Specialist); US$14/jam (Annotator STEM S2)
 - **Proses seleksi:** Lamaran → tes bahasa, Inggris, dan kualifikasi
 - **Biaya & pembayaran:** Tanpa biaya
 - **Catatan:** Peran W2 'General AI Data Annotator – Indonesian' hanya untuk penduduk AS.
-- **Data per:** Oktober 2026 · Info: [1](https://jobs.lever.co/rws/070531b4-d4ba-4371-af47-048d04042500) · [2](https://jobs.lever.co/rws/65af587c-729f-4fa4-a477-e22174718378) · [3](https://vendorrelations-rws.icims.com/jobs/3551/job)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobs.lever.co/rws/070531b4-d4ba-4371-af47-048d04042500> · <https://jobs.lever.co/rws/65af587c-729f-4fa4-a477-e22174718378> · <https://vendorrelations-rws.icims.com/jobs/3551/job>
 :::
 
 ::: {.card}
@@ -1213,12 +1285,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.oneforma.com>
 - **Jenis pekerjaan:** Transkripsi, anotasi, judging, terjemahan, pengumpulan data
 - **Skill yang dibutuhkan:** Native Bahasa Indonesia; teliti
-- **Untuk Indonesia:** **Ya** · Per-proyek
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Per-proyek
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Bervariasi per proyek; ulasan: US$9–12/jam diamati (satu peninjau)
 - **Proses seleksi:** Registrasi → proses persetujuan bertahap (bisa berbulan-bulan)
 - **Biaya & pembayaran:** Payoneer, PayPal (batas US$300/tahun), Tipalti
 - **Catatan:** Indonesia tercantum di beranda resmi.
-- **Data per:** Oktober 2026 · Info: [1](https://www.oneforma.com/) · [2](https://remowork.life/blog/oneforma-review-is-it-legit-pay-rates-and-how-it-works)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.oneforma.com/> · <https://remowork.life/blog/oneforma-review-is-it-legit-pay-rates-and-how-it-works>
 :::
 
 ::: {.card}
@@ -1228,12 +1303,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.clickworker.com>
 - **Jenis pekerjaan:** Microtask, penulisan pendek, UHRS rating
 - **Skill yang dibutuhkan:** Teliti; lulus tes kualifikasi
-- **Untuk Indonesia:** **Cek saat daftar** · Registrasi bisa ditutup sementara per negara
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Registrasi bisa ditutup sementara per negara
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Per tugas (rendah); Cek di situs
 - **Proses seleksi:** Registrasi → assessment → tes kualifikasi UHRS (tidak dibayar)
 - **Biaya & pembayaran:** PayPal (min €10), Payoneer, AirTM, dll.—tidak semua tersedia di tiap negara
 - **Catatan:** Cek dropdown negara saat registrasi dan bagian 'Payment details' sebelum bekerja.
-- **Data per:** Oktober 2026 · Info: [1](https://support-workplace.clickworker.com/support/solutions/articles/80000671469) · [2](https://support-workplace.clickworker.com/support/solutions/articles/80000672350)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://support-workplace.clickworker.com/support/solutions/articles/80000671469> · <https://support-workplace.clickworker.com/support/solutions/articles/80000672350>
 :::
 
 ::: {.card}
@@ -1243,12 +1321,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.dataforce.ai>
 - **Jenis pekerjaan:** Anotasi teks/audio/gambar/video, studi pengumpulan data
 - **Skill yang dibutuhkan:** Bahasa, demografi sesuai proyek
-- **Untuk Indonesia:** **Cek saat daftar** · Per-proyek
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-proyek
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Profil → verifikasi identitas → tes keterampilan
 - **Biaya & pembayaran:** Tanpa biaya
 - **Catatan:** Tidak ditemukan listing DataForce khusus Indonesia.
-- **Data per:** Oktober 2026 · Info: [1](https://www.dataforce.ai/platform) · [2](https://remotive.com/remote/jobs/ai-ml/language-data-annotator-4239912)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.dataforce.ai/platform> · <https://remotive.com/remote/jobs/ai-ml/language-data-annotator-4239912>
 :::
 
 ::: {.card}
@@ -1258,12 +1339,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://jobs.lever.co/weloglobal>
 - **Jenis pekerjaan:** Ads Quality Rater – Indonesian; Translation Validator; talent hub Indonesia/Jawa/Sunda
 - **Skill yang dibutuhkan:** Native Indonesia/Jawa/Sunda; Inggris
-- **Untuk Indonesia:** **Ya** · Per-listing (Indonesia)
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Per-listing (Indonesia)
+- **Tipe akses:** Listing spesifik + talent network
 - **Bayaran yang diiklankan:** Translation Validator Indonesian: US$5/jam (kontrak 2 minggu)
 - **Proses seleksi:** Lamaran Lever → asesmen; talent hub = basis data, bukan lowongan aktif
 - **Biaya & pembayaran:** Tanpa biaya
 - **Catatan:** Bahasa daerah (Jawa, Sunda) bisa menjadi keunggulan.
-- **Data per:** Oktober 2026 · Info: [1](https://jobs.lever.co/weloglobal/1a881068-da67-471a-9ca6-c02a57a5a8ec) · [2](https://jobs.lever.co/weloglobal/d16a8aa6-84fd-40f8-bf52-c51c663cdaab/apply) · [3](https://seoulstart.com/ai-training-jobs/welocalize-shape-the-future-of-ai-indonesian-talent-hub)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobs.lever.co/weloglobal/1a881068-da67-471a-9ca6-c02a57a5a8ec> · <https://jobs.lever.co/weloglobal/d16a8aa6-84fd-40f8-bf52-c51c663cdaab/apply> · <https://seoulstart.com/ai-training-jobs/welocalize-shape-the-future-of-ai-indonesian-talent-hub>
 :::
 
 ::: {.card}
@@ -1273,12 +1357,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://work.turing.com>
 - **Jenis pekerjaan:** Membuat/menilai tugas software engineering untuk LLM, agentic trainer
 - **Skill yang dibutuhkan:** Pemrograman (Python, JSON/SQL), reasoning
-- **Untuk Indonesia:** **Per lowongan** · Per-listing (sebagian khusus AS)
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing (sebagian khusus AS)
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** US$25–55/jam (bervariasi per negara) hingga US$200–300/jam (khusus AS)
 - **Proses seleksi:** Aplikasi 15–30 menit + AI video interview (sesuai listing)
 - **Biaya & pembayaran:** Tanpa biaya
 - **Catatan:** Beberapa kontrak butuh overlap jam kerja Pasifik AS.
-- **Data per:** Oktober 2026 · Info: [1](https://work.turing.com/r/ozYn3IATJW) · [2](https://turing.betterteam.com/remote-software-engineer-ai-research-evaluation)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://work.turing.com/r/ozYn3IATJW> · <https://turing.betterteam.com/remote-software-engineer-ai-research-evaluation>
 :::
 
 ::: {.card}
@@ -1288,12 +1375,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.prolific.com>
 - **Jenis pekerjaan:** Studi riset akademik, survei, tugas evaluasi AI
 - **Skill yang dibutuhkan:** —
-- **Untuk Indonesia:** **Belum menerima** · Negara OECD tertentu (+ Afrika Selatan)
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** Negara OECD tertentu (+ Afrika Selatan)
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** —
 - **Proses seleksi:** Waitlist untuk negara tidak didukung
 - **Biaya & pembayaran:** —
 - **Catatan:** Indonesia tidak ada di daftar negara peserta.
-- **Data per:** Oktober 2026 · Info: [1](https://participant-help.prolific.com/en/article/628d72) · [2](https://researcher-help.prolific.com/en/article/2bb2f4)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://participant-help.prolific.com/en/article/628d72> · <https://researcher-help.prolific.com/en/article/2bb2f4>
 :::
 
 ::: {.card}
@@ -1303,12 +1393,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.remotasks.com>
 - **Jenis pekerjaan:** Anotasi data, labeling
 - **Skill yang dibutuhkan:** Teliti
-- **Untuk Indonesia:** **Cek saat daftar** · Telah ditutup di beberapa negara (2024)
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Telah ditutup di beberapa negara (2024)
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Pelatihan per tugas
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Tutup di Kenya, Nigeria, Pakistan; pendaftaran baru dihentikan di Thailand, Vietnam, Polandia (2024). Hati-hati: akun Remotasks diperjualbelikan di pasar gelap—jangan membeli/menyewa akun.
-- **Data per:** Oktober 2026 · Info: [1](https://restofworld.org/2024/scale-ai-remotasks-banned-workers/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://restofworld.org/2024/scale-ai-remotasks-banned-workers/>
 :::
 
 ::: {.card}
@@ -1318,11 +1411,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://job-boards.eu.greenhouse.io/invisibletech>
 - **Jenis pekerjaan:** AI data trainer: bahasa, STEM, bisnis, coding
 - **Skill yang dibutuhkan:** Keahlian domain; Inggris
-- **Untuk Indonesia:** **Per lowongan** · Per-listing (sebagian 'Remote Anywhere', sebagian dibatasi negara)
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing (sebagian 'Remote Anywhere', sebagian dibatasi negara)
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** US$8–65/jam; kompensasi disesuaikan pasar lokal di luar AS
 - **Proses seleksi:** Lamaran Greenhouse → asesmen
 - **Biaya & pembayaran:** Kontraktor menyediakan komputer & internet sendiri
-- **Data per:** Oktober 2026 · Info: [1](https://job-boards.eu.greenhouse.io/invisibletech/jobs/4832490101) · [2](https://jobs.remote.com/jobs/invisible-technologies-c1bcklvo)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://job-boards.eu.greenhouse.io/invisibletech/jobs/4832490101> · <https://jobs.remote.com/jobs/invisible-technologies-c1bcklvo>
 :::
 
 ::: {.card}
@@ -1332,12 +1428,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://joinhandshake.com>
 - **Jenis pekerjaan:** Melatih & mengevaluasi LLM (STEM, PhD, dll.)
 - **Skill yang dibutuhkan:** Mahasiswa/lulusan S1–S3
-- **Untuk Indonesia:** **Belum menerima** · Umumnya berbasis AS; ada listing khusus negara tertentu (India, Kanada, Eropa)
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** Umumnya berbasis AS; ada listing khusus negara tertentu (India, Kanada, Eropa)
+- **Tipe akses:** Program
 - **Bayaran yang diiklankan:** US$30–125/jam
 - **Proses seleksi:** Lamaran → kualifikasi
 - **Biaya & pembayaran:** Dibayar langsung oleh Handshake
 - **Catatan:** Relevan hanya bila ada listing yang mencantumkan Indonesia.
-- **Data per:** Oktober 2026 · Info: [1](https://support.joinhandshake.com/hc/en-us/articles/31620022060055-Introduction-to-the-MOVE-Program) · [2](https://careers.base10.vc/companies/joinhandshake-com/jobs/85892139-stem-phd-eu)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://support.joinhandshake.com/hc/en-us/articles/31620022060055-Introduction-to-the-MOVE-Program> · <https://careers.base10.vc/companies/joinhandshake-com/jobs/85892139-stem-phd-eu>
 :::
 
 ::: {.card}
@@ -1347,12 +1446,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://snorkel.ai/expert-community/>
 - **Jenis pekerjaan:** Membuat & menilai soal/tugas reasoning (hukum, STEM, kedokteran)
 - **Skill yang dibutuhkan:** Gelar lanjut/keahlian profesional
-- **Untuk Indonesia:** **Per lowongan** · Per-listing (sebagian khusus AS)
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing (sebagian khusus AS)
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** US$10–100 per tugas berkualitas (listing hukum)
 - **Proses seleksi:** Lamaran → cohort/kualifikasi
 - **Biaya & pembayaran:** Tanpa biaya
 - **Catatan:** Listing kedokteran 2025: tidak menerima profil internasional.
-- **Data per:** Oktober 2026 · Info: [1](https://snorkel.ai/expert-community/) · [2](https://builtin.com/job/expert-contributor-law-and-legal-contract/4531758)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://snorkel.ai/expert-community/> · <https://builtin.com/job/expert-contributor-law-and-legal-contract/4531758>
 :::
 
 ::: {.card}
@@ -1362,12 +1464,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.lxt.ai>
 - **Jenis pekerjaan:** Merekam ratusan prompt suara, evaluasi audio
 - **Skill yang dibutuhkan:** Penutur asli, ruang tenang, komputer + mikrofon
-- **Untuk Indonesia:** **Cek saat daftar** · Per-proyek per bahasa
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-proyek per bahasa
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Lamaran proyek → rekaman sampel
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Tidak ditemukan listing LXT khusus Bahasa Indonesia.
-- **Data per:** Oktober 2026 · Info: [1](https://remotejobs.org/remote-jobs/galician-speech-recording-contributor-lxt) · [2](https://dailyremote.com/remote-company/lxt)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remotejobs.org/remote-jobs/galician-speech-recording-contributor-lxt> · <https://dailyremote.com/remote-company/lxt>
 :::
 
 ::: {.card}
@@ -1377,12 +1482,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://job-boards.greenhouse.io/xai>
 - **Jenis pekerjaan:** AI Tutor – Indonesian: rekam, transkripsi, anotasi audio
 - **Skill yang dibutuhkan:** Native Indonesia; Inggris B2+
-- **Untuk Indonesia:** **Per lowongan** · Remote dari banyak negara, tergantung kelayakan hukum
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Remote dari banyak negara, tergantung kelayakan hukum
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** US$35–45/jam untuk kandidat AS; tarif internasional diinformasikan saat rekrutmen
 - **Proses seleksi:** Lamaran Greenhouse → asesmen
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Listing spesifik Indonesia lebih sering muncul di situs agregator lowongan.
-- **Data per:** Oktober 2026 · Info: [1](https://boards.greenhouse.io/xai/jobs/4512212007) · [2](https://aitrainer.work/jobs/xai/ai-tutor-indonesian) · [3](https://dailyremote.com/remote-job/ai-tutor-indonesian-4809515)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://boards.greenhouse.io/xai/jobs/4512212007> · <https://aitrainer.work/jobs/xai/ai-tutor-indonesian> · <https://dailyremote.com/remote-job/ai-tutor-indonesian-4809515>
 :::
 
 ::: {.card}
@@ -1392,12 +1500,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://sigma.ai>
 - **Jenis pekerjaan:** Terjemahan, kategorisasi, anotasi, transkripsi Bahasa Indonesia
 - **Skill yang dibutuhkan:** Fasih Indonesia & Inggris; RAM ≥4GB, mikrofon, webcam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Lamaran → tes
 - **Biaya & pembayaran:** Kontrak komersial freelancer
 - **Catatan:** Satu listing Remotive berlabel 'USA Only'—konfirmasi ke perusahaan.
-- **Data per:** Oktober 2026 · Info: [1](https://jobgether.com/offer/6a61448d1b23f4f87b317a40-indonesian-translator-remote-sigma-ai) · [2](https://remowork.life/jobs/6a44f721e3bfc64d1928e0dd/indonesian-linguistic-projects-remote)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobgether.com/offer/6a61448d1b23f4f87b317a40-indonesian-translator-remote-sigma-ai> · <https://remowork.life/jobs/6a44f721e3bfc64d1928e0dd/indonesian-linguistic-projects-remote>
 :::
 
 ::: {.card}
@@ -1407,12 +1518,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://defined.ai>
 - **Jenis pekerjaan:** Tugas menulis, tagging, pengumpulan & klasifikasi data
 - **Skill yang dibutuhkan:** Fasih bahasa target, 18+
-- **Untuk Indonesia:** **Cek saat daftar** · Per-bahasa/lokasi
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-bahasa/lokasi
+- **Tipe akses:** Registrasi platform (aplikasi Neevo)
 - **Bayaran yang diiklankan:** Per tugas; Cek di situs
 - **Proses seleksi:** Registrasi
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Ketersediaan tugas Bahasa Indonesia belum terkonfirmasi.
-- **Data per:** Oktober 2026 · Info: [1](https://defined.ai/press-room/definedcrowd-launches-neevo-app) · [2](https://remowork.life/companies/definedai)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://defined.ai/press-room/definedcrowd-launches-neevo-app> · <https://remowork.life/companies/definedai>
 :::
 
 ::: {.card}
@@ -1422,11 +1536,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://pareto.ai>
 - **Jenis pekerjaan:** Prompt engineering, evaluasi, anotasi ahli (hukum, dll.)
 - **Skill yang dibutuhkan:** Keahlian tinggi
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Seleksi ketat
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://pareto.ai) · [2](https://jobs.macventurecapital.com/companies/pareto/jobs/38967539-licensed-lawyers-ai-training-fully-remote)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://pareto.ai> · <https://jobs.macventurecapital.com/companies/pareto/jobs/38967539-licensed-lawyers-ai-training-fully-remote>
 :::
 
 ::: {.card}
@@ -1436,12 +1553,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.surgehq.ai>
 - **Jenis pekerjaan:** RLHF, evaluasi LLM
 - **Skill yang dibutuhkan:** Menulis, reasoning
-- **Untuk Indonesia:** **Cek saat daftar** · Kontraktor global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Kontraktor global
+- **Tipe akses:** Registrasi
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Cek di situs
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Sering dikaitkan dengan DataAnnotation.
-- **Data per:** Oktober 2026 · Info: [1](https://remowork.life/companies/surge-ai/similar)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remowork.life/companies/surge-ai/similar>
 :::
 
 ::: {.card}
@@ -1451,12 +1571,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.uber.com>
 - **Jenis pekerjaan:** Anotasi, coding, data collection berbasis tugas
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Belum menerima** · India, AS, Kanada, Polandia, Nikaragua (Nov 2024)
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** India, AS, Kanada, Polandia, Nikaragua (Nov 2024)
+- **Tipe akses:** Registrasi
 - **Bayaran yang diiklankan:** Per tugas, dibayar bulanan
 - **Proses seleksi:** Onboarding Uber
 - **Biaya & pembayaran:** —
 - **Catatan:** Indonesia tidak tercantum.
-- **Data per:** Oktober 2026 · Info: [1](https://techcrunch.com/2024/11/26/uber-is-building-a-fleet-of-gig-workers-to-label-data-for-ai-models) · [2](https://bnnbloomberg.ca/business/technology/2024/11/26/uber-expands-into-ai-data-labeling-using-gig-coders-for-hire)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://techcrunch.com/2024/11/26/uber-is-building-a-fleet-of-gig-workers-to-label-data-for-ai-models> · <https://bnnbloomberg.ca/business/technology/2024/11/26/uber-expands-into-ai-data-labeling-using-gig-coders-for-hire>
 :::
 
 ::: {.card}
@@ -1466,12 +1589,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://imerit.net>
 - **Jenis pekerjaan:** Video annotator, language expert (Gen AI)
 - **Skill yang dibutuhkan:** Teliti; bahasa tertentu
-- **Untuk Indonesia:** **Cek saat daftar** · Per-listing (SEA: TH, MY, KH, LA)
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-listing (SEA: TH, MY, KH, LA)
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** Listing bahasa Asia Tenggara mulai US$5/jam
 - **Proses seleksi:** Lamaran kontraktor
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Listing khusus Indonesia belum ditemukan.
-- **Data per:** Oktober 2026 · Info: [1](https://weworkremotely.com/remote-jobs/imerit-video-data-annotator) · [2](https://remowork.life/jobs/6ace40142e6f478028b26530/burmese-language-expert)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://weworkremotely.com/remote-jobs/imerit-video-data-annotator> · <https://remowork.life/jobs/6ace40142e6f478028b26530/burmese-language-expert>
 :::
 
 ::: {.card}
@@ -1481,11 +1607,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://rex.zone>
 - **Jenis pekerjaan:** AI trainer generalis & spesialis (medis, hukum)
 - **Skill yang dibutuhkan:** Minimal S1 + Inggris dasar
-- **Untuk Indonesia:** **Cek saat daftar** · Per-listing
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Registrasi platform
 - **Bayaran yang diiklankan:** US$25–120/jam pada listing (angka antar sumber tidak konsisten)
 - **Proses seleksi:** Ujian masuk 15–20 menit → verifikasi ID (Persona) → lamar proyek
 - **Biaya & pembayaran:** Kontrak dengan Remo (EOR)
-- **Data per:** Oktober 2026 · Info: [1](https://aitrainer.work/rex/jobs) · [2](https://pitchmeai.com/jobs/rexzone/entry-level-ai-trainer-balbkc5vot)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://aitrainer.work/rex/jobs> · <https://pitchmeai.com/jobs/rexzone/entry-level-ai-trainer-balbkc5vot>
 :::
 
 ::: {.card}
@@ -1495,12 +1624,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://lilt.com>
 - **Jenis pekerjaan:** Penerjemah/linguis Bahasa Indonesia (AI-assisted translation)
 - **Skill yang dibutuhkan:** Native; gelar linguistik/terjemahan; pengalaman lokalisasi
-- **Untuk Indonesia:** **Per lowongan** · Per-listing bahasa
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing bahasa
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Lamaran → tes
 - **Biaya & pembayaran:** Wajib akun Tipalti atau Payoneer (tergantung listing)
 - **Catatan:** Listing 'Indonesian Linguists Needed'.
-- **Data per:** Oktober 2026 · Info: [1](https://careers.redpoint.com/companies/lilt/jobs/63046305-indonesian-linguists-needed)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://careers.redpoint.com/companies/lilt/jobs/63046305-indonesian-linguists-needed>
 :::
 
 ::: {.card}
@@ -1510,16 +1642,57 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.lionbridge.com>
 - **Jenis pekerjaan:** Transkripsi, AI feedback, rekaman suara, moderasi, cek terjemahan
 - **Skill yang dibutuhkan:** Bahasa target
-- **Untuk Indonesia:** **Cek saat daftar** · Per-proyek
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Per-proyek
+- **Tipe akses:** Listing
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Lamaran per proyek
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Gengo adalah bagian Lionbridge sejak 2019; listing Indonesia belum ditemukan.
-- **Data per:** Oktober 2026 · Info: [1](https://remowork.life/companies/lionbridge/jobs) · [2](https://thebridge.jp/en/2019/01/gengo-acquired-by-lionbridge)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remowork.life/companies/lionbridge/jobs> · <https://thebridge.jp/en/2019/01/gengo-acquired-by-lionbridge>
 :::
 
 
 ## B. Project-Based Freelancing
+
+### Ringkasan semua platform B
+
+| # | Platform | Jenis pekerjaan | Untuk Indonesia | Biaya & pembayaran |
+|--|----------|--------------------|--------|--------------------------|
+| 1 | [Upwork](https://www.upwork.com) | Software, desain, marketing, analitik, menulis, VA, konsultasi | **Ya** | Service fee freelancer variabel 0–15% (ditampilkan sebelum proposal); 10 Connects gratis/bulan (Basic); Connect tambahan US$0,15; Freelancer Plus US$19,99/bulan |
+| 2 | [Fiverr](https://www.fiverr.com) | Paket jasa: desain, video, menulis, coding, AI services | **Ya** | Fee 20% per order; clearing 14 hari (7 hari Top Rated); tarik dana via Payoneer/PayPal |
+| 3 | [Freelancer.com](https://www.freelancer.com) | Proyek bidding & kontes berbagai bidang | **Ya** | Fee proyek 10% (min US$5), bisa turun dengan membership; bid gratis terbatas |
+| 4 | [Contra](https://contra.com) | Desain, produk, no-code, marketing, AI | **Cek saat daftar** | Freelancer 'commission-free'; terima pembayaran bank, kartu debit, PayPal, USDC; Pro US$29/bulan |
+| 5 | [Toptal](https://www.toptal.com) | Developer, desainer, finance, product, project manager | **Cek saat daftar** | Tanpa biaya pendaftaran |
+| 6 | [Braintrust](https://www.usebraintrust.com) | Engineering, desain, product | **Cek saat daftar** | Klien bayar 10%; fee talenta terkini: cek di situs |
+| 7 | [PeoplePerHour](https://www.peopleperhour.com) | Desain, web, menulis, marketing | **Cek saat daftar** | Fee freelancer bertingkat (20%/7,5%/3,5% berdasar total tagihan per klien) |
+| 8 | [Guru](https://www.guru.com) | Programming, desain, menulis, admin | **Cek saat daftar** | Job fee 5–9% tergantung membership (Basic 9%) |
+| 9 | [Sribu](https://www.sribu.com) | Kontes desain, Jasa Freelancer, JobPost | **Ya** | Pembayaran via transfer bank/VA; komisi: cek di situs |
+| 10 | [Projects.co.id](https://projects.co.id) | Proyek IT, desain, menulis | **Ya** | Fee 12% per transaksi (DailySocial, data lama) |
+| 11 | [Fastwork Indonesia](https://fastwork.id) | Desain, konten, web, marketing | **Ya** | Fee 10% atau 17% |
+| 12 | [Arc.dev](https://arc.dev) | Software engineering (freelance & full-time) | **Cek saat daftar** | Cek di situs |
+| 13 | [Lemon.io](https://lemon.io) | Software engineering | **Cek saat daftar** | Cek di situs |
+| 14 | [Proxify](https://proxify.io) | Software engineering | **Cek saat daftar** | Cek di situs |
+| 15 | [Codeable](https://www.codeable.io) | Pengembangan WordPress/WooCommerce | **Cek saat daftar** | Cek di situs |
+| 16 | [99designs (Vista)](https://99designs.com) | Logo, branding, desain grafis | **Cek saat daftar** | Fee platform 15%/10%/5% per level + biaya perkenalan US$100 (data 2021) |
+| 17 | [DesignCrowd](https://www.designcrowd.com) | Desain grafis | **Cek saat daftar** | Fee 15% (data 2021) |
+| 18 | [Dribbble](https://dribbble.com) | UI/UX, ilustrasi, branding | **Cek saat daftar** | Fee 3,5% (Pro US$96/tahun = 0%) |
+| 19 | [Behance (Adobe)](https://www.behance.net) | Desain, ilustrasi, motion, fotografi | **Cek saat daftar** | Fee 10%+US$2 (<US$500), 5,5%, 3% bertingkat; 0% bila salah satu pihak Pro |
+| 20 | [Twine](https://www.twine.net) | Video, desain, audio, data AI | **Per lowongan** | Fee klien 10%/5%; Pro freelancer US$7,49/bulan |
+| 21 | [Kolabtree](https://www.kolabtree.com) | Analisis statistik, penulisan medis/ilmiah, R&D | **Cek saat daftar** | Cek di situs |
+| 22 | [ProZ.com](https://www.proz.com) | Terjemahan, interpretasi, lokalisasi | **Ya** | Membership ±US$10–15/bulan; ProZ*Pay: bank, PayPal, Payoneer |
+| 23 | [Smartcat Marketplace](https://www.smartcat.com) | Terjemahan & editing | **Cek saat daftar** | Banyak metode payout sesuai lokasi |
+| 24 | [TranslatorsCafe](https://www.translatorscafe.com) | Terjemahan | **Cek saat daftar** | Cek di situs |
+| 25 | [Hubstaff Talent](https://talent.hubstaff.com) | Freelance remote berbagai bidang | **Cek saat daftar** | Gratis bagi pencari kerja & pemberi kerja |
+| 26 | [GLG (Gerson Lehrman Group)](https://glginsights.com) | Konsultasi 1 jam untuk investor/konsultan tentang industri Anda | **Cek saat daftar** | Cek di situs |
+| 27 | [AlphaSights](https://www.alphasights.com) | Konsultasi ahli industri | **Cek saat daftar** | Cek di situs |
+| 28 | [Guidepoint](https://www.guidepoint.com) | Konsultasi ahli industri | **Cek saat daftar** | Cek di situs |
+| 29 | [Third Bridge](https://www.thirdbridge.com) | Wawancara ahli & konsultasi | **Cek saat daftar** | Cek di situs |
+| 30 | [Adobe Stock Contributor](https://contributor.stock.adobe.com) | Foto, video, vektor, ilustrasi | **Ya** | Payoneer WAJIB untuk kontributor di Indonesia; minimum US$25; dibayar USD; potong pajak 30% bila formulir pajak tidak ada |
+| 31 | [Shutterstock Contributor](https://submit.shutterstock.com) | Foto, video, ilustrasi | **Cek saat daftar** | PayPal, Skrill, Payoneer; ambang payout US$25–2000; dibayar bulanan (tgl 7–15); wajib formulir pajak |
+
+### Detail setiap platform B
 
 ::: {.card}
 **1. [Upwork](https://www.upwork.com)**
@@ -1528,12 +1701,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.upwork.com>
 - **Jenis pekerjaan:** Software, desain, marketing, analitik, menulis, VA, konsultasi
 - **Skill yang dibutuhkan:** Skill terbukti + portofolio
-- **Untuk Indonesia:** **Ya** · Worldwide (klien menentukan preferensi lokasi)
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Worldwide (klien menentukan preferensi lokasi)
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan freelancer/klien
 - **Proses seleksi:** Profil disetujui → proposal (Connects) → wawancara klien
 - **Biaya & pembayaran:** Service fee freelancer variabel 0–15% (ditampilkan sebelum proposal); 10 Connects gratis/bulan (Basic); Connect tambahan US$0,15; Freelancer Plus US$19,99/bulan
 - **Catatan:** Proposal pertama bisa butuh puluhan kiriman; spesialisasi meningkatkan peluang.
-- **Data per:** Oktober 2026 · Info: [1](https://www.upwork.com/resources/is-upwork-free) · [2](https://golance.com/blogs/upwork-fees-explained-2026) · [3](https://www.upwork.com/resources/new-freelancer-tips)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.upwork.com/resources/is-upwork-free> · <https://golance.com/blogs/upwork-fees-explained-2026> · <https://www.upwork.com/resources/new-freelancer-tips>
 :::
 
 ::: {.card}
@@ -1543,12 +1719,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.fiverr.com>
 - **Jenis pekerjaan:** Paket jasa: desain, video, menulis, coding, AI services
 - **Skill yang dibutuhkan:** Portofolio & deskripsi gig kuat
-- **Untuk Indonesia:** **Ya** · Worldwide
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Worldwide
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan penjual (paket)
 - **Proses seleksi:** Buat gig → order masuk via pencarian
 - **Biaya & pembayaran:** Fee 20% per order; clearing 14 hari (7 hari Top Rated); tarik dana via Payoneer/PayPal
 - **Catatan:** Cek metode penarikan yang tersedia di akun Indonesia Anda.
-- **Data per:** Oktober 2026 · Info: [1](https://wise.com/us/blog/how-to-get-paid-on-fiverr) · [2](https://www.payoneer.com/ko/get-paid-by-fiverr/) · [3](https://help.fiverr.com/hc/pt/articles/360010530058)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://wise.com/us/blog/how-to-get-paid-on-fiverr> · <https://www.payoneer.com/ko/get-paid-by-fiverr/> · <https://help.fiverr.com/hc/pt/articles/360010530058>
 :::
 
 ::: {.card}
@@ -1558,12 +1737,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.freelancer.com>
 - **Jenis pekerjaan:** Proyek bidding & kontes berbagai bidang
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Worldwide
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Worldwide
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan proyek
 - **Proses seleksi:** Bid proyek / ikut kontes
 - **Biaya & pembayaran:** Fee proyek 10% (min US$5), bisa turun dengan membership; bid gratis terbatas
 - **Catatan:** Ada laporan penahanan dana karena verifikasi identitas—lengkapi KYC sejak awal.
-- **Data per:** Oktober 2026 · Info: [1](https://en.wikipedia.org/wiki/Freelancer.com) · [2](https://aiproposer.com/learn/freelancer-fees)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://en.wikipedia.org/wiki/Freelancer.com> · <https://aiproposer.com/learn/freelancer-fees>
 :::
 
 ::: {.card}
@@ -1573,12 +1755,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://contra.com>
 - **Jenis pekerjaan:** Desain, produk, no-code, marketing, AI
 - **Skill yang dibutuhkan:** Portofolio visual
-- **Untuk Indonesia:** **Cek saat daftar** · Worldwide
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Worldwide
+- **Tipe akses:** Marketplace/portofolio
 - **Bayaran yang diiklankan:** Ditentukan freelancer
 - **Proses seleksi:** Profil portofolio → klien menghubungi / invoice langsung
 - **Biaya & pembayaran:** Freelancer 'commission-free'; terima pembayaran bank, kartu debit, PayPal, USDC; Pro US$29/bulan
 - **Catatan:** Visibilitas sebagian bergantung pada paket Pro.
-- **Data per:** Oktober 2026 · Info: [1](https://contra.com/commission-free) · [2](https://ruul.io/blog/what-is-contra)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://contra.com/commission-free> · <https://ruul.io/blog/what-is-contra>
 :::
 
 ::: {.card}
@@ -1588,11 +1773,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.toptal.com>
 - **Jenis pekerjaan:** Developer, desainer, finance, product, project manager
 - **Skill yang dibutuhkan:** Senior; komunikasi Inggris kuat
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan talenta tervetting
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Bahasa & komunikasi → review teknis → wawancara live → test project 1–3 minggu; total 3–8 minggu; <3% diterima
 - **Biaya & pembayaran:** Tanpa biaya pendaftaran
-- **Data per:** Oktober 2026 · Info: [1](https://www.toptal.com/top-3-percent)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.toptal.com/top-3-percent>
 :::
 
 ::: {.card}
@@ -1602,11 +1790,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.usebraintrust.com>
 - **Jenis pekerjaan:** Engineering, desain, product
 - **Skill yang dibutuhkan:** Senior
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** Ditentukan talenta
 - **Proses seleksi:** Aplikasi → vetting oleh anggota komunitas/screener
 - **Biaya & pembayaran:** Klien bayar 10%; fee talenta terkini: cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://www.usebraintrust.com/blog/10-biggest-misconceptions-about-braintrust) · [2](https://techcrunch.com/2020/10/01/braintrust-funding/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.usebraintrust.com/blog/10-biggest-misconceptions-about-braintrust> · <https://techcrunch.com/2020/10/01/braintrust-funding/>
 :::
 
 ::: {.card}
@@ -1616,12 +1807,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.peopleperhour.com>
 - **Jenis pekerjaan:** Desain, web, menulis, marketing
 - **Skill yang dibutuhkan:** Portofolio
-- **Untuk Indonesia:** **Cek saat daftar** · Global, banyak klien UK
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global, banyak klien UK
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan freelancer
 - **Proses seleksi:** Aplikasi freelancer disetujui → 15 proposal gratis/bulan
 - **Biaya & pembayaran:** Fee freelancer bertingkat (20%/7,5%/3,5% berdasar total tagihan per klien)
 - **Catatan:** Sumber fee saling bertentangan—cek halaman resmi.
-- **Data per:** Oktober 2026 · Info: [1](https://comeup.com/en/experts/the-9-best-alternatives-to-peopleperhour-com-for-freelancers-and-businesses) · [2](https://www.transferwise.com/gb/blog/peopleperhour-review)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://comeup.com/en/experts/the-9-best-alternatives-to-peopleperhour-com-for-freelancers-and-businesses> · <https://www.transferwise.com/gb/blog/peopleperhour-review>
 :::
 
 ::: {.card}
@@ -1631,11 +1825,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.guru.com>
 - **Jenis pekerjaan:** Programming, desain, menulis, admin
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan freelancer
 - **Proses seleksi:** Profil → quote/bid
 - **Biaya & pembayaran:** Job fee 5–9% tergantung membership (Basic 9%)
-- **Data per:** Oktober 2026 · Info: [1](https://www.jobbers.io/freelancer-com-vs-jobbers-io-vs-peopleperhour-vs-guru-complete-2026-matrix/) · [2](https://www.guru.com/pricing-freelancer)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.jobbers.io/freelancer-com-vs-jobbers-io-vs-peopleperhour-vs-guru-complete-2026-matrix/> · <https://www.guru.com/pricing-freelancer>
 :::
 
 ::: {.card}
@@ -1645,12 +1842,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.sribu.com>
 - **Jenis pekerjaan:** Kontes desain, Jasa Freelancer, JobPost
 - **Skill yang dibutuhkan:** Desain, konten, digital marketing
-- **Untuk Indonesia:** **Ya** · Indonesia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia
+- **Tipe akses:** Marketplace + kontes
 - **Bayaran yang diiklankan:** Ditentukan proyek/kontes
 - **Proses seleksi:** Kurasi freelancer (kepribadian, portofolio, penanganan klien)
 - **Biaya & pembayaran:** Pembayaran via transfer bank/VA; komisi: cek di situs
 - **Catatan:** Baik untuk portofolio awal dan klien domestik.
-- **Data per:** Oktober 2026 · Info: [1](https://www.cake.me/resources/situs-freelance-terbaik) · [2](https://ekonomi.bisnis.com/read/20250422/12/1871086/tren-jasa-freelancer-di-sribucom-meningkat-di-tengah-badai-phk)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.cake.me/resources/situs-freelance-terbaik> · <https://ekonomi.bisnis.com/read/20250422/12/1871086/tren-jasa-freelancer-di-sribucom-meningkat-di-tengah-badai-phk>
 :::
 
 ::: {.card}
@@ -1660,12 +1860,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://projects.co.id>
 - **Jenis pekerjaan:** Proyek IT, desain, menulis
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Indonesia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia
+- **Tipe akses:** Marketplace bidding
 - **Bayaran yang diiklankan:** Ditentukan proyek
 - **Proses seleksi:** Daftar → profil → ajukan penawaran
-- **Biaya & pembayaran:** Fee 12% per transaksi
+- **Biaya & pembayaran:** Fee 12% per transaksi (DailySocial, data lama)
 - **Catatan:** Angka fee dari artikel lama—verifikasi di situs.
-- **Data per:** Oktober 2026 · Info: [1](https://en.dailysocial.id/post/projects-co-id-provides-e-commerce-marketplace-for-freelancers)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://en.dailysocial.id/post/projects-co-id-provides-e-commerce-marketplace-for-freelancers>
 :::
 
 ::: {.card}
@@ -1675,12 +1878,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://fastwork.id>
 - **Jenis pekerjaan:** Desain, konten, web, marketing
 - **Skill yang dibutuhkan:** Portofolio
-- **Untuk Indonesia:** **Ya** · Indonesia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan freelancer
 - **Proses seleksi:** Daftar → buat layanan
 - **Biaya & pembayaran:** Fee 10% atau 17%
 - **Catatan:** Masuk Indonesia Agustus 2018.
-- **Data per:** Oktober 2026 · Info: [1](https://accurate.id/lifestyle/situs-freelance/) · [2](https://en.dailysocial.id/post/fastwork-freelance-platform-and-its-challenges-during-two-years-in-Indonesia/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://accurate.id/lifestyle/situs-freelance/> · <https://en.dailysocial.id/post/fastwork-freelance-platform-and-its-challenges-during-two-years-in-Indonesia/>
 :::
 
 ::: {.card}
@@ -1690,11 +1896,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://arc.dev>
 - **Jenis pekerjaan:** Software engineering (freelance & full-time)
 - **Skill yang dibutuhkan:** Senior developer
-- **Untuk Indonesia:** **Cek saat daftar** · ±190 negara
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** ±190 negara
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** HireAI + wawancara manusia; menyebut diri 'top 2%'
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://www.secondtalent.com/alternatives/gun-io/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.secondtalent.com/alternatives/gun-io/>
 :::
 
 ::: {.card}
@@ -1704,12 +1913,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://lemon.io>
 - **Jenis pekerjaan:** Software engineering
 - **Skill yang dibutuhkan:** Senior developer
-- **Untuk Indonesia:** **Cek saat daftar** · Fokus Eropa Timur/LatAm
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Fokus Eropa Timur/LatAm
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Vetting; acceptance ±1,2%
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Kemungkinan kurang cocok untuk kandidat Asia Tenggara.
-- **Data per:** Oktober 2026 · Info: [1](https://docs.lemon.io/comparisons/lemon.io-vs-gun.io)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://docs.lemon.io/comparisons/lemon.io-vs-gun.io>
 :::
 
 ::: {.card}
@@ -1719,11 +1931,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://proxify.io>
 - **Jenis pekerjaan:** Software engineering
 - **Skill yang dibutuhkan:** Senior developer
-- **Untuk Indonesia:** **Cek saat daftar** · Global (negara tidak dirinci)
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global (negara tidak dirinci)
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Vetting
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://proxify.io/knowledge-base/about-proxify/where-are-proxify-developers-located)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://proxify.io/knowledge-base/about-proxify/where-are-proxify-developers-located>
 :::
 
 ::: {.card}
@@ -1733,11 +1948,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.codeable.io>
 - **Jenis pekerjaan:** Pengembangan WordPress/WooCommerce
 - **Skill yang dibutuhkan:** WordPress/PHP senior
-- **Untuk Indonesia:** **Cek saat daftar** · Developer di 60+ negara
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Developer di 60+ negara
+- **Tipe akses:** Jaringan talenta
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** 6 tahap: review CV → video intro → kuis coding → proyek kode → wawancara live → sertifikasi; ±2% diterima; onboarding 90 hari
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://help.codeable.io/en/articles/1143592-codeable-expert-vetting-process)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://help.codeable.io/en/articles/1143592-codeable-expert-vetting-process>
 :::
 
 ::: {.card}
@@ -1747,12 +1965,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://99designs.com>
 - **Jenis pekerjaan:** Logo, branding, desain grafis
 - **Skill yang dibutuhkan:** Portofolio desain
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Marketplace + kontes
 - **Bayaran yang diiklankan:** Kontes mulai US$299 (sisi klien)
 - **Proses seleksi:** Level Entry/Mid/Top
-- **Biaya & pembayaran:** Fee platform 15%/10%/5% per level + biaya perkenalan US$100
+- **Biaya & pembayaran:** Fee platform 15%/10%/5% per level + biaya perkenalan US$100 (data 2021)
 - **Catatan:** Data fee berusia ±5 tahun.
-- **Data per:** Oktober 2026 · Info: [1](https://wise.com/in/blog/freelance-graphic-design-websites)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://wise.com/in/blog/freelance-graphic-design-websites>
 :::
 
 ::: {.card}
@@ -1762,11 +1983,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.designcrowd.com>
 - **Jenis pekerjaan:** Desain grafis
 - **Skill yang dibutuhkan:** Portofolio
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Kontes
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Ikut kontes
-- **Biaya & pembayaran:** Fee 15%
-- **Data per:** Oktober 2026 · Info: [1](https://wise.com/in/blog/freelance-graphic-design-websites)
+- **Biaya & pembayaran:** Fee 15% (data 2021)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://wise.com/in/blog/freelance-graphic-design-websites>
 :::
 
 ::: {.card}
@@ -1776,11 +2000,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://dribbble.com>
 - **Jenis pekerjaan:** UI/UX, ilustrasi, branding
 - **Skill yang dibutuhkan:** Portofolio desain
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Portofolio + job board
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Klien menghubungi / lamar job
 - **Biaya & pembayaran:** Fee 3,5% (Pro US$96/tahun = 0%)
-- **Data per:** Oktober 2026 · Info: [1](https://passionates.com/top-dribbble-alternatives-for-mid-market-companies/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://passionates.com/top-dribbble-alternatives-for-mid-market-companies/>
 :::
 
 ::: {.card}
@@ -1790,11 +2017,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.behance.net>
 - **Jenis pekerjaan:** Desain, ilustrasi, motion, fotografi
 - **Skill yang dibutuhkan:** Portofolio
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Portofolio + job board
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Klien menghubungi / lamar
 - **Biaya & pembayaran:** Fee 10%+US$2 (<US$500), 5,5%, 3% bertingkat; 0% bila salah satu pihak Pro
-- **Data per:** Oktober 2026 · Info: [1](https://passionates.com/top-behance-alternatives-for-startups/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://passionates.com/top-behance-alternatives-for-startups/>
 :::
 
 ::: {.card}
@@ -1804,12 +2034,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.twine.net>
 - **Jenis pekerjaan:** Video, desain, audio, data AI
 - **Skill yang dibutuhkan:** Portofolio
-- **Untuk Indonesia:** **Per lowongan** · Global
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan proyek
 - **Proses seleksi:** Profil → lamar proyek
 - **Biaya & pembayaran:** Fee klien 10%/5%; Pro freelancer US$7,49/bulan
 - **Catatan:** Ada listing proyek AI berbasis Jakarta.
-- **Data per:** Oktober 2026 · Info: [1](https://www.hireinsouth.com/post/twine-pricing) · [2](https://help.twine.net/en/article/freelancer-faqs-o0svp6)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.hireinsouth.com/post/twine-pricing> · <https://help.twine.net/en/article/freelancer-faqs-o0svp6>
 :::
 
 ::: {.card}
@@ -1819,11 +2052,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.kolabtree.com>
 - **Jenis pekerjaan:** Analisis statistik, penulisan medis/ilmiah, R&D
 - **Skill yang dibutuhkan:** S2/S3, publikasi
-- **Untuk Indonesia:** **Cek saat daftar** · 170+ negara
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** 170+ negara
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Ditentukan freelancer (quote)
 - **Proses seleksi:** Profil diverifikasi → quote proyek
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://www.kolabtree.com/services) · [2](https://cactusglobal.com/careers/brands/kolabtree/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.kolabtree.com/services> · <https://cactusglobal.com/careers/brands/kolabtree/>
 :::
 
 ::: {.card}
@@ -1833,12 +2069,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.proz.com>
 - **Jenis pekerjaan:** Terjemahan, interpretasi, lokalisasi
 - **Skill yang dibutuhkan:** Pasangan bahasa + pengalaman
-- **Untuk Indonesia:** **Ya** · Global
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Job board + direktori
 - **Bayaran yang diiklankan:** Ditentukan penerjemah
 - **Proses seleksi:** Profil → kuota/lamaran langsung ke agensi
 - **Biaya & pembayaran:** Membership ±US$10–15/bulan; ProZ*Pay: bank, PayPal, Payoneer
 - **Catatan:** Ada listing Bahasa Indonesia (contoh: Personalized Internet Assessor 2024).
-- **Data per:** Oktober 2026 · Info: [1](https://go.proz.com/blog/topic/payoneer) · [2](https://sidehusl.com/translation-work/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://go.proz.com/blog/topic/payoneer> · <https://sidehusl.com/translation-work/>
 :::
 
 ::: {.card}
@@ -1848,11 +2087,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.smartcat.com>
 - **Jenis pekerjaan:** Terjemahan & editing
 - **Skill yang dibutuhkan:** Pasangan bahasa
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Marketplace
 - **Bayaran yang diiklankan:** Penerjemah menetapkan tarif (umumnya 3–10 sen/kata)
 - **Proses seleksi:** Profil → undangan proyek
 - **Biaya & pembayaran:** Banyak metode payout sesuai lokasi
-- **Data per:** Oktober 2026 · Info: [1](https://ja.smartcat.ai/blog/cross-border-payments/) · [2](https://sidehusl.com/translation-work/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://ja.smartcat.ai/blog/cross-border-payments/> · <https://sidehusl.com/translation-work/>
 :::
 
 ::: {.card}
@@ -1862,11 +2104,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.translatorscafe.com>
 - **Jenis pekerjaan:** Terjemahan
 - **Skill yang dibutuhkan:** Pasangan bahasa
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Job board
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Profil
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://sidehusl.com/translation-work/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://sidehusl.com/translation-work/>
 :::
 
 ::: {.card}
@@ -1876,12 +2121,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://talent.hubstaff.com>
 - **Jenis pekerjaan:** Freelance remote berbagai bidang
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Direktori + job board
 - **Bayaran yang diiklankan:** Ditentukan klien
 - **Proses seleksi:** Profil → klien menghubungi
 - **Biaya & pembayaran:** Gratis bagi pencari kerja & pemberi kerja
 - **Catatan:** Rating Trustpilot rendah—lakukan verifikasi klien.
-- **Data per:** Oktober 2026 · Info: [1](https://nodesk.co/remote-work/hubstaff-talent/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://nodesk.co/remote-work/hubstaff-talent/>
 :::
 
 ::: {.card}
@@ -1891,12 +2139,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://glginsights.com>
 - **Jenis pekerjaan:** Konsultasi 1 jam untuk investor/konsultan tentang industri Anda
 - **Skill yang dibutuhkan:** Keahlian industri/pasar spesifik
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan ahli
 - **Bayaran yang diiklankan:** Ditentukan per konsultasi
 - **Proses seleksi:** Daftar profil → dihubungi untuk proyek → kepatuhan (compliance)
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Jangan pernah membagikan informasi rahasia/material non-publik perusahaan.
-- **Data per:** Oktober 2026 · Info: [1](https://cleverx.com/blog/glg-alternatives) · [2](https://d3.harvard.edu/platform-digit/submission/glg-crowdsourcing-expertise/index.html)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://cleverx.com/blog/glg-alternatives> · <https://d3.harvard.edu/platform-digit/submission/glg-crowdsourcing-expertise/index.html>
 :::
 
 ::: {.card}
@@ -1906,11 +2157,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.alphasights.com>
 - **Jenis pekerjaan:** Konsultasi ahli industri
 - **Skill yang dibutuhkan:** Pengalaman industri
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan ahli
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Dihubungi untuk proyek
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://cleverx.com/blog/alphasights-alternatives)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://cleverx.com/blog/alphasights-alternatives>
 :::
 
 ::: {.card}
@@ -1920,11 +2174,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.guidepoint.com>
 - **Jenis pekerjaan:** Konsultasi ahli industri
 - **Skill yang dibutuhkan:** Pengalaman industri
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan ahli
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Daftar sebagai advisor
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://www.thirdbridge.com/en-us/about-us/media/perspectives/guidepoint-alternatives)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.thirdbridge.com/en-us/about-us/media/perspectives/guidepoint-alternatives>
 :::
 
 ::: {.card}
@@ -1934,11 +2191,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.thirdbridge.com>
 - **Jenis pekerjaan:** Wawancara ahli & konsultasi
 - **Skill yang dibutuhkan:** Pengalaman industri
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Jaringan ahli
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Dihubungi untuk proyek
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://www.thirdbridge.com/en-us/about-us/media/perspectives/glg-alternatives)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.thirdbridge.com/en-us/about-us/media/perspectives/glg-alternatives>
 :::
 
 ::: {.card}
@@ -1948,12 +2208,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://contributor.stock.adobe.com>
 - **Jenis pekerjaan:** Foto, video, vektor, ilustrasi
 - **Skill yang dibutuhkan:** Fotografi/desain; pemahaman lisensi
-- **Untuk Indonesia:** **Ya** · Global
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Kontributor
 - **Bayaran yang diiklankan:** Royalti per unduhan
 - **Proses seleksi:** Unggah aset → review
 - **Biaya & pembayaran:** Payoneer WAJIB untuk kontributor di Indonesia; minimum US$25; dibayar USD; potong pajak 30% bila formulir pajak tidak ada
 - **Catatan:** Pendapatan pasif tidak pasti; perhatikan aturan konten AI-generated di platform.
-- **Data per:** Oktober 2026 · Info: [1](https://helpx.adobe.com/stock/contributor/payments-earnings/payment-taxes/payment-requirements.html) · [2](https://helpx.adobe.com/stock/contributor/help/getting-paid.html)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://helpx.adobe.com/stock/contributor/payments-earnings/payment-taxes/payment-requirements.html> · <https://helpx.adobe.com/stock/contributor/help/getting-paid.html>
 :::
 
 ::: {.card}
@@ -1963,16 +2226,65 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://submit.shutterstock.com>
 - **Jenis pekerjaan:** Foto, video, ilustrasi
 - **Skill yang dibutuhkan:** Fotografi/desain
-- **Untuk Indonesia:** **Cek saat daftar** · Global (tergantung penyedia pembayaran)
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global (tergantung penyedia pembayaran)
+- **Tipe akses:** Kontributor
 - **Bayaran yang diiklankan:** Royalti per unduhan
 - **Proses seleksi:** Unggah aset → review
 - **Biaya & pembayaran:** PayPal, Skrill, Payoneer; ambang payout US$25–2000; dibayar bulanan (tgl 7–15); wajib formulir pajak
 - **Catatan:** Beberapa negara terkena masa tunggu 90 hari (negara tidak dirinci).
-- **Data per:** Oktober 2026 · Info: [1](https://submit.shutterstock.com/help/en/articles/10617435-how-do-i-get-paid-for-my-work) · [2](https://submit.shutterstock.com/help/id/articles/10617435-bagaimana-saya-dibayar-untuk-karya-saya)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://submit.shutterstock.com/help/en/articles/10617435-how-do-i-get-paid-for-my-work> · <https://submit.shutterstock.com/help/id/articles/10617435-bagaimana-saya-dibayar-untuk-karya-saya>
 :::
 
 
 ## C. Pekerjaan Remote Lainnya
+
+### Ringkasan semua platform C
+
+| # | Platform | Jenis pekerjaan | Untuk Indonesia | Bayaran yang diiklankan |
+|--|----------|--------------------|--------|--------------------------|
+| 1 | [Wellfound (AngelList Talent)](https://wellfound.com/candidates/remote) | Remote employment di startup | **Per lowongan** | Gaji & ekuitas biasanya ditampilkan di listing |
+| 2 | [We Work Remotely](https://weworkremotely.com) | Engineering, desain, support, marketing | **Per lowongan** | Per listing |
+| 3 | [Remote OK](https://remoteok.com) | Tech, desain, marketing, startup | **Per lowongan** | Filter gaji tersedia |
+| 4 | [Remotive](https://remotive.com) | Tech, support, marketing | **Per lowongan** | Per listing |
+| 5 | [Himalayas](https://himalayas.app) | Remote jobs lintas bidang; halaman khusus Indonesia | **Ya** | Sebagian listing mencantumkan gaji (termasuk IDR) |
+| 6 | [LinkedIn Jobs](https://www.linkedin.com/jobs) | Semua bidang | **Ya** | Per listing |
+| 7 | [Glints](https://glints.com/id) | Remote & cross-border jobs SEA | **Ya** | Per listing |
+| 8 | [JobStreet Indonesia](https://id.jobstreet.com) | Semua bidang; filter 'Jarak Jauh' | **Ya** | Per listing |
+| 9 | [Kalibrr](https://www.kalibrr.com) | Tech & non-tech; filter remote | **Ya** | Sebagian listing mencantumkan gaji (IDR) |
+| 10 | [Indeed Indonesia](https://id.indeed.com) | Semua bidang; kata kunci 'remote' | **Ya** | Per listing |
+| 11 | [Jobgether](https://jobgether.com) | Remote jobs, termasuk 'Remote: Anywhere' dan halaman Indonesia | **Ya** | Rata-rata support US$19K–75K |
+| 12 | [Working Nomads](https://www.workingnomads.com) | Developer, marketing, support | **Per lowongan** | Per listing |
+| 13 | [Jobspresso](https://jobspresso.co) | Tech, marketing, support | **Per lowongan** | Per listing |
+| 14 | [JustRemote](https://justremote.co) | HR, dev, marketing, desain; filter negara | **Per lowongan** | Per listing |
+| 15 | [Dynamite Jobs](https://dynamitejobs.com) | Operasional, marketing, VA, support | **Per lowongan** | Per listing |
+| 16 | [Y Combinator – Work at a Startup](https://www.ycombinator.com/jobs/role/all/remote) | Engineering, product, ops, recruiting | **Per lowongan** | Gaji/ekuitas per listing |
+| 17 | [Hacker News – Who is hiring?](https://news.ycombinator.com) | Engineering & startup roles; tag REMOTE | **Per lowongan** | Sering mencantumkan gaji |
+| 18 | [Jobicy](https://jobicy.com) | Remote jobs APAC (UTC+5 s.d. UTC+12) | **Per lowongan** | Per listing |
+| 19 | [NoDesk](https://nodesk.co) | Customer support Asia & lainnya | **Per lowongan** | Per listing |
+| 20 | [Remote.co](https://remote.co) | Beragam | **Per lowongan** | Per listing |
+| 21 | [FlexJobs](https://www.flexjobs.com) | Beragam (banyak khusus AS) | **Per lowongan** | Per listing |
+| 22 | [Tech in Asia Jobs](https://www.techinasia.com/jobs) | Startup & ekonomi digital Asia | **Ya** | Per listing |
+| 23 | [Crossover](https://www.crossover.com/jobs/remote-jobs) | Engineering, manajemen, operasional | **Per lowongan** | Diiklankan hingga US$400K/tahun untuk peran senior |
+| 24 | [GitLab (contoh perusahaan all-remote)](https://about.gitlab.com) | Engineering, support, sales, marketing | **Per lowongan** | Per listing |
+| 25 | [Remote (perusahaan HR) – careers](https://remote.com) | Customer care APAC, dll. | **Per lowongan** | Customer Care Associate APAC: US$15.600–35.150/tahun + ekuitas |
+| 26 | [Preply](https://preply.com) | Mengajar bahasa (termasuk Bahasa Indonesia & Inggris) dan mata pelajaran | **Cek saat daftar** | Tutor menentukan tarif |
+| 27 | [italki](https://www.italki.com) | Mengajar bahasa | **Cek saat daftar** | Tutor menentukan tarif |
+| 28 | [Cambly](https://www.cambly.com) | Percakapan bahasa Inggris | **Cek saat daftar** | ±US$0,17/menit (±US$10,20/jam) untuk dewasa |
+| 29 | [AmazingTalker](https://www.amazingtalker.com) | Mengajar Bahasa Indonesia & bahasa lain | **Cek saat daftar** | Ditentukan tutor |
+| 30 | [UserTesting](https://www.usertesting.com) | Menguji website/aplikasi sambil berbicara | **Cek saat daftar** | Cek di situs |
+| 31 | [Userlytics](https://www.userlytics.com) | UX testing | **Cek saat daftar** | Cek di situs |
+| 32 | [uTest / Applause](https://www.utest.com) | Pengujian fungsional, bug reporting, test case | **Per lowongan** | Contoh proyek 2021 Indonesia: US$5–30 per siklus tes |
+| 33 | [Testlio](https://testlio.com) | Pengujian payment, streaming, lokal | **Per lowongan** | US$18–35/jam (negara tier atas) |
+| 34 | [Respondent](https://www.respondent.io) | Wawancara riset B2B/B2C | **Cek saat daftar** | Cek di situs |
+| 35 | [User Interviews](https://www.userinterviews.com) | Wawancara & tes UX | **Belum menerima** | — |
+| 36 | [Rev](https://www.rev.com/freelancers/transcription) | Transkripsi, caption | **Belum menerima** | — |
+| 37 | [GoTranscript](https://gotranscript.com/indonesian-transcription-job) | Transkripsi Bahasa Indonesia/Jawa, terjemahan | **Ya** | Cek di situs |
+| 38 | [TranscribeMe](https://www.transcribeme.com) | Transkripsi | **Cek saat daftar** | Cek di situs |
+| 39 | [OnlineJobs.ph](https://www.onlinejobs.ph) | Virtual assistant | **Belum menerima** | — |
+
+### Detail setiap platform C
 
 ::: {.card}
 **1. [Wellfound (AngelList Talent)](https://wellfound.com/candidates/remote)**
@@ -1981,12 +2293,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://wellfound.com/candidates/remote>
 - **Jenis pekerjaan:** Remote employment di startup
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing ('Hires Remotely From')
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing ('Hires Remotely From')
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Gaji & ekuitas biasanya ditampilkan di listing
 - **Proses seleksi:** Profil → lamar (tanpa cover letter di banyak listing)
 - **Biaya & pembayaran:** Gratis untuk kandidat
 - **Catatan:** Lokasi default 'Worldwide'; cek bagian 'Hires Remotely From'.
-- **Data per:** Oktober 2026 · Info: [1](https://help.wellfound.com/article/762-remote-job-search-filters) · [2](https://wellfound.com/candidates/remote)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://help.wellfound.com/article/762-remote-job-search-filters> · <https://wellfound.com/candidates/remote>
 :::
 
 ::: {.card}
@@ -1996,11 +2311,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://weworkremotely.com>
 - **Jenis pekerjaan:** Engineering, desain, support, marketing
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Ada filter region 'Anywhere in the World'
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Ada filter region 'Anywhere in the World'
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar ke perusahaan
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://apify.com/reapx/weworkremotely-scraper) · [2](https://www.betterteam.com/best-remote-job-boards)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://apify.com/reapx/weworkremotely-scraper> · <https://www.betterteam.com/best-remote-job-boards>
 :::
 
 ::: {.card}
@@ -2010,12 +2328,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://remoteok.com>
 - **Jenis pekerjaan:** Tech, desain, marketing, startup
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Filter gaji tersedia
 - **Proses seleksi:** Lamar ke perusahaan
 - **Biaya & pembayaran:** Gratis untuk kandidat
 - **Catatan:** Waspadai listing dari pihak lain dengan gaji sangat rendah atau tidak jelas.
-- **Data per:** Oktober 2026 · Info: [1](https://tech.co/news/best-fully-remote-job-websites) · [2](https://freakingnomads.com/best-remote-job-boards/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://tech.co/news/best-fully-remote-job-websites> · <https://freakingnomads.com/best-remote-job-boards/>
 :::
 
 ::: {.card}
@@ -2025,11 +2346,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://remotive.com>
 - **Jenis pekerjaan:** Tech, support, marketing
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Label '(Worldwide)' per listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Label '(Worldwide)' per listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis; premium 'Remotive Accelerator'
-- **Data per:** Oktober 2026 · Info: [1](https://joinsecret.com/remotive) · [2](https://remotive.com/blog/newsletter-all-the-digital-nomad-visas-available-for-remote-workers/amp/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://joinsecret.com/remotive> · <https://remotive.com/blog/newsletter-all-the-digital-nomad-visas-available-for-remote-workers/amp/>
 :::
 
 ::: {.card}
@@ -2039,11 +2363,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://himalayas.app>
 - **Jenis pekerjaan:** Remote jobs lintas bidang; halaman khusus Indonesia
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Halaman negara Indonesia tersedia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Halaman negara Indonesia tersedia
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Sebagian listing mencantumkan gaji (termasuk IDR)
 - **Proses seleksi:** Profil gratis → lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://himalayas.app/jobs/countries/indonesia/entry-level-data-migration)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://himalayas.app/jobs/countries/indonesia/entry-level-data-migration>
 :::
 
 ::: {.card}
@@ -2053,12 +2380,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.linkedin.com/jobs>
 - **Jenis pekerjaan:** Semua bidang
 - **Skill yang dibutuhkan:** Profil kuat & jaringan
-- **Untuk Indonesia:** **Ya** · Filter lokasi 'Remote'
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Filter lokasi 'Remote'
+- **Tipe akses:** Papan lowongan + jaringan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar / Easy Apply / referral
 - **Biaya & pembayaran:** Gratis (Premium opsional)
 - **Catatan:** Cek apakah 'Remote' berarti remote di negara perusahaan saja.
-- **Data per:** Oktober 2026 · Info: [1](https://members.linkedin.com/en-gb/find-your-next-job-on-linkedin) · [2](https://blog.linkedin.com/2020/october/29/the-benefits-of-sharing-with-your-community-you-re-open-to-work)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://members.linkedin.com/en-gb/find-your-next-job-on-linkedin> · <https://blog.linkedin.com/2020/october/29/the-benefits-of-sharing-with-your-community-you-re-open-to-work>
 :::
 
 ::: {.card}
@@ -2068,12 +2398,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://glints.com/id>
 - **Jenis pekerjaan:** Remote & cross-border jobs SEA
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Indonesia, Malaysia, Singapura, Vietnam, Filipina, Taiwan
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia, Malaysia, Singapura, Vietnam, Filipina, Taiwan
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
 - **Catatan:** Data pertumbuhan remote (3x) dari 2022.
-- **Data per:** Oktober 2026 · Info: [1](https://techcrunch.com/2022/08/29/singapore-based-career-development-platform-glints-recruits-50m-in-new-funding)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://techcrunch.com/2022/08/29/singapore-based-career-development-platform-glints-recruits-50m-in-new-funding>
 :::
 
 ::: {.card}
@@ -2083,11 +2416,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://id.jobstreet.com>
 - **Jenis pekerjaan:** Semua bidang; filter 'Jarak Jauh'
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Indonesia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://id.jobstreet.com/id/Talent+Tech-jobs/remote)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://id.jobstreet.com/id/Talent+Tech-jobs/remote>
 :::
 
 ::: {.card}
@@ -2097,11 +2433,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.kalibrr.com>
 - **Jenis pekerjaan:** Tech & non-tech; filter remote
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Indonesia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Sebagian listing mencantumkan gaji (IDR)
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://www.kalibrr.com/home/te/indonesia) · [2](https://timesindonesia.co.id/peristiwa-daerah/404693/kalibrr-bagi-tips-sukses-lamar-lowongan-kerja-khusus-work-from-home)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.kalibrr.com/home/te/indonesia> · <https://timesindonesia.co.id/peristiwa-daerah/404693/kalibrr-bagi-tips-sukses-lamar-lowongan-kerja-khusus-work-from-home>
 :::
 
 ::: {.card}
@@ -2111,12 +2450,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://id.indeed.com>
 - **Jenis pekerjaan:** Semua bidang; kata kunci 'remote'
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Indonesia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Indonesia
+- **Tipe akses:** Agregator
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis
 - **Catatan:** Banyak listing duplikat dari agregator—verifikasi ke situs perusahaan.
-- **Data per:** Oktober 2026 · Info: [1](https://id.indeed.com/q-qa-remote-lowongan.html)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://id.indeed.com/q-qa-remote-lowongan.html>
 :::
 
 ::: {.card}
@@ -2126,11 +2468,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://jobgether.com>
 - **Jenis pekerjaan:** Remote jobs, termasuk 'Remote: Anywhere' dan halaman Indonesia
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Ya** · Halaman Indonesia & Asia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Halaman Indonesia & Asia
+- **Tipe akses:** Agregator
 - **Bayaran yang diiklankan:** Rata-rata support US$19K–75K
 - **Proses seleksi:** Lamar via sumber
 - **Biaya & pembayaran:** Gratis
-- **Data per:** Oktober 2026 · Info: [1](https://jobgether.com/remote-jobs/indonesia/virtual-assistant) · [2](https://jobgether.com/remote-jobs/asia/customer-support)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobgether.com/remote-jobs/indonesia/virtual-assistant> · <https://jobgether.com/remote-jobs/asia/customer-support>
 :::
 
 ::: {.card}
@@ -2140,11 +2485,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.workingnomads.com>
 - **Jenis pekerjaan:** Developer, marketing, support
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Premium US$17,95/bulan
-- **Data per:** Oktober 2026 · Info: [1](https://www.betterteam.com/best-remote-job-boards) · [2](https://freakingnomads.com/best-remote-job-boards/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.betterteam.com/best-remote-job-boards> · <https://freakingnomads.com/best-remote-job-boards/>
 :::
 
 ::: {.card}
@@ -2154,11 +2502,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://jobspresso.co>
 - **Jenis pekerjaan:** Tech, marketing, support
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://tech.co/news/best-fully-remote-job-websites)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://tech.co/news/best-fully-remote-job-websites>
 :::
 
 ::: {.card}
@@ -2168,11 +2519,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://justremote.co>
 - **Jenis pekerjaan:** HR, dev, marketing, desain; filter negara
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis (ada opsi berbayar)
-- **Data per:** Oktober 2026 · Info: [1](https://tech.co/news/best-fully-remote-job-websites)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://tech.co/news/best-fully-remote-job-websites>
 :::
 
 ::: {.card}
@@ -2182,12 +2536,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://dynamitejobs.com>
 - **Jenis pekerjaan:** Operasional, marketing, VA, support
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
 - **Catatan:** Diluncurkan 2017.
-- **Data per:** Oktober 2026 · Info: [1](https://dynamitejobs.com/about-us)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://dynamitejobs.com/about-us>
 :::
 
 ::: {.card}
@@ -2197,11 +2554,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.ycombinator.com/jobs/role/all/remote>
 - **Jenis pekerjaan:** Engineering, product, ops, recruiting
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Gaji/ekuitas per listing
 - **Proses seleksi:** Profil gratis → founder menghubungi
 - **Biaya & pembayaran:** Gratis
-- **Data per:** Oktober 2026 · Info: [1](https://www.ycombinator.com/jobs/role/all/remote)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.ycombinator.com/jobs/role/all/remote>
 :::
 
 ::: {.card}
@@ -2211,12 +2571,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://news.ycombinator.com>
 - **Jenis pekerjaan:** Engineering & startup roles; tag REMOTE
 - **Skill yang dibutuhkan:** Teknis
-- **Untuk Indonesia:** **Per lowongan** · Per-posting
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-posting
+- **Tipe akses:** Forum
 - **Bayaran yang diiklankan:** Sering mencantumkan gaji
 - **Proses seleksi:** Email langsung ke founder/hiring manager
 - **Biaya & pembayaran:** Gratis
 - **Catatan:** Diposting tanggal 1 setiap bulan.
-- **Data per:** Oktober 2026 · Info: [1](https://apify.com/juicy_fillet/hn-whos-hiring)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://apify.com/juicy_fillet/hn-whos-hiring>
 :::
 
 ::: {.card}
@@ -2226,11 +2589,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://jobicy.com>
 - **Jenis pekerjaan:** Remote jobs APAC (UTC+5 s.d. UTC+12)
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Region APAC
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Region APAC
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis
-- **Data per:** Oktober 2026 · Info: [1](https://jobicy.com/job-region/apac.md)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobicy.com/job-region/apac.md>
 :::
 
 ::: {.card}
@@ -2240,11 +2606,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://nodesk.co>
 - **Jenis pekerjaan:** Customer support Asia & lainnya
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Halaman Asia
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Halaman Asia
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://nodesk.co/remote-jobs/asia/customer-support/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://nodesk.co/remote-jobs/asia/customer-support/>
 :::
 
 ::: {.card}
@@ -2254,11 +2623,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://remote.co>
 - **Jenis pekerjaan:** Beragam
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Opsi gratis & berbayar
-- **Data per:** Oktober 2026 · Info: [1](https://freakingnomads.com/best-remote-job-boards/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://freakingnomads.com/best-remote-job-boards/>
 :::
 
 ::: {.card}
@@ -2268,12 +2640,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.flexjobs.com>
 - **Jenis pekerjaan:** Beragam (banyak khusus AS)
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Banyak listing dibatasi AS
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Banyak listing dibatasi AS
+- **Tipe akses:** Papan lowongan berbayar
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Langganan → lamar
 - **Biaya & pembayaran:** Berbayar (contoh lama: US$29,85/3 bulan)
 - **Catatan:** Pertimbangkan biaya vs jumlah listing yang terbuka untuk Indonesia.
-- **Data per:** Oktober 2026 · Info: [1](https://www.betterteam.com/best-remote-job-boards) · [2](https://www.digitalocean.com/resources/articles/remote-job-boards)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.betterteam.com/best-remote-job-boards> · <https://www.digitalocean.com/resources/articles/remote-job-boards>
 :::
 
 ::: {.card}
@@ -2283,11 +2658,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.techinasia.com/jobs>
 - **Jenis pekerjaan:** Startup & ekonomi digital Asia
 - **Skill yang dibutuhkan:** Tech/digital
-- **Untuk Indonesia:** **Ya** · Asia
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Asia
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamar
 - **Biaya & pembayaran:** Gratis untuk kandidat
-- **Data per:** Oktober 2026 · Info: [1](https://www.manatal.com/fr/blog/job-posting-indonesia)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.manatal.com/fr/blog/job-posting-indonesia>
 :::
 
 ::: {.card}
@@ -2297,12 +2675,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.crossover.com/jobs/remote-jobs>
 - **Jenis pekerjaan:** Engineering, manajemen, operasional
 - **Skill yang dibutuhkan:** Kemampuan kognitif & skill teruji
-- **Untuk Indonesia:** **Per lowongan** · Global per-listing
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Global per-listing
+- **Tipe akses:** Lowongan perusahaan
 - **Bayaran yang diiklankan:** Diiklankan hingga US$400K/tahun untuk peran senior
 - **Proses seleksi:** Chat screening → tes kognitif (CCAT) → tes skill → wawancara HM → tes terproktor
 - **Biaya & pembayaran:** Tanpa biaya
 - **Catatan:** Ada kritik soal pemantauan kerja intensif; baca kontrak dengan cermat.
-- **Data per:** Oktober 2026 · Info: [1](https://www.crossover.com/selection-process) · [2](https://q5js.substack.com/p/crossover-a-remote-jobs-site-axed)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.crossover.com/selection-process> · <https://q5js.substack.com/p/crossover-a-remote-jobs-site-axed>
 :::
 
 ::: {.card}
@@ -2312,12 +2693,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://about.gitlab.com>
 - **Jenis pekerjaan:** Engineering, support, sales, marketing
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing (ada peran 'Indonesia, Singapore')
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing (ada peran 'Indonesia, Singapore')
+- **Tipe akses:** Lowongan perusahaan
 - **Bayaran yang diiklankan:** Per listing
 - **Proses seleksi:** Lamaran resmi
 - **Biaya & pembayaran:** —
 - **Catatan:** Contoh perusahaan remote-first; cek persyaratan lokasi per peran.
-- **Data per:** Oktober 2026 · Info: [1](https://jobgether.com/remote-jobs/company-gitlab)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobgether.com/remote-jobs/company-gitlab>
 :::
 
 ::: {.card}
@@ -2327,11 +2711,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://remote.com>
 - **Jenis pekerjaan:** Customer care APAC, dll.
 - **Skill yang dibutuhkan:** Beragam
-- **Untuk Indonesia:** **Per lowongan** · Per-listing (APAC)
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Per-listing (APAC)
+- **Tipe akses:** Lowongan perusahaan
 - **Bayaran yang diiklankan:** Customer Care Associate APAC: US$15.600–35.150/tahun + ekuitas
 - **Proses seleksi:** Lamaran resmi
 - **Biaya & pembayaran:** —
-- **Data per:** Oktober 2026 · Info: [1](https://jobs.generalcatalyst.com/companies/remote/jobs/74048258-customer-care-associate-apac)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobs.generalcatalyst.com/companies/remote/jobs/74048258-customer-care-associate-apac>
 :::
 
 ::: {.card}
@@ -2341,11 +2728,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://preply.com>
 - **Jenis pekerjaan:** Mengajar bahasa (termasuk Bahasa Indonesia & Inggris) dan mata pelajaran
 - **Skill yang dibutuhkan:** Kemampuan mengajar
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Marketplace tutor
 - **Bayaran yang diiklankan:** Tutor menentukan tarif
 - **Proses seleksi:** Profil tutor + video → disetujui
 - **Biaya & pembayaran:** Komisi mulai 33% turun hingga ±18% seiring jam mengajar; pelajaran percobaan diambil platform
-- **Data per:** Oktober 2026 · Info: [1](https://teast.co/blog/preply-vs-italki-vs-cambly) · [2](https://actualfluency.com/preply)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://teast.co/blog/preply-vs-italki-vs-cambly> · <https://actualfluency.com/preply>
 :::
 
 ::: {.card}
@@ -2355,11 +2745,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.italki.com>
 - **Jenis pekerjaan:** Mengajar bahasa
 - **Skill yang dibutuhkan:** Penutur asli/guru bersertifikat
-- **Untuk Indonesia:** **Cek saat daftar** · Global
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Marketplace tutor
 - **Bayaran yang diiklankan:** Tutor menentukan tarif
 - **Proses seleksi:** Aplikasi guru → review
 - **Biaya & pembayaran:** Komisi 15% (naik ke 21% per kelas pada 2025)
-- **Data per:** Oktober 2026 · Info: [1](https://andromedajones.substack.com/p/online-language-tutoring-a-viable)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://andromedajones.substack.com/p/online-language-tutoring-a-viable>
 :::
 
 ::: {.card}
@@ -2369,11 +2762,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.cambly.com>
 - **Jenis pekerjaan:** Percakapan bahasa Inggris
 - **Skill yang dibutuhkan:** Inggris sangat fasih
-- **Untuk Indonesia:** **Cek saat daftar** · Global (lebih memilih penutur asli)
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Global (lebih memilih penutur asli)
+- **Tipe akses:** Platform tutor
 - **Bayaran yang diiklankan:** ±US$0,17/menit (±US$10,20/jam) untuk dewasa
 - **Proses seleksi:** Aplikasi → review
 - **Biaya & pembayaran:** Mingguan via PayPal
-- **Data per:** Oktober 2026 · Info: [1](https://www.fluentu.com/blog/educator-english/esl-online-teaching-jobs/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.fluentu.com/blog/educator-english/esl-online-teaching-jobs/>
 :::
 
 ::: {.card}
@@ -2383,12 +2779,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.amazingtalker.com>
 - **Jenis pekerjaan:** Mengajar Bahasa Indonesia & bahasa lain
 - **Skill yang dibutuhkan:** Kemampuan mengajar
-- **Untuk Indonesia:** **Cek saat daftar** · Tutor dari 120 negara
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Tutor dari 120 negara
+- **Tipe akses:** Marketplace tutor
 - **Bayaran yang diiklankan:** Ditentukan tutor
 - **Proses seleksi:** Aplikasi tutor
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Ada permintaan tutor Bahasa Indonesia.
-- **Data per:** Oktober 2026 · Info: [1](https://www.amazingtalker.com.my/tutors/indonesian)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.amazingtalker.com.my/tutors/indonesian>
 :::
 
 ::: {.card}
@@ -2398,12 +2797,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.usertesting.com>
 - **Jenis pekerjaan:** Menguji website/aplikasi sambil berbicara
 - **Skill yang dibutuhkan:** Komunikasi lisan Inggris
-- **Untuk Indonesia:** **Cek saat daftar** · Negara standar + 'additional countries'
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Negara standar + 'additional countries'
+- **Tipe akses:** Panel
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Tes contoh → undangan tes
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Datasheet 2020 mencantumkan pool Indonesia; status 2026 perlu dicek.
-- **Data per:** Oktober 2026 · Info: [1](https://help.usertesting.com/hc/articles/36204984430365-Supported-Countries-for-Participant-Recruitment) · [2](https://www.usertesting.com/sites/default/files/2020-06/Usertesting-Panel-Datasheet.pdf)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://help.usertesting.com/hc/articles/36204984430365-Supported-Countries-for-Participant-Recruitment> · <https://www.usertesting.com/sites/default/files/2020-06/Usertesting-Panel-Datasheet.pdf>
 :::
 
 ::: {.card}
@@ -2413,11 +2815,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.userlytics.com>
 - **Jenis pekerjaan:** UX testing
 - **Skill yang dibutuhkan:** Komunikasi lisan
-- **Untuk Indonesia:** **Cek saat daftar** · 150+ negara
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** 150+ negara
+- **Tipe akses:** Panel
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Daftar panel
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://remove.userlytics.com/international/)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://remove.userlytics.com/international/>
 :::
 
 ::: {.card}
@@ -2427,11 +2832,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.utest.com>
 - **Jenis pekerjaan:** Pengujian fungsional, bug reporting, test case
 - **Skill yang dibutuhkan:** Teliti, dokumentasi bug
-- **Untuk Indonesia:** **Per lowongan** · 200+ negara (komunitas); proyek per negara
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** 200+ negara (komunitas); proyek per negara
+- **Tipe akses:** Komunitas penguji
 - **Bayaran yang diiklankan:** Contoh proyek 2021 Indonesia: US$5–30 per siklus tes
 - **Proses seleksi:** Profil → akademi/kursus → undangan proyek
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://applause.com/our-community) · [2](https://sdtimes.com/utest-changes-name-to-applause-announces-acquisition-of-leading-eu-crowdtesting-firm-testhub-in-multi-million-dollar-deal)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://applause.com/our-community> · <https://sdtimes.com/utest-changes-name-to-applause-announces-acquisition-of-leading-eu-crowdtesting-firm-testhub-in-multi-million-dollar-deal>
 :::
 
 ::: {.card}
@@ -2441,12 +2849,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://testlio.com>
 - **Jenis pekerjaan:** Pengujian payment, streaming, lokal
 - **Skill yang dibutuhkan:** QA, bahasa lokal, berada di negara target
-- **Untuk Indonesia:** **Per lowongan** · Proyek spesifik negara (beberapa wajib fisik di negara, tanpa VPN)
+- **Untuk Indonesia:** **Per lowongan**
+- **Cakupan lokasi:** Proyek spesifik negara (beberapa wajib fisik di negara, tanpa VPN)
+- **Tipe akses:** Listing spesifik
 - **Bayaran yang diiklankan:** US$18–35/jam (negara tier atas)
 - **Proses seleksi:** Akun Testlio → profil → apply proyek → materi kelayakan
 - **Biaya & pembayaran:** Mingguan via PayPal/Payoneer (siklus Kamis)
 - **Catatan:** Pantau listing yang menyebut Indonesia.
-- **Data per:** Oktober 2026 · Info: [1](https://jobs.techstars.com/companies/testlio/jobs/57669440-freelance-software-tester-payment-testing-singapore) · [2](https://testlio.com/job/freelance-us-guam)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://jobs.techstars.com/companies/testlio/jobs/57669440-freelance-software-tester-payment-testing-singapore> · <https://testlio.com/job/freelance-us-guam>
 :::
 
 ::: {.card}
@@ -2456,11 +2867,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.respondent.io>
 - **Jenis pekerjaan:** Wawancara riset B2B/B2C
 - **Skill yang dibutuhkan:** Profil profesional
-- **Untuk Indonesia:** **Cek saat daftar** · Cek di situs
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Cek di situs
+- **Tipe akses:** Panel
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Screener per studi
 - **Biaya & pembayaran:** Cek di situs
-- **Data per:** Oktober 2026 · Info: [1](https://www.respondent.io/compare/respondent-vs-user-interview)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.respondent.io/compare/respondent-vs-user-interview>
 :::
 
 ::: {.card}
@@ -2470,12 +2884,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.userinterviews.com>
 - **Jenis pekerjaan:** Wawancara & tes UX
 - **Skill yang dibutuhkan:** —
-- **Untuk Indonesia:** **Belum menerima** · Daftar negara resmi (APAC: AU, IN, JP, MY, NZ, SG)
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** Daftar negara resmi (APAC: AU, IN, JP, MY, NZ, SG)
+- **Tipe akses:** Panel
 - **Bayaran yang diiklankan:** —
 - **Proses seleksi:** —
 - **Biaya & pembayaran:** —
 - **Catatan:** Indonesia tidak tercantum.
-- **Data per:** Oktober 2026 · Info: [1](https://www.userinterviews.com/support/participant-countries)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.userinterviews.com/support/participant-countries>
 :::
 
 ::: {.card}
@@ -2485,12 +2902,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.rev.com/freelancers/transcription>
 - **Jenis pekerjaan:** Transkripsi, caption
 - **Skill yang dibutuhkan:** Inggris
-- **Untuk Indonesia:** **Belum menerima** · AU, CA, IE, MX, NL, NZ, ZA, UK, US
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** AU, CA, IE, MX, NL, NZ, ZA, UK, US
+- **Tipe akses:** Platform
 - **Bayaran yang diiklankan:** —
 - **Proses seleksi:** —
 - **Biaya & pembayaran:** —
 - **Catatan:** Indonesia tidak diterima.
-- **Data per:** Oktober 2026 · Info: [1](https://freelancer.rev.com/hc/en-us/articles/22680327086349)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://freelancer.rev.com/hc/en-us/articles/22680327086349>
 :::
 
 ::: {.card}
@@ -2500,11 +2920,14 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://gotranscript.com/indonesian-transcription-job>
 - **Jenis pekerjaan:** Transkripsi Bahasa Indonesia/Jawa, terjemahan
 - **Skill yang dibutuhkan:** Mendengar & mengetik akurat
-- **Untuk Indonesia:** **Ya** · Global
+- **Untuk Indonesia:** **Ya**
+- **Cakupan lokasi:** Global
+- **Tipe akses:** Platform
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Tes transkripsi
 - **Biaya & pembayaran:** PayPal atau Payoneer
-- **Data per:** Oktober 2026 · Info: [1](https://gotranscript.com/indonesian-transcription-job) · [2](https://gotranscript.com/indonesian-javanese-transcription-job)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://gotranscript.com/indonesian-transcription-job> · <https://gotranscript.com/indonesian-javanese-transcription-job>
 :::
 
 ::: {.card}
@@ -2514,12 +2937,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.transcribeme.com>
 - **Jenis pekerjaan:** Transkripsi
 - **Skill yang dibutuhkan:** Bahasa yang didukung
-- **Untuk Indonesia:** **Cek saat daftar** · Cek di situs
+- **Untuk Indonesia:** **Cek saat daftar**
+- **Cakupan lokasi:** Cek di situs
+- **Tipe akses:** Platform
 - **Bayaran yang diiklankan:** Cek di situs
 - **Proses seleksi:** Tes
 - **Biaya & pembayaran:** Cek di situs
 - **Catatan:** Bahasa Indonesia tidak ada di daftar bahasa yang dilayani.
-- **Data per:** Oktober 2026 · Info: [1](https://support.transcribeme.com/article/151-what-languages-do-you-transcribe)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://support.transcribeme.com/article/151-what-languages-do-you-transcribe>
 :::
 
 ::: {.card}
@@ -2529,12 +2955,15 @@ Tarif, biaya, dan persyaratan bisa berubah sewaktu-waktu. Selalu cek halaman res
 - **Website / cara melamar:** <https://www.onlinejobs.ph>
 - **Jenis pekerjaan:** Virtual assistant
 - **Skill yang dibutuhkan:** —
-- **Untuk Indonesia:** **Belum menerima** · Khusus pekerja Filipina
+- **Untuk Indonesia:** **Belum menerima**
+- **Cakupan lokasi:** Khusus pekerja Filipina
+- **Tipe akses:** Papan lowongan
 - **Bayaran yang diiklankan:** —
 - **Proses seleksi:** —
 - **Biaya & pembayaran:** —
 - **Catatan:** Dicantumkan agar pembaca tidak membuang waktu.
-- **Data per:** Oktober 2026 · Info: [1](https://www.jobstore.my/sg/company/2331194/onlinejobsph)
+- **Data diperbarui:** 21 Oktober 2026
+- **Sumber info:** <https://www.jobstore.my/sg/company/2331194/onlinejobsph>
 :::
 
 
