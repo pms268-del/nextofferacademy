@@ -30,12 +30,12 @@
 **Script:**
 
 1. [Green screen: card 'VIRAL POST SAID $24–30/hr'] Stop applying to remote jobs from TikTok posts until you do this.
-2. I looked up three viral job posts today. Two had the pay wrong.
+2. We looked up three viral job posts. Two had the pay wrong.
 3. [Point at card 2] This one: real listing, but no pay posted. The pay in the video belonged to a different job.
 4. So: open the company's careers page, search the job title, read the pay there.
-5. Want me to check one for you? Comment the company name.
+5. Want us to check one? Comment the company name.
 
-**Shooting notes:** 3 cuts max. Phone at eye level, window light. Use tiktok_frames/scene_02–04.png as green-screen backgrounds.
+**Shooting notes:** 3 cuts max. Phone at eye level, window light. Use video/frames/scene_02–04.png as green-screen backgrounds.
 
 ## Captions
 

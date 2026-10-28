@@ -11,7 +11,8 @@
       "verified": true,
       "enabled": true,
       "verified_at": "2026-10-26",
-      "verified_via": "Buffer MCP list_channels: service=instagram (business), name=nextofferacademyus"
+      "verified_via": "Buffer MCP list_channels: service=instagram (business), name=nextofferacademyus",
+      "scheduling": "notification (Notify Me) so the owner adds music in-app"
     },
     "tiktok": {
       "handle": "@nextofferacademyus",
@@ -21,15 +22,28 @@
       "verified": true,
       "enabled": true,
       "verified_at": "2026-10-26",
-      "verified_via": "Buffer MCP list_channels: service=tiktok, name=nextofferacademyus"
+      "verified_via": "Buffer MCP list_channels: service=tiktok, name=nextofferacademyus",
+      "scheduling": "notification (Notify Me) so the owner adds music in-app"
     },
     "threads": {
-      "handle": "@nextofferacademyus",
+      "handle": null,
+      "type": "personal-style (owner's real name, see threads_x/SETUP.md)",
       "profile_url": null,
       "buffer_channel_id": null,
       "buffer_organization_id": null,
       "verified": false,
-      "enabled": false
+      "enabled": false,
+      "scheduling": "automatic after approval"
+    },
+    "x": {
+      "handle": null,
+      "type": "personal-style (owner's real name, see threads_x/SETUP.md)",
+      "profile_url": null,
+      "buffer_channel_id": null,
+      "buffer_organization_id": null,
+      "verified": false,
+      "enabled": false,
+      "scheduling": "automatic after approval"
     }
   },
   "buffer_plan_limits": {
@@ -37,6 +51,11 @@
     "organization": "My organization",
     "channels": 3,
     "scheduledPosts": 10,
-    "ideas": 100
+    "ideas": 100,
+    "note": "3 channels: Instagram + TikTok use 2, so only one of Threads/X fits without an upgrade."
+  },
+  "native_edit_tag": {
+    "name": "Native edit: add music",
+    "buffer_tag_id": "6adff8d05888921781442320"
   }
 }

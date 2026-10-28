@@ -13,3 +13,6 @@ timestamp_utc,post_id,channel,action,mode,buffer_post_id,result,detail
 2026-10-27T00:09:15+00:00,2026-10-31-ig,instagram,createPost,draft,6adf95c735213ac4125daca4,ok,"draft, planned 2026-10-31T16:00:00Z"
 2026-10-27T00:09:15+00:00,2026-11-01-ig,instagram,createPost,draft,6adfeb280565644c94803e7d,ok,"draft, planned 2026-11-01T17:00:00Z"
 2026-10-27T00:09:15+00:00,2026-11-02-ig,instagram,createPost,draft,6adfeb9cf266a5f7e1055306,ok,"draft, planned 2026-11-02T17:00:00Z"
+2026-10-27T00:20:23+00:00,2026-10-27-tt,tiktok,published_by_owner,buffer,6adeacf56887a2efc135a166,ok,sent via Buffer by owner; https://tiktok.com/@nextofferacademyus/video/7701135419064306957
+2026-10-27T00:13:35+00:00,2026-10-27-ig,instagram,published_by_owner,buffer,6adebfb18b3d437ddc3f5897,ok,sent via Buffer by owner
+2026-10-28T21:20:00+00:00,w2-*,instagram+tiktok,editPost/createPost,draft,12 edited + 2 created,ok,week-2 drafts: notification mode + tag Native edit: add music; nothing published

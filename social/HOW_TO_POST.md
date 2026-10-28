@@ -1,83 +1,57 @@
 # How to Post: Simple Step-by-Step Guide
 
-Your posts are already made and waiting in Buffer as **drafts**. Nothing goes live until you say so.
+Your posts are made and waiting in **Buffer as drafts**. Nothing goes live until you finish it in the app yourself.
 
-**What's waiting for you in Buffer:**
+Every draft is set to **Notify Me** and tagged **"Native edit: add music"**. That means at posting time Buffer sends your phone a reminder, and you add the music and post from TikTok/Instagram.
 
-| Day | Instagram (12:00 PM ET) | TikTok (7:00 PM ET) |
-|---|---|---|
-| Tue Oct 27 | 5 AI training gigs open to US residents | AI training jobs that pay, and the catch |
-| Wed Oct 28 | How to pass a one-shot AI training test | Spot the mistake (test practice) |
-| Thu Oct 29 | Laid off? Your expertise pays | Laid off? AI companies pay for your expertise |
-| Fri Oct 30 | What AI training workers actually report | The truth about AI training side hustles |
-| Sat Oct 31 | Remote W-2 jobs that hire beginners | Remote jobs with a W-2 that hire beginners |
-| Sun Nov 1 | Tailor your resume with AI in 45 min | Fix a boring resume bullet |
-| Mon Nov 2 | Inside the US Remote Job Playbook | Remote job scam red flags |
+## What's waiting (week of Oct 28)
 
----
+| Day | TikTok (7:00 PM ET) | Instagram | Topic |
+|---|---|---|---|
+| Wed Oct 28 | video | Reel, **7:30 PM** | We fact-checked 3 viral remote job posts |
+| Thu Oct 29 | video | Carousel, 12 PM | What AI training actually pays (with the catch) |
+| Fri Oct 30 | video | Reel, 12 PM | 3 resume fixes in 20 seconds |
+| Sat Oct 31 | video | Carousel, 12 PM | Real vs fake work-from-home job post |
+| Sun Nov 1 | video | Reel, 12 PM | 152 applications, 6 interviews |
+| Mon Nov 2 | video | Carousel, 12 PM | How to pass an AI video interview |
+| Tue Nov 3 | video | Reel, 12 PM | New grad? 3 places to look this week |
 
-## Part 1: Post this week's content (about 10 minutes a day)
-
-### Step 1: Open your drafts
-1. Go to **publish.buffer.com** (or open the Buffer app on your phone).
-2. Click **Drafts** at the top.
-3. You'll see 14 drafts: 7 for Instagram and 7 for TikTok.
-
-### Step 2: Check the post
-1. Click the draft for today.
-2. Look through the slides or video, and read the caption.
-3. **For job posts** (Oct 27, 29 and 31): open each company's website once and make sure the job is still open and the pay is the same. If something changed, edit the caption or tell Claude to fix it.
-
-### Step 3: Add sound to TikTok (TikTok only)
-The TikTok videos have **no sound yet**. Pick the easiest option:
-- **Option A (easiest):** In the draft, choose **"Notify me"** (Buffer calls it a reminder or notification). At posting time, Buffer sends your phone a notification. Open TikTok, add a trending sound or TikTok's **text-to-speech** voice using the script below the video, and post.
-- **Option B:** Record yourself reading the script (in `social/content/<date>/tiktok/script.md`) and send the audio to Claude. Claude will put it into the video for you.
-
-### Step 4: Schedule it
-1. In the draft, click **Schedule Post** (the time is already set).
-2. That's it. Buffer will post it at that time.
-
-> **Free plan limit:** Buffer's free plan holds **10 scheduled posts** at a time. Schedule 2–3 days ahead, not the whole week at once.
-
-### Step 5: After it's live, track how it did (2 minutes, a few days later)
-Tell Claude: *"Record stats for the Oct 27 Instagram post: 1,200 views, 80 likes, 40 saves, link: (paste link)"*. Claude adds it to the performance tracker. Or just ask: *"How did my posts do this week?"* Claude can pull the numbers from Buffer.
+Each day has a one-page **brief** in Buffer → **Ideas** (same title), and in `social/content/week2/<date>/BRIEF.md`. It has the music suggestion, the script, the links, and a **Variation B** you can film yourself if you prefer to be on camera.
 
 ---
 
-## Part 2: Create next week's content (one message to Claude)
+## Every day (about 10 minutes)
 
-Every week, open a chat with Claude (with Buffer connected) and paste this:
+### Step 1: Check the draft (2 min)
+1. Open **Buffer** → **Drafts**. Open today's TikTok and Instagram draft.
+2. Watch the video / swipe the slides and read the caption.
+3. **Job posts (Oct 28, 29, Nov 3):** tap each link in the brief and make sure the job is still open and the pay matches. If not, tell Claude and it'll fix the post.
 
-```
-Create next week's content for Next Offer Academy US (@nextofferacademyus, nextofferacademy.us).
-Use the 30-day calendar in social/calendar/30_day_calendar.md, starting at the next day that isn't done yet.
-For each day: 1 Instagram carousel, 1 TikTok video, and 1–2 Threads posts.
-Re-check the job listings first, use only verified facts with sources, run the fact-check,
-then save everything to Buffer as DRAFTS (do not schedule or publish).
-Show me a short list of what you made when you're done.
-```
+### Step 2: Approve and schedule (1 min)
+1. In the draft, click **Schedule Post**. Keep the time. It stays in **Notify Me** mode.
+2. Tell Claude *"approved Oct 29"* so the tracker is updated (or run `python3 social/scripts/status.py approve w2-2026-10-29-tt --by "your name" --live-checked`).
 
-Claude will:
-1. Check that the jobs are still real and open.
-2. Write the posts and make the slides and videos.
-3. Run the automatic fact-check (no made-up pay, no hype).
-4. Put everything in Buffer as drafts.
+> **Free plan limit:** Buffer holds **10 scheduled posts** at once. Schedule 2–3 days ahead, not the whole week.
 
-Then you just repeat **Part 1** each day.
+### Step 3: Finish in the app when Buffer notifies you (5 min)
+1. Tap the Buffer notification on your phone (needs the Buffer mobile app with notifications on). Buffer opens the post so you can share the video into TikTok/Instagram and copy the caption.
+2. **Add music:** tap **Add sound** (TikTok) or **Audio** (Instagram). Pick something from what the app offers. Business accounts only see licensed sounds, and that's the one you should use. The brief suggests a mood (e.g. "suspense build" or "upbeat lo-fi").
+3. Optional: turn on **auto captions**, pick a cover (frame 1 works), add effects.
+4. Paste the caption if it isn't there already, then **Post**.
+
+**Want it in the app's own Drafts folder instead?** Buffer drafts don't go there automatically. Download the video from the brief → TikTok: **+ → Upload → add sound → Drafts**. Instagram: **+ → Reel → choose video → add audio → Save draft**.
+
+### Step 4: Send Claude the link (30 sec)
+Paste the live link to Claude: *"Oct 29 TikTok is live: (link)"*. A few days later: *"Oct 29 TikTok: 1,200 views, 40 saves"*. Or ask *"How did my posts do this week?"* and Claude pulls the numbers from Buffer.
 
 ---
 
-## Part 3: Quick answers
+## Threads and X (new personal accounts)
 
-**Can Claude schedule for me?** Yes. Say *"Schedule the Oct 28 Instagram and TikTok drafts"* and it will. It will never publish without you asking.
+Not created yet. Start with `social/threads_x/SETUP.md` (usernames, bio, checklist, 30 min). The first 14 days of posts are in `social/threads_x/posts_14_days.md`. When you connect them in Buffer, tell Claude: it'll confirm the right account is connected and load the approved posts. Threads/X posts don't need music, so they're scheduled to post automatically after you approve them.
 
-**I want to change something in a post.** Tell Claude: *"Change the caption of the Oct 29 Instagram post to …"*, or edit it directly in Buffer.
+## Every week (one message to Claude)
 
-**Threads?** It's not connected yet. When you connect Threads in Buffer, tell Claude, and it will add the ready-made Threads posts (in `social/threads/threads_library.md`).
+The weekly prompt is in `social/WORKFLOW.md`. It reviews last week's real numbers, researches trends, makes the next 7 days, and saves Buffer drafts.
 
-**Where are all the files?** In the `social/` folder: `content/` (slides and videos by date), `calendar/` (the 30-day plan), `data/` (post database and stats).
-
-**Golden rules for every post:**
-- Only real jobs from official sites, with the date you checked them.
-- Never promise a job or income.
-- Never ask people to pay for anything.
+**Golden rules:** only real jobs from official sites, with the date checked. Never promise a job or income. Never ask anyone to pay. Never claim something happened to you that didn't.

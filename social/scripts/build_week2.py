@@ -143,11 +143,12 @@ def main():
 
         for ch, fc in fcs.items():
             pid = f"w2-{d}-{'tt' if ch == 'tiktok' else 'ig'}"
-            local = dt.datetime.fromisoformat(f"{d}T{TIMES[ch]}").replace(tzinfo=ET)
             old = prev.get(pid, {})
+            time_et = old.get("time_et", TIMES[ch])  # keep a manual reschedule
+            local = dt.datetime.fromisoformat(f"{d}T{time_et}").replace(tzinfo=ET)
             media = [video] if ch == "tiktok" or not slides else slides
             rec = {
-                "id": pid, "date": d, "time_et": TIMES[ch], "due_at": local.isoformat(),
+                "id": pid, "date": d, "time_et": time_et, "note": old.get("note"), "due_at": local.isoformat(),
                 "platform": ch, "format": "video" if ch == "tiktok" else t["ig_format"], "topic": t["topic"], "pillar": t["pillar"],
                 "reference_url": refs, "hook": t["hook_a"], "script": script_text(t),
                 "media": [rel(m) for m in media], "audio_suggestion": t["audio"],
@@ -167,7 +168,8 @@ def main():
             print(f"{pid:<18} {rec['format']:<9} {'PASS' if fc['passed'] else 'FAIL'} {vcheck['duration_s']}s"
                   + "".join(f"\n    ! {i}" for i in fc["issues"]))
 
-    db = {"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "statuses": STATUSES, "posts": records}
+    published = db.get("published", [])
+    db = {"published": published, "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "statuses": STATUSES, "posts": records}
     json.dump(db, open(DB, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     with open(DB.replace(".json", ".csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)

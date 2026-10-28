@@ -1,1 +1,3 @@
-post_id,date,channel,pillar,topic,published_url,views,likes,comments,shares,saves,follows,link_clicks,engagement_rate_pct,updated_at
+post_id,date,platform,format,topic,hook,publish_url,views,likes,comments,shares,saves,follows,link_clicks,avg_watch_time_s,completion_rate_pct,engagement_rate_pct,source_of_numbers,updated_at
+2026-10-27-tt,2026-10-26,tiktok,video,AI training jobs that pay and the catch,"AI training jobs that pay, and the catch",https://tiktok.com/@nextofferacademyus/video/7701135419064306957,,,,,,,,,,,(not yet pulled),
+2026-10-27-ig,2026-10-26,instagram,carousel,5 AI training gigs open to US residents,5 AI training gigs open to US residents,,,,,,,,,,,,(not yet pulled),

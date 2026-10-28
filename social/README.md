@@ -2,6 +2,22 @@
 
 > **New here? Read [HOW_TO_POST.md](HOW_TO_POST.md) first. It is the simple step-by-step guide.**
 
+## Update Oct 28, 2026: content workflow revision
+
+| Deliverable | Where |
+|---|---|
+| Audit of week-1 IG/TikTok content | [`research/content_audit.md`](research/content_audit.md) |
+| Trend reference library (sources, patterns, hooks, music rules) | [`research/trend_reference_library.md`](research/trend_reference_library.md) |
+| 7 days of new content (Oct 28 – Nov 3), each with variation A (video) + B (film-yourself script) | [`scripts/week2_content.py`](scripts/week2_content.py) → [`content/week2/`](content/week2/) (`BRIEF.md` per day) |
+| Videos (7 × 1080×1920, 17–21 s, silent for in-app music) + 3 carousels | `content/week2/<date>/video/`, `content/week2/<date>/instagram/` |
+| Buffer: 14 drafts (7 TikTok + 7 IG), **Notify Me**, tag "Native edit: add music", 7 Idea briefs | IDs in [`data/production_db.json`](data/production_db.json) |
+| Threads + X setup package and 14 days of posts | [`threads_x/SETUP.md`](threads_x/SETUP.md), [`threads_x/posts_14_days.md`](threads_x/posts_14_days.md) |
+| Updated workflow, statuses, weekly review | [`WORKFLOW.md`](WORKFLOW.md), [`scripts/status.py`](scripts/status.py), [`data/performance_tracker.csv`](data/performance_tracker.csv) |
+
+Week 1's Oct 27 Instagram carousel and TikTok were published by the owner via Buffer. The other 12 week-1 drafts were replaced in place by week-2 posts (same Buffer IDs). Week-1 files stay in `content/2026-10-2x/` for reference.
+
+The sections below describe the original (week-1) system and are kept for reference.
+
 A low-cost daily pipeline for **@nextofferacademyus** (Instagram, TikTok, Threads):
 calendar → sourced opportunity database → Claude generation → media rendering → automated fact-check → **human approval** → Buffer → publication log → performance tracker.
 

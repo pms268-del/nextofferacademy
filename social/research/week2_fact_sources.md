@@ -21,3 +21,11 @@ Every number used in week-2 posts, with where it came from. `factcheck.py` reads
 | ATS: contact info in headers can be misread by some systems | https://atsverification.com/blog/ats-resume-myths-debunked/ · https://resumegenius.com/blog/applicant-tracking-systems-resume-keyword-help |
 
 **Illustrative (not a fact):** the resume bullet "Resolved 40–60 customer issues per shift" is labeled on screen and in the caption as an example.
+
+## Added Oct 28 for Threads/X posts
+
+| Fact | Source |
+|---|---|
+| 53% of job seekers say a potential employer ghosted them in the past year (48% in 2025, 38% in 2024), Instant Interview data | https://www.prsa.org/article/when-the-job-search-goes-silent-SEPT26 |
+| Ghosting / no response: ~9.5% of ~21,000 job-market complaint posts analyzed (2026) | https://hiretruffle.com/reports/recruiting-complaints-2026 |
+| Entry-level job postings at a multi-year low; recruiters search profiles and contact candidates directly; networking matters (Indeed, Jul 30 2026 reporting) | https://www.kctv5.com/2026/07/30/how-new-grads-can-stand-out-entry-level-job-postings-hit-multi-year-low/ |

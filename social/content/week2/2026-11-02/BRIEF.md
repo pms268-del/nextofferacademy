@@ -23,7 +23,7 @@
 
 ## Variation B: film it yourself
 
-**Hook:** I watched how AI interviewers work so you don't walk in blind.
+**Hook:** Here's how AI interviewers work, so you don't walk in blind.
 
 **Format:** Talking head with 'question cards' (owner reads 3 sample questions and answers one)
 
@@ -35,7 +35,7 @@
 4. Sample question: walk me through your biggest project. Answer: what you did, how, the result, in under two minutes.
 5. Look at the lens, not your face.
 
-**Shooting notes:** Note: 'I watched' is only OK if you did; otherwise use 'Here's how AI interviewers work.'
+**Shooting notes:** Talking head, 3–4 cuts. Show the three sample questions as on-screen text.
 
 ## Captions
 

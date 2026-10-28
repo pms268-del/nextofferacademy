@@ -126,7 +126,7 @@
         "checked_at": "2026-10-26T00:33:40+00:00"
       },
       "content_hash": "37f05810fa2d5275",
-      "status": "buffer_draft_pending_approval",
+      "status": "PUBLISHED",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -204,7 +204,7 @@
         "checked_at": "2026-10-26T00:33:52+00:00"
       },
       "content_hash": "08f5a6f1da7622d2",
-      "status": "buffer_draft_pending_approval",
+      "status": "PUBLISHED",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -218,7 +218,7 @@
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-27/tiktok/tiktok_video.mp4",
         "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
       },
-      "published_url": null,
+      "published_url": "https://tiktok.com/@nextofferacademyus/video/7701135419064306957",
       "metrics": {
         "views": null,
         "likes": null,
@@ -278,7 +278,7 @@
         "checked_at": "2026-10-26T00:33:53+00:00"
       },
       "content_hash": "9b6b82ef63cb8417",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -298,7 +298,8 @@
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_06.png",
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/instagram/ig_slide_07.png"
         ],
-        "created_via": "Buffer MCP create_post (saveToDraft)"
+        "created_via": "Buffer MCP create_post (saveToDraft)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -398,7 +399,7 @@
         "checked_at": "2026-10-26T00:34:05+00:00"
       },
       "content_hash": "a7c69d94d136b293",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -410,7 +411,8 @@
         "state": "draft",
         "error": null,
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-28/tiktok/tiktok_video.mp4",
-        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -548,7 +550,7 @@
         "checked_at": "2026-10-26T00:34:07+00:00"
       },
       "content_hash": "fbc0120108c7f2ab",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -568,7 +570,8 @@
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_06.png",
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/instagram/ig_slide_07.png"
         ],
-        "created_via": "Buffer MCP create_post (saveToDraft)"
+        "created_via": "Buffer MCP create_post (saveToDraft)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -684,7 +687,7 @@
         "checked_at": "2026-10-26T00:34:19+00:00"
       },
       "content_hash": "c7c23ceb844612fd",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -696,7 +699,8 @@
         "state": "draft",
         "error": null,
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-29/tiktok/tiktok_video.mp4",
-        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -821,7 +825,7 @@
         "checked_at": "2026-10-26T00:36:22+00:00"
       },
       "content_hash": "b768421f17a30716",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -841,7 +845,8 @@
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_06.png",
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/instagram/ig_slide_07.png"
         ],
-        "created_via": "Buffer MCP create_post (saveToDraft)"
+        "created_via": "Buffer MCP create_post (saveToDraft)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -894,7 +899,7 @@
         "checked_at": "2026-10-26T00:36:33+00:00"
       },
       "content_hash": "ba36ea55ca71e6b7",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -906,7 +911,8 @@
         "state": "draft",
         "error": null,
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-30/tiktok/tiktok_video.mp4",
-        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -1028,7 +1034,7 @@
         "checked_at": "2026-10-26T00:34:33+00:00"
       },
       "content_hash": "5a78df3fe06b9ef2",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -1048,7 +1054,8 @@
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_06.png",
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/instagram/ig_slide_07.png"
         ],
-        "created_via": "Buffer MCP create_post (saveToDraft)"
+        "created_via": "Buffer MCP create_post (saveToDraft)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -1098,7 +1105,7 @@
         "checked_at": "2026-10-26T00:34:43+00:00"
       },
       "content_hash": "28ff01627c4ddbc5",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -1110,7 +1117,8 @@
         "state": "draft",
         "error": null,
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-10-31/tiktok/tiktok_video.mp4",
-        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -1227,7 +1235,7 @@
         "checked_at": "2026-10-26T00:34:45+00:00"
       },
       "content_hash": "858416810dad684f",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -1247,7 +1255,8 @@
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_06.png",
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/instagram/ig_slide_07.png"
         ],
-        "created_via": "Buffer MCP create_post (saveToDraft)"
+        "created_via": "Buffer MCP create_post (saveToDraft)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -1293,7 +1302,7 @@
         "checked_at": "2026-10-26T00:34:56+00:00"
       },
       "content_hash": "f88dd2023a53fcec",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -1305,7 +1314,8 @@
         "state": "draft",
         "error": null,
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-01/tiktok/tiktok_video.mp4",
-        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -1423,7 +1433,7 @@
         "checked_at": "2026-10-26T00:52:45+00:00"
       },
       "content_hash": "a9f0c41e21deac54",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -1443,7 +1453,8 @@
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_06.png",
           "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/instagram/ig_slide_07.png"
         ],
-        "created_via": "Buffer MCP create_post (saveToDraft)"
+        "created_via": "Buffer MCP create_post (saveToDraft)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {
@@ -1549,7 +1560,7 @@
         "checked_at": "2026-10-26T00:52:57+00:00"
       },
       "content_hash": "a6a4ae532ea4e7b3",
-      "status": "buffer_draft_pending_approval",
+      "status": "replaced_by_week2",
       "approval": {
         "approved_by": null,
         "approved_at": null,
@@ -1561,7 +1572,8 @@
         "state": "draft",
         "error": null,
         "media_url": "https://raw.githubusercontent.com/pms268-del/nextofferacademy/cfddb8e373a662a47c28c161ee7c0367653f1ff4/social/content/2026-11-02/tiktok/tiktok_video.mp4",
-        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)"
+        "created_via": "Buffer MCP create_post (saveToDraft, customScheduled)",
+        "note": "Buffer draft reused for week-2 post (see production_db.json)"
       },
       "published_url": null,
       "metrics": {

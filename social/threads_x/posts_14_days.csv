@@ -1,0 +1,165 @@
+day,platform,kind,text,chars,source,owner_voice,status,buffer_post_id,publish_url,performance
+1,threads,intro,"Starting this account to share what I find while digging through remote jobs, AI training gigs and entry-level hiring in the US.
+
+Not a guru. No ""6 figures from your couch."" Just links that check out, numbers with sources, and honest conversations about how weird job hunting is right now.
+
+What are you searching for right now?",328,,True,DRAFT,,,
+1,x,intro,"New account. I'll be posting remote jobs, AI training gigs and entry-level roles I can actually verify, plus the numbers behind the US job search. No hype.
+
+What's the hardest part of your search right now?",206,,True,DRAFT,,,
+1,x,finding,"53% of job seekers say a potential employer ghosted them in the past year. In 2024 it was 38%.
+
+If you're being ignored, it's not just you. It's the market. (Instant Interview data via PRSA)",190,https://www.prsa.org/article/when-the-job-search-goes-silent-SEPT26,False,DRAFT,,,
+2,threads,finding,"We looked into 3 viral ""remote job"" posts from TikTok topic pages.
+
+• One said $22/hr. Closest real posting: a temp bilingual role at $20–21.
+• One said $24–30/hr. The listing exists but shows no pay. That range was from a different job.
+• One said up to $42.35/hr. Listings show $18.50–35.29.
+
+The jobs were real-ish. The numbers weren't. Always check the employer's careers page.",381,social/research/week2_fact_sources.md,False,DRAFT,,,
+2,threads,question,"Genuine question: where do you actually find job leads now?
+
+LinkedIn, TikTok, Indeed, friends, school career site, Reddit, somewhere else?
+
+Trying to figure out where the real ones are.",186,,False,DRAFT,,,
+2,x,finding,"Checked 3 viral remote job posts.
+
+$22/hr → closest real posting $20–21
+$24–30/hr → listing shows no pay
+""Up to $42.35"" → listings top out at $35.29
+
+Check the careers page before you apply.",190,social/research/week2_fact_sources.md,False,DRAFT,,,
+3,threads,finding,"AI training gigs, the honest version:
+
+• DataAnnotation: reported ~$20+/hr, but the entry test is one shot
+• Prolific: must pay at least $8/hr
+• Handshake AI Fellowship: up to $125/hr listed for US grad students, no guaranteed project
+• Outlier: one worker's rate went from $50 to $15/hr (Business Insider)
+
+Real money. Unreliable volume. Stack a few, keep job hunting.",369,social/research/week2_fact_sources.md,False,DRAFT,,,
+3,x,opinion,"Hot take: AI training gigs are a good bridge and a bad plan.
+
+The pay can be real. The work comes and goes, rates change, and projects end without notice.
+
+Use it to buy time, not as a career.",192,,True,DRAFT,,,
+3,x,question,"If you've done AI training work (DataAnnotation, Outlier, Prolific, Handshake, Mercor), what surprised you most?
+
+The pay, the tests, the dry spells, something else?",165,,False,DRAFT,,,
+4,threads,finding,"Entry-level job postings hit a multi-year low this summer (Indeed data, July 2026 reporting).
+
+What recruiters said still works: keep your profiles updated because they search them directly, and lean on personal connections who can vouch for you.
+
+Boring advice. Still the advice.",280,https://www.kctv5.com/2026/07/30/how-new-grads-can-stand-out-entry-level-job-postings-hit-multi-year-low/,False,DRAFT,,,
+4,threads,question,"New grads: what did your career center tell you vs what actually happened?
+
+No judgment, just curious how big the gap is.",121,,False,DRAFT,,,
+4,x,finding,"3 places new grads skip:
+
+1. Handshake AI Fellowship (grad students & recent grads)
+2. YC's Work at a Startup: one profile, founders can reach out
+3. Your school's Handshake. Alumni can often still log in",204,social/research/week2_fact_sources.md,False,DRAFT,,,
+5,threads,finding,"The FTC got about 5,000 task-scam reports in all of 2023.
+
+In the first half of 2024 alone: about 20,000.
+
+The pattern: a ""recruiter"" texts you, moves you to WhatsApp, has you do simple tasks, then asks you to pay to unlock your earnings.
+
+Real jobs never ask you to pay. Report it at ReportFraud.ftc.gov.",305,social/research/week2_fact_sources.md,False,DRAFT,,,
+5,x,finding,"Fake WFH job post checklist:
+
+🚩 Phone number + ""DM me""
+🚩 Pay for training or equipment
+🚩 Moves you to WhatsApp/Telegram
+
+FTC: $220M+ lost to job scams in H1 2024 alone.",168,social/research/week2_fact_sources.md,False,DRAFT,,,
+5,x,question,"Have you ever gotten a ""job offer"" text you never applied for?
+
+What did it say? Trying to collect the current scripts so people can spot them.",143,,False,DRAFT,,,
+6,threads,finding,"One laid-off developer published his whole 2025 job search:
+
+152 applications → 6 interviews. 101 never got a reply.
+
+Across ~461K tracked applications, the median time to a first offer was 68.5 days (Huntr, Q2 2025).
+
+If you're at month two with nothing, you're roughly on schedule. That's bleak and also kind of reassuring.",325,social/research/week2_fact_sources.md,False,DRAFT,,,
+6,threads,question,"How many applications are you at right now?
+
+And how many actual human replies?
+
+Curious what the real ratio looks like for people here.",136,,False,DRAFT,,,
+6,x,finding,"Remote jobs: ~8% of LinkedIn postings, 42% of applications.
+
+That's why remote listings feel impossible. Apply in the first 48 hours, then message someone on the team.",167,social/research/week2_fact_sources.md,False,DRAFT,,,
+7,threads,finding,"More AI-training companies interview you with an AI now (Mercor, Alignerr, micro1).
+
+What Mercor says about theirs: ~20 minutes, questions come from your resume, there's a free practice round, and you can redo it before submitting.
+
+So the prep is basically: know every line on your resume and have 3 project stories ready.",323,social/research/week2_fact_sources.md,False,DRAFT,,,
+7,x,question,"Would you rather do a 20-minute AI video interview or a 45-minute call with a human recruiter?
+
+Honestly torn on this one.",122,,True,DRAFT,,,
+7,x,finding,"AI interview prep in one line: pick 3 projects from your resume and practice saying what you did, how, and the result in under 2 minutes each.",142,social/research/week2_fact_sources.md,False,DRAFT,,,
+8,threads,opinion,"""Ghost jobs"" are listings that stay up but aren't really being filled, and every estimate of how common they are is different.
+
+What you can check yourself: is it on the company's own careers page, does it have a recent date, has it been reposted unchanged for months?
+
+If it fails all three, don't spend an hour on the cover letter.",333,,True,DRAFT,,,
+8,threads,question,"Recruiters and hiring managers on here: what makes you actually open an application?
+
+Genuinely asking. Job seekers are guessing.",129,,False,DRAFT,,,
+8,x,finding,"Ghosting came up in ~9.5% of ~21,000 job-market complaints analyzed in a 2026 report (HireTruffle).
+
+A polite follow-up after 7–10 days is still worth sending. Worst case: silence, which you already have.",204,https://hiretruffle.com/reports/recruiting-complaints-2026,False,DRAFT,,,
+9,threads,finding,"3 resume fixes that take less than a minute:
+
+1. File name: Firstname-Lastname-Resume.pdf
+2. Contact info in the body, not the page header (some systems misread headers)
+3. Swap one duty for a real number you can explain
+
+If you can't explain a line in an interview, delete it.",277,social/research/week2_fact_sources.md,False,DRAFT,,,
+9,x,opinion,"Unpopular opinion: using AI on your resume is fine. Letting AI invent numbers on your resume is how you get caught in the interview.
+
+Give it your facts and a rule: ""never add anything I didn't write.""",201,,True,DRAFT,,,
+9,x,question,What's the worst resume advice you've ever gotten?,50,,False,DRAFT,,,
+10,threads,finding,"If you want a startup job, YC's Work at a Startup is underrated: you make one profile, you can apply directly, and founders can message you.
+
+Worth 20 minutes if LinkedIn has been a black hole.
+
+workatastartup.com",213,social/research/week2_fact_sources.md,False,DRAFT,,,
+10,threads,question,"Startup vs big company for your first job: which would you pick right now, and why?
+
+The answer feels different in 2026 than it did a few years ago.",148,,False,DRAFT,,,
+10,x,question,"Founders and early startup employees: what got your first hire's attention? A cold email, a project, a referral?",112,,False,DRAFT,,,
+11,threads,opinion,"""Income stacking"" is the most honest phrase in the remote work world right now.
+
+A part-time W-2 support role + one AI training platform + a freelance client isn't glamorous. But no single one of those can fire you all at once.
+
+Is anyone here actually doing this? What's your stack?",283,,True,DRAFT,,,
+11,x,finding,"Before you join any gig platform, check one thing: do they ever ask you to pay?
+
+Training fees, equipment deposits, ""unlock"" fees. If yes, walk away. Legit platforms pay you.",174,,False,DRAFT,,,
+11,x,question,"W-2 remote job at $16/hr or 1099 gig work that sometimes pays $25/hr but isn't steady.
+
+Which would you take?",109,,False,DRAFT,,,
+12,threads,finding,"Recruiters are actively searching profiles and reaching out to candidates directly (Indeed, July 2026 reporting).
+
+So the boring stuff matters: a headline that says what job you want, a current location, and your skills spelled the way the job posts spell them.",261,https://www.kctv5.com/2026/07/30/how-new-grads-can-stand-out-entry-level-job-postings-hit-multi-year-low/,False,DRAFT,,,
+12,x,question,Has a LinkedIn message ever turned into an actual interview for you? What did the message say?,94,,False,DRAFT,,,
+13,threads,opinion,"The job search advice that annoys me most: ""just network.""
+
+Networking works, but nobody explains what it means when you don't know anyone. For most people it's: message one person on the team after you apply, keep it to three sentences, ask one specific question.
+
+What would you add?",285,,True,DRAFT,,,
+13,threads,question,What's one thing that actually helped your job search that nobody talks about?,78,,False,DRAFT,,,
+13,x,opinion,"The job search is a numbers game, but the numbers are applications × response rate.
+
+Most people only work on the first one.",124,,True,DRAFT,,,
+13,x,finding,"Follow-up email that's easy to send:
+
+""Hi [name], I applied for [role] on [date] and I'm still very interested. Happy to share anything else that would help. Thanks!""
+
+Send it after 7–10 days.",192,,False,DRAFT,,,
+14,threads,question,"Two weeks of posting about remote jobs, AI training gigs and entry-level hiring.
+
+What do you want more of: verified job leads, scam breakdowns, interview prep, or real numbers on the market?",191,,True,DRAFT,,,
+14,x,question,"What should I look into next: AI training platforms, remote customer support jobs, startup hiring, or entry-level government jobs?",130,,True,DRAFT,,,
