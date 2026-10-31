@@ -35,9 +35,9 @@ TITLE = "Remote Work Playbook 2026"
 SUBTITLE = "Panduan Mendapatkan Pekerjaan Remote & Freelance Internasional dari Indonesia"
 GUIDE_CHAPTERS = ["00_pendahuluan.md", "01_peluang.md", "02_diterima.md", "03_workflow_cv.md",
                   "04_wawancara.md", "05_networking.md", "06_rencana.md", "07_keamanan.md",
-                  "09_direktori.md", "08_penutup.md"]
+                  "08_penutup.md"]
 CHAPTER_IDS = {f"bab{i}": i for i in range(1, 8)}
-TOC_SUBSECTIONS = set(CHAPTER_IDS) | {"direktori"}
+TOC_SUBSECTIONS = set(CHAPTER_IDS)
 NAVY = RGBColor(0x0B, 0x25, 0x45)
 
 
@@ -93,53 +93,23 @@ def reader_text(text):
     return text.replace("|", "\\|").replace("\n", " ").strip() or "Cek di situs"
 
 
-def directory_table(prefix):
-    rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
-    key, label = (("biaya_pembayaran", "Biaya & pembayaran") if prefix == "B."
+def platform_list(cat_letter):
+    """Every platform in a category, grouped, for the reader-facing list in Bab 1."""
+    cat = next(c for c in D.GROUPS if c.startswith(cat_letter + "."))
+    by_name = {r["platform"]: r for r in D.rows_as_dicts()}
+    key, label = (("biaya_pembayaran", "Biaya & pembayaran") if cat_letter == "B"
                   else ("bayaran_diiklankan", "Bayaran yang pernah diiklankan"))
-    out = [f"| # | Platform | Jenis pekerjaan | Untuk Indonesia | {label} |",
-           "|--|----------|--------------------|--------|--------------------------|"]
-    for i, r in enumerate(rows, 1):
-        out.append(f"| {i} | [{r['platform']}]({r['url']}) | {reader_text(r['jenis_pekerjaan'])} | "
-                   f"**{ELIG_LABEL[r['eligible_indonesia']]}** | {reader_text(r[key])} |")
-    return "\n".join(out)
-
-
-def directory_index(prefix):
-    rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
-    key, label = (("biaya_pembayaran", "Biaya & pembayaran") if prefix == "B."
-                  else ("bayaran_diiklankan", "Bayaran yang diiklankan"))
-    out = [f"| # | Platform | Jenis pekerjaan | Untuk Indonesia | {label} |",
-           "|--|----------|--------------------|--------|--------------------------|"]
-    for i, r in enumerate(rows, 1):
-        out.append(f"| {i} | [{r['platform']}]({r['url']}) | {reader_text(r['jenis_pekerjaan'])} | "
-                   f"**{ELIG_LABEL[r['eligible_indonesia']]}** | {reader_text(r[key])} |")
-    return "\n".join(out)
-
-
-def directory_cards(prefix):
-    """Full reader-facing directory: every platform with all practical fields."""
-    rows = [r for r in D.rows_as_dicts() if r["kategori"].startswith(prefix)]
-    parts = []
-    for i, r in enumerate(rows, 1):
-        fields = [
-            ("Kategori", f"{r['kategori'][3:]} — {reader_text(r['subkategori'])}"),
-            ("Website / cara melamar", f"<{r['url']}>"),
-            ("Jenis pekerjaan", reader_text(r["jenis_pekerjaan"])),
-            ("Skill yang dibutuhkan", reader_text(r["skill_dibutuhkan"])),
-            ("Untuk Indonesia", f"**{ELIG_LABEL[r['eligible_indonesia']]}**"),
-            ("Cakupan lokasi", reader_text(r["cakupan"])),
-            ("Tipe akses", reader_text(r["tipe_akses"])),
-            ("Bayaran yang diiklankan", reader_text(r["bayaran_diiklankan"])),
-            ("Proses seleksi", reader_text(r["proses_seleksi"])),
-            ("Biaya & pembayaran", reader_text(r["biaya_pembayaran"])),
-        ]
-        if r["catatan"]:
-            fields.append(("Catatan", reader_text(r["catatan"])))
-        fields.append(("Data diperbarui", "21 Oktober 2026"))
-        fields.append(("Sumber info", " · ".join(f"<{u.strip()}>" for u in r["sumber"].split("|"))))
-        body = "\n".join(f"- **{k}:** {v}" for k, v in fields)
-        parts.append(f"::: {{.card}}\n**{i}. [{r['platform']}]({r['url']})**\n\n{body}\n:::\n")
+    parts, n = [], 0
+    for group, members in D.GROUPS[cat]:
+        parts.append(f"#### {group} ({len(members)})\n")
+        parts.append(f"| # | Platform | Jenis pekerjaan | Untuk Indonesia | {label} |")
+        parts.append("|--|----------|--------------------|--------|--------------------------|")
+        for name in members:
+            n += 1
+            r = by_name[name]
+            parts.append(f"| {n} | [{r['platform']}]({r['url']}) | {reader_text(r['jenis_pekerjaan'])} | "
+                         f"**{ELIG_LABEL[r['eligible_indonesia']]}** | {reader_text(r[key])} |")
+        parts.append("")
     return "\n".join(parts)
 
 
@@ -152,8 +122,9 @@ def resolve(md):
         return prompts[m.group(1)]
     md = re.sub(r"\{\{PROMPT:([A-Z]\d)\}\}", prompt_sub, md)
     for cat in "ABC":
-        md = md.replace(f"{{{{DIRECTORY:{cat}}}}}", directory_cards(cat + "."))
-        md = md.replace(f"{{{{INDEX:{cat}}}}}", directory_index(cat + "."))
+        md = md.replace(f"{{{{PLATFORMS:{cat}}}}}", platform_list(cat))
+        count = sum(len(m) for _, m in next(g for c, g in D.GROUPS.items() if c.startswith(cat + ".")))
+        md = md.replace(f"{{{{COUNT:{cat}}}}}", str(count))
     md = md.replace("{{TOTAL}}", str(len(D.rows_as_dicts())))
     md = md.replace("{{WEBSITE}}", WEBSITE)
     left = re.findall(r"\{\{[A-Z]+[:A-Z0-9]*\}\}", md)
@@ -343,7 +314,7 @@ def main():
     open(guide_path, "w", encoding="utf-8").write(guide_md)
     build_pdf(guide_path, "REMOTE_WORK_PLAYBOOK_ID",
               cover_html("PANDUAN KARIER", "Remote Work<br>Playbook 2026", SUBTITLE,
-                         [("102", "platform dalam direktori lengkap"), ("Workflow", "CV & lamaran dengan AI"),
+                         [(str(len(D.rows_as_dicts())), "platform dalam 3 kategori"), ("Workflow", "CV & lamaran dengan AI"),
                           ("Bank", "latihan wawancara"), ("7 + 30", "hari rencana aksi")]),
               toc_levels=2, footer=footer)
     build_docx(guide_path, "REMOTE_WORK_PLAYBOOK_ID", toc=True)

@@ -26,24 +26,11 @@ Mengapa harus manusia? AI bisa terdengar meyakinkan padahal salah. Hanya penilai
 
 **Skill yang dibutuhkan:** ketelitian membaca instruksi, menulis jelas dalam bahasa Inggris dan/atau Indonesia, berpikir logis, dan untuk proyek bertarif tinggi, keahlian di bidang tertentu (gelar, pengalaman kerja, atau lisensi).
 
-### Platform yang layak dicoba
+### Daftar lengkap platform AI training ({{COUNT:A}} platform)
 
-| Platform | Jenis pekerjaan | Untuk pelamar dari Indonesia | Daftar |
-|---|---|---|---|
-| **Mercor** | Proyek berbasis keahlian: bahasa, AI safety, STEM, hukum, coding | Ada lowongan Bahasa Indonesia; pembayaran ke rekening bank Indonesia | [work.mercor.com](https://work.mercor.com) |
-| **Outlier** | Menulis & menilai jawaban AI, coding, bahasa | Tergantung proyek; pernah membuka proyek Bahasa Indonesia | [outlier.ai](https://outlier.ai) |
-| **Alignerr** | Evaluasi AI untuk berbagai bidang keahlian | Cek saat mendaftar | [alignerr.com](https://www.alignerr.com) |
-| **micro1** | AI trainer & expert reviewer | Cek per lowongan | [micro1.ai](https://www.micro1.ai) |
-| **Mindrift** | AI tutor untuk menulis, coding, dan bidang khusus | Tergantung proyek | [mindrift.ai](https://mindrift.ai) |
-| **RWS TrainAI** | Anotasi data, search evaluator, evaluasi suara | Ada lowongan Bahasa Indonesia | [jobs.lever.co/rws](https://jobs.lever.co/rws) |
-| **Welo Data (Welocalize)** | Ads/search rater, validasi terjemahan | Ada lowongan Indonesia, Jawa, dan Sunda | [jobs.lever.co/weloglobal](https://jobs.lever.co/weloglobal) |
-| **TELUS Digital AI Community** | Quality rater untuk pencarian & konten AI | Ada lowongan khusus Indonesia | [telusdigital.com](https://www.telusdigital.com) |
-| **Appen / CrowdGen** | Evaluasi media sosial & pencarian, pengumpulan data | Ada lowongan khusus Indonesia | [appen.com](https://www.appen.com) |
-| **OneForma** | Transkripsi, anotasi, terjemahan | Indonesia termasuk negara yang dilayani | [oneforma.com](https://www.oneforma.com) |
-| **Turing** | Evaluasi coding & reasoning untuk LLM | Per lowongan (sebagian khusus AS) | [work.turing.com](https://work.turing.com) |
-| **Invisible Technologies** | AI trainer untuk bahasa, STEM, bisnis | Per lowongan (sebagian "Remote Anywhere") | [Lowongan](https://job-boards.eu.greenhouse.io/invisibletech) |
-| **xAI** | AI tutor bahasa & audio | Pernah membuka lowongan AI Tutor Indonesian | [Lowongan](https://job-boards.greenhouse.io/xai) |
-| **LILT** | Linguis & penerjemah berbantuan AI | Pernah membuka lowongan Indonesian Linguists | [lilt.com](https://lilt.com) |
+Kolom **Untuk Indonesia**: **Ya** = menerima pelamar dari Indonesia atau punya lowongan khusus Indonesia · **Per lowongan** = tergantung lokasi di setiap lowongan · **Cek saat daftar** = pastikan Indonesia ada di formulir pendaftaran · **Belum menerima** = saat ini belum menerima pelamar dari Indonesia.
+
+{{PLATFORMS:A}}
 
 **Contoh tarif dari lowongan Bahasa Indonesia** yang pernah dipasang: sekitar US$2–5/jam untuk rater dan evaluator umum, US$10–22/jam untuk proyek keahlian bahasa, dan hingga US$50/jam untuk evaluator audio khusus. Tarif berubah per proyek. Jam kerja yang tersedia juga tidak dijamin.
 
@@ -53,21 +40,11 @@ Mengapa harus manusia? AI bisa terdengar meyakinkan padahal salah. Hanya penilai
 
 Freelancing berarti menjual skill yang sudah Anda punya sebagai proyek: logo, artikel, dashboard, website, terjemahan, video, konsultasi. Klien memasang proyek, Anda mengirim penawaran, lalu dibayar lewat platform.
 
-### Platform utama
+### Daftar lengkap platform freelance ({{COUNT:B}} platform)
 
-| Platform | Cocok untuk | Potongan untuk freelancer | Link |
-|---|---|---|---|
-| **Upwork** | Hampir semua skill profesional; proyek jangka panjang | 0–15% (ditampilkan sebelum mengirim proposal); proposal memakai "Connects" | [upwork.com](https://www.upwork.com) |
-| **Fiverr** | Jasa dalam bentuk paket: desain, video, menulis, AI services | 20% per order | [fiverr.com](https://www.fiverr.com) |
-| **Freelancer.com** | Proyek bidding dan kontes | 10% per proyek | [freelancer.com](https://www.freelancer.com) |
-| **Contra** | Desainer, product, no-code; portofolio yang menarik | Tanpa komisi untuk freelancer | [contra.com](https://contra.com) |
-| **Toptal** | Developer, desainer, finance, PM senior | Seleksi ketat (<3% diterima) | [toptal.com](https://www.toptal.com) |
-| **Sribu** | Klien Indonesia: desain, konten, kontes | Cek di situs | [sribu.com](https://www.sribu.com) |
-| **Projects.co.id / Fastwork** | Proyek lokal untuk portofolio dan ulasan pertama | Cek di situs | [projects.co.id](https://projects.co.id) · [fastwork.id](https://fastwork.id) |
-| **Dribbble / Behance** | Desainer: portofolio dan lowongan | Bervariasi | [dribbble.com](https://dribbble.com) · [behance.net](https://www.behance.net) |
-| **ProZ.com / Smartcat** | Penerjemah | Bervariasi | [proz.com](https://www.proz.com) · [smartcat.com](https://www.smartcat.com) |
-| **Kolabtree** | Peneliti, analis statistik, penulis ilmiah (S2/S3) | Cek di situs | [kolabtree.com](https://www.kolabtree.com) |
-| **GLG / AlphaSights / Guidepoint** | Profesional senior: konsultasi berbayar per jam tentang industri Anda | Dibayar per konsultasi | [glginsights.com](https://glginsights.com) · [alphasights.com](https://www.alphasights.com) · [guidepoint.com](https://www.guidepoint.com) |
+Kolom **Untuk Indonesia**: **Ya** = menerima pelamar dari Indonesia atau punya lowongan khusus Indonesia · **Per lowongan** = tergantung lokasi di setiap lowongan · **Cek saat daftar** = pastikan Indonesia ada di formulir pendaftaran · **Belum menerima** = saat ini belum menerima pelamar dari Indonesia.
+
+{{PLATFORMS:B}}
 
 ### Cara memulai dalam 5 langkah
 
@@ -100,6 +77,12 @@ Strategi lengkap untuk mendapatkan klien pertama ada di Bab 2.
 - Setelah melamar, kirim pesan singkat ke recruiter atau hiring manager (template di Bab 5).
 - Tidak menerima pelamar dari Indonesia: Rev (transkripsi), User Interviews, dan OnlineJobs.ph (khusus Filipina).
 
+### Daftar lengkap platform pekerjaan remote ({{COUNT:C}} platform)
+
+Kolom **Untuk Indonesia**: **Ya** = menerima pelamar dari Indonesia atau punya lowongan khusus Indonesia · **Per lowongan** = tergantung lokasi di setiap lowongan · **Cek saat daftar** = pastikan Indonesia ada di formulir pendaftaran · **Belum menerima** = saat ini belum menerima pelamar dari Indonesia.
+
+{{PLATFORMS:C}}
+
 ## Matriks kecocokan karier {#matriks}
 
 Mulailah dari baris yang paling mirip dengan latar belakang Anda.
@@ -119,7 +102,7 @@ Mulailah dari baris yang paling mirip dengan latar belakang Anda.
 | **Sales & marketing** | C (sales SEA) + B (marketing freelance) | LinkedIn, Wellfound; Upwork | Hasil kampanye atau penjualan yang terukur |
 
 ::: {.cta}
-**Direktori lengkap {{TOTAL}} platform**
+**Lowongan & detail per platform**
 
-Tabel di bab ini hanya memuat platform pilihan. Daftar lengkap {{TOTAL}} platform beserta tautannya ada di bagian **Direktori Lengkap Platform** di akhir panduan. Detail setiap platform akan tersedia di database **[{{WEBSITE}}](https://{{WEBSITE}})**.
+Bab ini memuat seluruh {{TOTAL}} platform. Daftar lowongan dan detail teknis per platform (proses seleksi, cara pembayaran, sumber) dikelola terpisah di spreadsheet dan akan tersedia di database **[{{WEBSITE}}](https://{{WEBSITE}})**.
 :::

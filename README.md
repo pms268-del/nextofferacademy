@@ -9,7 +9,7 @@ Panduan karier praktis dalam Bahasa Indonesia untuk mendapatkan pekerjaan remote
 | `REMOTE_WORK_PLAYBOOK_ID.pdf` / `.docx` | Panduan karier (PDF siap terbit + Word yang bisa diedit) |
 | `ACTION_WORKBOOK.pdf` / `.docx` | Workbook: roadmap 7 hari, tracker 30 hari, tracker lamaran/networking, kartu anti-penipuan |
 | `AI_CAREER_PROMPTS.md` | Semua prompt (workflow lamaran, freelance, wawancara, networking) |
-| `REMOTE_WORK_DIRECTORY.csv` | Database lengkap 102 platform untuk direktori di website |
+| `REMOTE_WORK_DIRECTORY.csv` | Database lengkap 157 platform (kolom `kelompok` = pengelompokan di Bab 1) untuk spreadsheet & website |
 
 ## File internal (akurasi editorial)
 

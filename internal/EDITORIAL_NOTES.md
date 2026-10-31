@@ -22,3 +22,9 @@ Internal only. Not distributed to readers.
 - Confirm the domain spelling (`nextofferacademy.id`) — confirmed by client 2026-10-23.
 - Previous fact-check gaps still apply: see `internal/FACT_CHECK_v1.md` §5.
 - The example AI outputs in Bab 3 were generated for a fictional CV/job post and are labelled as such.
+
+## Revision 3 (2026-10-31)
+- Client clarified: the PDF must contain the complete PLATFORM list per category (not per-platform job details). Job lists/details stay in spreadsheet + website.
+- Second research pass added 55 platforms (A +17, B +18, C +20) → 157 total (A 49, B 49, C 59). Sources in scripts/directory_data.py (`ROWS +=` block) and listed per row in REMOTE_WORK_DIRECTORY.csv.
+- Bab 1 now integrates the full grouped lists (GROUPS in directory_data.py); the separate "Direktori Lengkap" section with per-platform cards was removed.
+- Not added (no contributor programme or no verifiable source found): Abaka AI, Cogito Tech, Shaip (acquired), Gigster (acquired), Capvision, Clarity.fm, Freelancermap, Legiit, YunoJuno, Babel Audio, Wirestock, Botpool, Boldly/Time Etc/Support Ninja/PartnerHero.
