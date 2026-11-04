@@ -39,6 +39,9 @@ GUIDE_CHAPTERS = ["00_pendahuluan.md", "01_peluang.md", "02_diterima.md", "03_wo
 CHAPTER_IDS = {f"bab{i}": i for i in range(1, 8)}
 TOC_SUBSECTIONS = set(CHAPTER_IDS)
 NAVY = RGBColor(0x0B, 0x25, 0x45)
+# UI strings; overridden by builds in other languages (e.g. mercor/build_mercor.py).
+LABELS = {"lang": "id", "chapter": "BAB", "toc_chapter": "Bab", "toc_title": "Daftar Isi",
+          "edition": "EDISI OKTOBER 2026", "date": "Edisi Oktober 2026"}
 
 
 # ----------------------------------------------------------------- data
@@ -135,7 +138,7 @@ def resolve(md):
 
 def front_matter(title, subtitle):
     return (f"---\ntitle: \"{title}\"\nsubtitle: \"{subtitle}\"\nauthor: \"{BRAND}\"\n"
-            f"lang: id\ndate: \"Edisi Oktober 2026\"\n---\n\n")
+            f"lang: {LABELS['lang']}\ndate: \"{LABELS['date']}\"\n---\n\n")
 
 
 # ----------------------------------------------------------------- HTML / PDF
@@ -154,7 +157,7 @@ def decorate(fragment):
         h1.insert_before(wrapper)
         if num:
             label = soup.new_tag("div", attrs={"class": "chapter-label"})
-            label.string = f"BAB {num}"
+            label.string = f"{LABELS['chapter']} {num}"
             wrapper.append(label)
         wrapper.append(h1.extract())
     for pre in soup.find_all("pre"):
@@ -174,13 +177,13 @@ def build_toc(soup, levels, pages=None):
                 continue
         text = h.get_text(" ", strip=True)
         if hid in CHAPTER_IDS:
-            text = f"Bab {CHAPTER_IDS[hid]} — {text}"
+            text = f"{LABELS['toc_chapter']} {CHAPTER_IDS[hid]} — {text}"
         items.append((1 if h.name == "h1" else 2, hid, text, (pages or {}).get(hid, "000")))
     lis = "".join(
         f'<li class="toc-l{lv}"><a href="#{hid}"><span class="toc-text">{html.escape(t)}</span>'
         f'<span class="toc-dots"></span><span class="toc-page">{pg}</span></a></li>'
         for lv, hid, t, pg in items)
-    return f'<nav class="toc"><h1 class="toc-title">Daftar Isi</h1><ul>{lis}</ul></nav>', [i[1] for i in items]
+    return f'<nav class="toc"><h1 class="toc-title">{LABELS["toc_title"]}</h1><ul>{lis}</ul></nav>', [i[1] for i in items]
 
 
 def css():
@@ -188,15 +191,15 @@ def css():
 
 
 def page_html(title, body, toc_html):
-    return (f'<!doctype html><html lang="id"><head><meta charset="utf-8"><title>{title}</title>'
+    return (f'<!doctype html><html lang="{LABELS["lang"]}"><head><meta charset="utf-8"><title>{title}</title>'
             f'<style>{css()}</style></head><body>{toc_html}<main>{body}</main></body></html>')
 
 
 def cover_html(kicker, title_html, subtitle, facts):
     lis = "".join(f"<li><b>{n}</b>{t}</li>" for n, t in facts)
-    return f"""<!doctype html><html lang="id"><head><meta charset="utf-8"><title>{BRAND}</title>
+    return f"""<!doctype html><html lang="{LABELS['lang']}"><head><meta charset="utf-8"><title>{BRAND}</title>
 <style>{css()}</style></head><body class="cover-body"><section class="cover">
-  <div class="cover-top"><span class="cover-brand">{BRAND.upper()}</span><span>EDISI OKTOBER 2026</span></div>
+  <div class="cover-top"><span class="cover-brand">{BRAND.upper()}</span><span>{LABELS['edition']}</span></div>
   <div class="cover-main">
     <div class="cover-kicker">{kicker}</div>
     <h1 class="cover-title">{title_html}</h1>

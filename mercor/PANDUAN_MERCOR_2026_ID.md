@@ -3,7 +3,7 @@ title: "Cara Diterima di Mercor AI 2026"
 subtitle: "Panduan Lengkap untuk Pelamar Indonesia dan Internasional"
 author: "Next Offer Academy"
 lang: id
-date: "Edisi Oktober 2026"
+date: "Edisi November 2026"
 ---
 
 # Ringkasan & Cara Kerja Rekrutmen Mercor {#m1}
@@ -510,7 +510,7 @@ Sumber: [Mercor: Taxes & Work Authorization](https://talent.docs.mercor.com/poli
 **Keterbatasan riset:** reddit.com tidak bisa diakses langsung oleh alat riset kami. Bukti dari r/mercor_ai diambil dari situs mirror dan artikel yang mengutip diskusi tersebut. Kami tidak menemukan data sistematis tentang jumlah lamaran atau lama menunggu. Semua angka di bawah adalah laporan individu.
 
 | # | Topik | Yang dilaporkan pelamar | Konfirmasi resmi? | Bukti yang bertentangan | Rekomendasi |
-|---|---|---|---|---|---|
+|-|------|--------------------------|--------|------|--------|
 | 1 | Tawaran pertama | Sebagian mendapat tawaran dalam seminggu, sebagian menunggu berbulan-bulan tanpa kabar ([AIGigJobs](https://www.aigigjobs.com/blog/mercor-complete-guide)) | Tidak ada timeline resmi | Ya, sangat bervariasi | **Anekdotal.** Jangan bergantung pada satu lamaran |
 | 2 | Jumlah lamaran | Satu pelamar ditolak di sekitar 150 listing, lalu menata ulang CV menjadi 5 domain dan mendapat tawaran instan US$100/jam (Juni 2026) ([HireFeed](https://hirefeed.co.in/blog/how-to-get-hired-on-mercor-2026)) | Tidak | — | **Anekdotal.** Spesifikasi profil layak dicoba |
 | 3 | Peran assessment | Assessment yang lolos dipakai ulang dan mendorong Instant Offer | **Ya** | — | **Terkonfirmasi.** Lakukan |

@@ -50,3 +50,25 @@ Method: web search (search-index snippets). Direct page fetch of talent.docs.mer
 - App-user listings require own Mac/apps; no licenses/hardware provided https://annotation.academy/jobs/cmtzrj2f70007l304k57eo65i
 - Official email domains @mercor.com, @mercor.expert; never pays fees (third-party) https://paybillke.com/online-jobs/mercor ; https://remowork.life/blog/mercor-review-how-it-works-pay-and-is-it-worth-it-in-2026
 - Unverified claims flagged: 60–90s answers weighted higher; "I" vs "we"; retakes visible to hiring managers; GitHub activity; 90-day reapply; trigger formula for instant offers https://www.aigigjobs.com/platforms/mercor ; https://skillora.ai/blog/mercor-ai-interview
+
+## COMMUNITY PASS 2 (2026-11-04) — for English edition
+- reddit.com not accessible to tools; Reddit content via mirrors (reddit.sentinel-team.org) and articles quoting threads.
+- Reddit mirror (Jun 2026): recruiting post — 1,000+ open roles across tech, science, healthcare, finance, translation, video evaluation; webcam needed; test setup https://reddit.sentinel-team.org/posts/1u7g7ip/snapshots/2026-06-16T23%3A15%3A44.326742Z
+- Reddit mirror (Dec 2025): commenters calling referral-link posts scams (opinion) https://reddit.sentinel-team.org/posts/1ptcnm0/snapshots/2025-12-24T07%3A20%3A45.418589Z
+- BreakingEven: generalist project advertised $80–200/h, most land $35–80/h; site's own sentiment analysis of 1,573 Reddit threads: 38% negative / 52% neutral / 10% positive; community fear of false AI flags; defensive habits (avoid em-dashes) https://breakingeven.online/blog/is-100-per-hour-at-mercor-possible-2026
+- BreakingEven: Project L (May 2026) — Reddit "mass offboarding/scam" narrative contested by two contractors https://breakingeven.online/blog/mercor-project-l-mass-offboarding-may-2026
+- aitrainer.work: many Instant Offers are Work Trials; accepting one Work Trial closes other pending trial offers https://ai-trainer-work.pages.dev/guides/mercor-instant-offers-guide
+- Claim: AI interview must be completed within 14 days or auto-reject (single source, unverified) https://www.tryapplynow.com/blog/mercor-review-2026
+- Claim: 30-day wait after failed attempt (unverified, not in official docs) https://www.remoteworkunion.com/blog/mercor-interview-failed-reapply-another-chance
+- Interview: AI links answers, contradictions stand out; don't share interview questions/screens https://prachub.com/resources/mercor-ai-interview-guide-2026-20-minute-voice-screen-retakes-screen-sharing-and-score-reuse
+- Mirror JD vocabulary (e.g. "RLHF data annotation") https://remowork.life/blog/mercor-hiring-process-ai-trainers-2026
+- Beginners report few callbacks; several years' experience/advanced education expected for most projects https://nodemaven.com/blog/mercor-review-2026-is-mercor-ai-legit/
+- Referral doesn't bypass screening (unofficial FAQ doc) https://www.scribd.com/document/985977619/FAQ ; first referrer wins https://nodemaven.com/blog/mercor-review-2026-is-mercor-ai-legit/
+- Slack: weekly office hours, paid training (Trustpilot); must check Slack channels frequently or miss tasking (Glassdoor) https://it.trustpilot.com/review/mercor.io ; https://www.glassdoor.ca/Reviews/Employee-Review-Mercor-E9031572-RVW99399889.htm
+- Hour caps: 40h/week cap, higher needs PL approval; some projects minimum hours (Built In); 10h weekly minimum on a project (BreakingEven) https://builtin.com/company/mercor/faq/work-life-balance-wellbeing
+- Rejected work unpaid on some projects; instructions to the letter (Trustpilot/Glassdoor) https://pl.trustpilot.com/review/mercor.io
+- Hard to reach admins; some projects per task (Indeed) https://mx.indeed.com/cmp/Mercor/reviews
+- Community forum (India): "AI platform to earn" thread https://techenclave.com/t/ai-platform-to-earn-all-kinds-of-roles-available/402960
+- Pass assessments but no tasks → broaden platforms https://www.remoteworkunion.com/blog/mercor-no-response-after-applying
+- Notifications: offers via app, push, email; turn on notifications (official) https://talent.docs.mercor.com/new-releases/instant-offer
+- No fee to apply/interview/start; PayPal/crypto offers = red flag https://aitrainerguide.com/mercor-review/ ; https://gptprompts.ai/mercor-guide
